@@ -1,0 +1,828 @@
+2026-04-16 05:40:13,243 - finnhub_fetcher - WARNING - Error fetching inflation news: 'list' object has no attribute 'get'
+2026-04-16 05:40:13,759 - finnhub_fetcher - WARNING - Error fetching fed news: 'list' object has no attribute 'get'
+2026-04-16 05:40:14,117 - finnhub_fetcher - WARNING - Error fetching economy news: 'list' object has no attribute 'get'
+2026-04-16 05:40:14,480 - finnhub_fetcher - WARNING - Error fetching employment news: 'list' object has no attribute 'get'
+2026-04-16 05:40:14,888 - finnhub_fetcher - WARNING - Error fetching trade news: 'list' object has no attribute 'get'
+2026-04-16 05:42:44,904 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:42:44,914 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:42:44,932 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:42:45,413 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:42:45,417 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:42:45,425 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:42:45,924 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:42:45,930 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:42:45,932 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:42:46,285 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:42:46,291 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:42:46,300 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:42:46,839 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:42:46,839 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:42:46,847 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:42:46,853 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 05:43:14,093 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:43:14,098 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:43:14,103 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:43:14,604 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:43:14,609 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:43:14,612 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:43:15,109 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:43:15,115 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:43:15,115 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:43:15,615 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:43:15,615 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:43:15,615 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:43:16,443 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:43:16,445 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:43:16,448 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:43:16,454 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 05:43:48,721 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:43:48,721 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:43:48,736 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:43:49,077 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:43:49,082 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:43:49,099 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:43:49,484 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:43:49,485 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:43:49,489 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:43:49,938 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:43:49,942 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:43:49,949 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:43:50,295 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:43:50,295 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:43:50,301 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:43:50,309 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 05:44:41,468 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:44:41,471 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:44:41,477 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:44:41,825 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:44:41,832 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:44:41,847 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:44:42,160 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:44:42,167 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:44:42,172 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:44:42,504 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:44:42,515 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:44:42,518 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:44:42,911 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:44:42,920 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:44:42,924 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:44:42,929 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 05:52:19,261 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:52:19,268 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:52:19,276 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:52:19,941 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:52:19,941 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:52:19,952 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:52:20,295 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:52:20,299 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:52:20,301 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:52:20,634 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:52:20,641 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:52:20,658 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:52:21,005 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:52:21,009 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:52:21,009 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:52:21,017 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 05:55:25,486 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:55:25,487 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:55:25,497 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:55:25,827 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:55:25,830 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:55:25,838 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:55:26,345 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:55:26,345 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:55:26,354 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:55:26,692 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:55:26,701 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:55:26,703 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:55:27,162 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:55:27,165 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:55:27,165 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:55:27,173 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 05:55:58,765 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:55:58,765 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:55:58,773 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:55:59,118 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:55:59,128 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:55:59,131 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:55:59,527 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:55:59,527 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:55:59,540 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:55:59,873 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:55:59,873 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:55:59,888 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:56:00,228 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:56:00,228 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:56:00,228 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:56:00,243 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 05:57:01,304 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:57:01,309 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:57:01,312 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:57:01,645 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:57:01,645 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:57:01,652 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:57:02,024 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:57:02,024 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:57:02,034 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:57:02,505 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:57:02,516 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:57:02,521 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:57:02,857 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:57:02,857 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:57:02,864 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:57:02,870 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 05:57:38,652 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:57:38,652 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:57:38,661 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 05:57:39,118 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:57:39,124 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:57:39,130 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 05:57:39,471 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:57:39,478 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:57:39,486 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 05:57:39,874 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:57:39,874 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:57:39,895 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 05:57:40,215 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:57:40,221 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:57:40,237 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 05:57:40,241 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 06:00:28,319 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:00:28,324 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:00:28,332 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:00:28,681 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:00:28,683 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:00:28,687 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:00:29,012 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:00:29,016 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:00:29,019 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:00:29,443 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:00:29,443 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:00:29,451 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:00:29,805 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:00:29,805 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:00:29,809 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:00:29,816 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 06:01:05,900 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:01:05,904 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:01:05,910 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:01:06,299 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:01:06,299 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:01:06,310 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:01:06,951 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:01:06,951 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:01:06,958 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:01:07,312 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:01:07,316 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:01:07,321 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:01:07,665 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:01:07,678 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:01:07,678 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:01:07,686 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 06:01:57,000 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:01:57,000 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:01:57,006 - finnhub_fetcher - INFO - Cached 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:01:57,521 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:01:57,521 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:01:57,529 - finnhub_fetcher - INFO - Cached 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:01:57,996 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:01:57,998 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:01:58,000 - finnhub_fetcher - INFO - Cached 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:01:58,359 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:01:58,364 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:01:58,367 - finnhub_fetcher - INFO - Cached 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:01:58,722 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:01:58,725 - finnhub_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 06:01:58,725 - finnhub_fetcher - INFO - Cached 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:01:58,738 - finnhub_fetcher - INFO - Retrieved 100 unique articles across all categories
+2026-04-16 06:05:31,796 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:05:31,798 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:05:31,801 - finnhub_fetcher - INFO - Cached 92 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:05:32,648 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:05:32,651 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:05:32,656 - finnhub_fetcher - INFO - Cached 92 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:05:32,988 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:05:32,988 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:05:32,997 - finnhub_fetcher - INFO - Cached 92 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:05:33,676 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:05:33,676 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:05:33,682 - finnhub_fetcher - INFO - Cached 92 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:05:34,190 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:05:34,195 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:05:34,199 - finnhub_fetcher - INFO - Cached 92 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:05:34,203 - finnhub_fetcher - INFO - Retrieved 92 unique articles across all categories
+2026-04-16 06:05:34,530 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=SPY&from=1773687930&to=1774551930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:34,924 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=DIA&from=1773687930&to=1774551930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:35,292 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=QQQ&from=1773687930&to=1774551930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:35,630 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=IWM&from=1773687930&to=1774551930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:36,013 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=AAPL&from=1773687930&to=1774551930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:36,333 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=MSFT&from=1773687930&to=1774551930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:36,683 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=SPY&from=1774551930&to=1775415930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:37,005 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=DIA&from=1774551930&to=1775415930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:37,317 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=QQQ&from=1774551930&to=1775415930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:37,644 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=IWM&from=1774551930&to=1775415930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:37,991 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=AAPL&from=1774551930&to=1775415930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:38,353 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=MSFT&from=1774551930&to=1775415930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:38,799 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=SPY&from=1775415930&to=1776279930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:39,316 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=DIA&from=1775415930&to=1776279930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:39,863 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=QQQ&from=1775415930&to=1776279930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:40,178 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=IWM&from=1775415930&to=1776279930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:40,544 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=AAPL&from=1775415930&to=1776279930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:05:41,056 - finnhub_fetcher - WARNING - Finnhub company news request failed: 422 Client Error: Unprocessable Entity for url: https://finnhub.io/api/v1/company-news?symbol=MSFT&from=1775415930&to=1776279930&token=d7g2gmpr01qqb8ri4670d7g2gmpr01qqb8ri467g
+2026-04-16 06:06:18,013 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:06:18,016 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:06:18,025 - finnhub_fetcher - INFO - Cached 92 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:06:18,364 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:06:18,366 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:06:18,366 - finnhub_fetcher - INFO - Cached 92 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:06:18,722 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:06:18,724 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:06:18,731 - finnhub_fetcher - INFO - Cached 92 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:06:19,064 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:06:19,080 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:06:19,093 - finnhub_fetcher - INFO - Cached 92 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:06:19,461 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:06:19,461 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:06:19,468 - finnhub_fetcher - INFO - Cached 92 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:06:19,470 - finnhub_fetcher - INFO - Retrieved 92 unique articles across all categories
+2026-04-16 06:06:20,261 - finnhub_fetcher - INFO - Found 249 articles for symbol: SPY
+2026-04-16 06:06:20,277 - finnhub_fetcher - INFO - Successfully parsed 249 articles for SPY
+2026-04-16 06:06:20,665 - finnhub_fetcher - INFO - Found 168 articles for symbol: DIA
+2026-04-16 06:06:20,683 - finnhub_fetcher - INFO - Successfully parsed 168 articles for DIA
+2026-04-16 06:06:21,112 - finnhub_fetcher - INFO - Found 249 articles for symbol: QQQ
+2026-04-16 06:06:21,116 - finnhub_fetcher - INFO - Successfully parsed 249 articles for QQQ
+2026-04-16 06:06:21,506 - finnhub_fetcher - INFO - Found 187 articles for symbol: IWM
+2026-04-16 06:06:21,508 - finnhub_fetcher - INFO - Successfully parsed 187 articles for IWM
+2026-04-16 06:06:21,914 - finnhub_fetcher - INFO - Found 238 articles for symbol: AAPL
+2026-04-16 06:06:21,914 - finnhub_fetcher - INFO - Successfully parsed 238 articles for AAPL
+2026-04-16 06:06:22,305 - finnhub_fetcher - INFO - Found 242 articles for symbol: MSFT
+2026-04-16 06:06:22,312 - finnhub_fetcher - INFO - Successfully parsed 242 articles for MSFT
+2026-04-16 06:06:22,684 - finnhub_fetcher - INFO - Found 248 articles for symbol: SPY
+2026-04-16 06:06:22,687 - finnhub_fetcher - INFO - Successfully parsed 248 articles for SPY
+2026-04-16 06:06:23,078 - finnhub_fetcher - INFO - Found 141 articles for symbol: DIA
+2026-04-16 06:06:23,078 - finnhub_fetcher - INFO - Successfully parsed 141 articles for DIA
+2026-04-16 06:06:24,192 - finnhub_fetcher - INFO - Found 226 articles for symbol: QQQ
+2026-04-16 06:06:24,194 - finnhub_fetcher - INFO - Successfully parsed 226 articles for QQQ
+2026-04-16 06:06:24,784 - finnhub_fetcher - INFO - Found 170 articles for symbol: IWM
+2026-04-16 06:06:24,791 - finnhub_fetcher - INFO - Successfully parsed 170 articles for IWM
+2026-04-16 06:06:25,490 - finnhub_fetcher - INFO - Found 232 articles for symbol: AAPL
+2026-04-16 06:06:25,490 - finnhub_fetcher - INFO - Successfully parsed 232 articles for AAPL
+2026-04-16 06:06:26,077 - finnhub_fetcher - INFO - Found 233 articles for symbol: MSFT
+2026-04-16 06:06:26,082 - finnhub_fetcher - INFO - Successfully parsed 233 articles for MSFT
+2026-04-16 06:06:26,450 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:06:26,453 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:06:27,032 - finnhub_fetcher - INFO - Found 145 articles for symbol: DIA
+2026-04-16 06:06:27,038 - finnhub_fetcher - INFO - Successfully parsed 145 articles for DIA
+2026-04-16 06:06:28,902 - finnhub_fetcher - INFO - Found 250 articles for symbol: QQQ
+2026-04-16 06:06:28,914 - finnhub_fetcher - INFO - Successfully parsed 250 articles for QQQ
+2026-04-16 06:06:29,599 - finnhub_fetcher - INFO - Found 184 articles for symbol: IWM
+2026-04-16 06:06:29,602 - finnhub_fetcher - INFO - Successfully parsed 184 articles for IWM
+2026-04-16 06:06:30,013 - finnhub_fetcher - INFO - Found 248 articles for symbol: AAPL
+2026-04-16 06:06:30,020 - finnhub_fetcher - INFO - Successfully parsed 248 articles for AAPL
+2026-04-16 06:06:30,478 - finnhub_fetcher - INFO - Found 250 articles for symbol: MSFT
+2026-04-16 06:06:30,481 - finnhub_fetcher - INFO - Successfully parsed 250 articles for MSFT
+2026-04-16 06:07:57,249 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:07:57,263 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:07:57,269 - finnhub_fetcher - INFO - Cached 92 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:07:57,646 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:07:57,646 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:07:57,651 - finnhub_fetcher - INFO - Cached 92 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:07:58,160 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:07:58,160 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:07:58,160 - finnhub_fetcher - INFO - Cached 92 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:07:58,505 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:07:58,516 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:07:58,516 - finnhub_fetcher - INFO - Cached 92 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:07:58,880 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:07:58,882 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:07:58,886 - finnhub_fetcher - INFO - Cached 92 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:07:58,890 - finnhub_fetcher - INFO - Retrieved 92 unique articles across all categories
+2026-04-16 06:07:59,322 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:07:59,322 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:07:59,796 - finnhub_fetcher - INFO - Found 173 articles for symbol: DIA
+2026-04-16 06:07:59,799 - finnhub_fetcher - INFO - Successfully parsed 173 articles for DIA
+2026-04-16 06:08:00,316 - finnhub_fetcher - INFO - Found 250 articles for symbol: QQQ
+2026-04-16 06:08:00,322 - finnhub_fetcher - INFO - Successfully parsed 250 articles for QQQ
+2026-04-16 06:08:00,703 - finnhub_fetcher - INFO - Found 194 articles for symbol: IWM
+2026-04-16 06:08:00,703 - finnhub_fetcher - INFO - Successfully parsed 194 articles for IWM
+2026-04-16 06:08:01,244 - finnhub_fetcher - INFO - Found 240 articles for symbol: AAPL
+2026-04-16 06:08:01,246 - finnhub_fetcher - INFO - Successfully parsed 240 articles for AAPL
+2026-04-16 06:08:01,939 - finnhub_fetcher - INFO - Found 244 articles for symbol: MSFT
+2026-04-16 06:08:01,947 - finnhub_fetcher - INFO - Successfully parsed 244 articles for MSFT
+2026-04-16 06:08:02,336 - finnhub_fetcher - INFO - Found 249 articles for symbol: SPY
+2026-04-16 06:08:02,341 - finnhub_fetcher - INFO - Successfully parsed 249 articles for SPY
+2026-04-16 06:08:02,778 - finnhub_fetcher - INFO - Found 136 articles for symbol: DIA
+2026-04-16 06:08:02,786 - finnhub_fetcher - INFO - Successfully parsed 136 articles for DIA
+2026-04-16 06:08:03,287 - finnhub_fetcher - INFO - Found 214 articles for symbol: QQQ
+2026-04-16 06:08:03,293 - finnhub_fetcher - INFO - Successfully parsed 214 articles for QQQ
+2026-04-16 06:08:03,805 - finnhub_fetcher - INFO - Found 162 articles for symbol: IWM
+2026-04-16 06:08:03,810 - finnhub_fetcher - INFO - Successfully parsed 162 articles for IWM
+2026-04-16 06:08:05,173 - finnhub_fetcher - INFO - Found 229 articles for symbol: AAPL
+2026-04-16 06:08:05,178 - finnhub_fetcher - INFO - Successfully parsed 229 articles for AAPL
+2026-04-16 06:08:05,749 - finnhub_fetcher - INFO - Found 235 articles for symbol: MSFT
+2026-04-16 06:08:05,753 - finnhub_fetcher - INFO - Successfully parsed 235 articles for MSFT
+2026-04-16 06:08:06,157 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:08:06,164 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:08:06,670 - finnhub_fetcher - INFO - Found 149 articles for symbol: DIA
+2026-04-16 06:08:06,670 - finnhub_fetcher - INFO - Successfully parsed 149 articles for DIA
+2026-04-16 06:08:07,686 - finnhub_fetcher - INFO - Found 250 articles for symbol: QQQ
+2026-04-16 06:08:07,691 - finnhub_fetcher - INFO - Successfully parsed 250 articles for QQQ
+2026-04-16 06:08:08,440 - finnhub_fetcher - INFO - Found 190 articles for symbol: IWM
+2026-04-16 06:08:08,444 - finnhub_fetcher - INFO - Successfully parsed 190 articles for IWM
+2026-04-16 06:08:09,210 - finnhub_fetcher - INFO - Found 248 articles for symbol: AAPL
+2026-04-16 06:08:09,214 - finnhub_fetcher - INFO - Successfully parsed 248 articles for AAPL
+2026-04-16 06:08:09,849 - finnhub_fetcher - INFO - Found 250 articles for symbol: MSFT
+2026-04-16 06:08:09,853 - finnhub_fetcher - INFO - Successfully parsed 250 articles for MSFT
+2026-04-16 06:08:10,368 - finnhub_fetcher - INFO - Found 66 articles for symbol: SPY
+2026-04-16 06:08:10,368 - finnhub_fetcher - INFO - Successfully parsed 66 articles for SPY
+2026-04-16 06:08:10,861 - finnhub_fetcher - INFO - Found 14 articles for symbol: DIA
+2026-04-16 06:08:10,861 - finnhub_fetcher - INFO - Successfully parsed 14 articles for DIA
+2026-04-16 06:08:11,269 - finnhub_fetcher - INFO - Found 29 articles for symbol: QQQ
+2026-04-16 06:08:11,269 - finnhub_fetcher - INFO - Successfully parsed 29 articles for QQQ
+2026-04-16 06:08:11,785 - finnhub_fetcher - INFO - Found 19 articles for symbol: IWM
+2026-04-16 06:08:11,785 - finnhub_fetcher - INFO - Successfully parsed 19 articles for IWM
+2026-04-16 06:08:12,270 - finnhub_fetcher - INFO - Found 59 articles for symbol: AAPL
+2026-04-16 06:08:12,273 - finnhub_fetcher - INFO - Successfully parsed 59 articles for AAPL
+2026-04-16 06:08:12,817 - finnhub_fetcher - INFO - Found 99 articles for symbol: MSFT
+2026-04-16 06:08:12,819 - finnhub_fetcher - INFO - Successfully parsed 99 articles for MSFT
+2026-04-16 06:09:14,553 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:09:14,561 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:09:14,567 - finnhub_fetcher - INFO - Cached 92 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:09:14,925 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:09:14,928 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:09:14,933 - finnhub_fetcher - INFO - Cached 92 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:09:15,320 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:09:15,324 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:09:15,328 - finnhub_fetcher - INFO - Cached 92 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:09:15,782 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:09:15,785 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:09:15,788 - finnhub_fetcher - INFO - Cached 92 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:09:16,293 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:09:16,302 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:09:16,306 - finnhub_fetcher - INFO - Cached 92 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:09:16,313 - finnhub_fetcher - INFO - Retrieved 92 unique articles across all categories
+2026-04-16 06:09:16,912 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:09:16,916 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:09:17,533 - finnhub_fetcher - INFO - Found 130 articles for symbol: DIA
+2026-04-16 06:09:17,533 - finnhub_fetcher - INFO - Successfully parsed 130 articles for DIA
+2026-04-16 06:09:17,960 - finnhub_fetcher - INFO - Found 208 articles for symbol: QQQ
+2026-04-16 06:09:17,960 - finnhub_fetcher - INFO - Successfully parsed 208 articles for QQQ
+2026-04-16 06:09:18,312 - finnhub_fetcher - INFO - Found 179 articles for symbol: IWM
+2026-04-16 06:09:18,318 - finnhub_fetcher - INFO - Successfully parsed 179 articles for IWM
+2026-04-16 06:09:18,977 - finnhub_fetcher - INFO - Found 242 articles for symbol: AAPL
+2026-04-16 06:09:18,980 - finnhub_fetcher - INFO - Successfully parsed 242 articles for AAPL
+2026-04-16 06:09:19,373 - finnhub_fetcher - INFO - Found 246 articles for symbol: MSFT
+2026-04-16 06:09:19,379 - finnhub_fetcher - INFO - Successfully parsed 246 articles for MSFT
+2026-04-16 06:09:20,101 - finnhub_fetcher - INFO - Found 248 articles for symbol: SPY
+2026-04-16 06:09:20,106 - finnhub_fetcher - INFO - Successfully parsed 248 articles for SPY
+2026-04-16 06:09:20,482 - finnhub_fetcher - INFO - Found 171 articles for symbol: DIA
+2026-04-16 06:09:20,489 - finnhub_fetcher - INFO - Successfully parsed 171 articles for DIA
+2026-04-16 06:09:20,867 - finnhub_fetcher - INFO - Found 248 articles for symbol: QQQ
+2026-04-16 06:09:20,870 - finnhub_fetcher - INFO - Successfully parsed 248 articles for QQQ
+2026-04-16 06:09:21,280 - finnhub_fetcher - INFO - Found 218 articles for symbol: IWM
+2026-04-16 06:09:21,288 - finnhub_fetcher - INFO - Successfully parsed 218 articles for IWM
+2026-04-16 06:09:21,653 - finnhub_fetcher - INFO - Found 237 articles for symbol: AAPL
+2026-04-16 06:09:21,655 - finnhub_fetcher - INFO - Successfully parsed 237 articles for AAPL
+2026-04-16 06:09:22,341 - finnhub_fetcher - INFO - Found 244 articles for symbol: MSFT
+2026-04-16 06:09:22,343 - finnhub_fetcher - INFO - Successfully parsed 244 articles for MSFT
+2026-04-16 06:09:23,243 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:09:23,244 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:09:23,786 - finnhub_fetcher - INFO - Found 149 articles for symbol: DIA
+2026-04-16 06:09:23,786 - finnhub_fetcher - INFO - Successfully parsed 149 articles for DIA
+2026-04-16 06:09:25,138 - finnhub_fetcher - INFO - Found 241 articles for symbol: QQQ
+2026-04-16 06:09:25,143 - finnhub_fetcher - INFO - Successfully parsed 241 articles for QQQ
+2026-04-16 06:09:25,637 - finnhub_fetcher - INFO - Found 196 articles for symbol: IWM
+2026-04-16 06:09:25,637 - finnhub_fetcher - INFO - Successfully parsed 196 articles for IWM
+2026-04-16 06:09:26,124 - finnhub_fetcher - INFO - Found 237 articles for symbol: AAPL
+2026-04-16 06:09:26,129 - finnhub_fetcher - INFO - Successfully parsed 237 articles for AAPL
+2026-04-16 06:09:26,900 - finnhub_fetcher - INFO - Found 241 articles for symbol: MSFT
+2026-04-16 06:09:26,907 - finnhub_fetcher - INFO - Successfully parsed 241 articles for MSFT
+2026-04-16 06:09:27,415 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:09:27,421 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:09:27,968 - finnhub_fetcher - INFO - Found 173 articles for symbol: DIA
+2026-04-16 06:09:27,974 - finnhub_fetcher - INFO - Successfully parsed 173 articles for DIA
+2026-04-16 06:09:28,495 - finnhub_fetcher - INFO - Found 250 articles for symbol: QQQ
+2026-04-16 06:09:28,498 - finnhub_fetcher - INFO - Successfully parsed 250 articles for QQQ
+2026-04-16 06:09:28,952 - finnhub_fetcher - INFO - Found 194 articles for symbol: IWM
+2026-04-16 06:09:28,952 - finnhub_fetcher - INFO - Successfully parsed 194 articles for IWM
+2026-04-16 06:09:29,501 - finnhub_fetcher - INFO - Found 240 articles for symbol: AAPL
+2026-04-16 06:09:29,511 - finnhub_fetcher - INFO - Successfully parsed 240 articles for AAPL
+2026-04-16 06:09:30,049 - finnhub_fetcher - INFO - Found 244 articles for symbol: MSFT
+2026-04-16 06:09:30,056 - finnhub_fetcher - INFO - Successfully parsed 244 articles for MSFT
+2026-04-16 06:09:30,696 - finnhub_fetcher - INFO - Found 249 articles for symbol: SPY
+2026-04-16 06:09:30,701 - finnhub_fetcher - INFO - Successfully parsed 249 articles for SPY
+2026-04-16 06:09:31,145 - finnhub_fetcher - INFO - Found 136 articles for symbol: DIA
+2026-04-16 06:09:31,151 - finnhub_fetcher - INFO - Successfully parsed 136 articles for DIA
+2026-04-16 06:09:31,656 - finnhub_fetcher - INFO - Found 214 articles for symbol: QQQ
+2026-04-16 06:09:31,659 - finnhub_fetcher - INFO - Successfully parsed 214 articles for QQQ
+2026-04-16 06:09:32,270 - finnhub_fetcher - INFO - Found 162 articles for symbol: IWM
+2026-04-16 06:09:32,275 - finnhub_fetcher - INFO - Successfully parsed 162 articles for IWM
+2026-04-16 06:09:32,851 - finnhub_fetcher - INFO - Found 229 articles for symbol: AAPL
+2026-04-16 06:09:32,851 - finnhub_fetcher - INFO - Successfully parsed 229 articles for AAPL
+2026-04-16 06:09:33,394 - finnhub_fetcher - INFO - Found 235 articles for symbol: MSFT
+2026-04-16 06:09:33,400 - finnhub_fetcher - INFO - Successfully parsed 235 articles for MSFT
+2026-04-16 06:09:34,065 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:09:34,067 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:09:35,189 - finnhub_fetcher - INFO - Found 149 articles for symbol: DIA
+2026-04-16 06:09:35,189 - finnhub_fetcher - INFO - Successfully parsed 149 articles for DIA
+2026-04-16 06:09:36,448 - finnhub_fetcher - INFO - Found 250 articles for symbol: QQQ
+2026-04-16 06:09:36,452 - finnhub_fetcher - INFO - Successfully parsed 250 articles for QQQ
+2026-04-16 06:09:37,375 - finnhub_fetcher - INFO - Found 190 articles for symbol: IWM
+2026-04-16 06:09:37,375 - finnhub_fetcher - INFO - Successfully parsed 190 articles for IWM
+2026-04-16 06:09:38,519 - finnhub_fetcher - INFO - Found 248 articles for symbol: AAPL
+2026-04-16 06:09:38,521 - finnhub_fetcher - INFO - Successfully parsed 248 articles for AAPL
+2026-04-16 06:09:39,486 - finnhub_fetcher - INFO - Found 250 articles for symbol: MSFT
+2026-04-16 06:09:39,490 - finnhub_fetcher - INFO - Successfully parsed 250 articles for MSFT
+2026-04-16 06:09:39,976 - finnhub_fetcher - INFO - Found 66 articles for symbol: SPY
+2026-04-16 06:09:39,978 - finnhub_fetcher - INFO - Successfully parsed 66 articles for SPY
+2026-04-16 06:09:40,360 - finnhub_fetcher - INFO - Found 14 articles for symbol: DIA
+2026-04-16 06:09:40,362 - finnhub_fetcher - INFO - Successfully parsed 14 articles for DIA
+2026-04-16 06:09:40,871 - finnhub_fetcher - INFO - Found 29 articles for symbol: QQQ
+2026-04-16 06:09:40,871 - finnhub_fetcher - INFO - Successfully parsed 29 articles for QQQ
+2026-04-16 06:09:41,392 - finnhub_fetcher - INFO - Found 19 articles for symbol: IWM
+2026-04-16 06:09:41,392 - finnhub_fetcher - INFO - Successfully parsed 19 articles for IWM
+2026-04-16 06:09:41,886 - finnhub_fetcher - INFO - Found 59 articles for symbol: AAPL
+2026-04-16 06:09:41,886 - finnhub_fetcher - INFO - Successfully parsed 59 articles for AAPL
+2026-04-16 06:09:42,515 - finnhub_fetcher - INFO - Found 99 articles for symbol: MSFT
+2026-04-16 06:09:42,515 - finnhub_fetcher - INFO - Successfully parsed 99 articles for MSFT
+2026-04-16 06:11:44,786 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:11:44,791 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:11:44,798 - finnhub_fetcher - INFO - Cached 92 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:11:45,167 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:11:45,171 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:11:45,171 - finnhub_fetcher - INFO - Cached 92 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:11:45,755 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:11:45,755 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:11:45,755 - finnhub_fetcher - INFO - Cached 92 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:11:46,104 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:11:46,106 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:11:46,111 - finnhub_fetcher - INFO - Cached 92 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:11:46,541 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:11:46,541 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:11:46,547 - finnhub_fetcher - INFO - Cached 92 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:11:46,554 - finnhub_fetcher - INFO - Retrieved 92 unique articles across all categories
+2026-04-16 06:11:46,986 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:11:46,990 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:11:47,392 - finnhub_fetcher - INFO - Found 130 articles for symbol: DIA
+2026-04-16 06:11:47,395 - finnhub_fetcher - INFO - Successfully parsed 130 articles for DIA
+2026-04-16 06:11:47,812 - finnhub_fetcher - INFO - Found 208 articles for symbol: QQQ
+2026-04-16 06:11:47,812 - finnhub_fetcher - INFO - Successfully parsed 208 articles for QQQ
+2026-04-16 06:11:48,182 - finnhub_fetcher - INFO - Found 179 articles for symbol: IWM
+2026-04-16 06:11:48,185 - finnhub_fetcher - INFO - Successfully parsed 179 articles for IWM
+2026-04-16 06:11:48,560 - finnhub_fetcher - INFO - Found 242 articles for symbol: AAPL
+2026-04-16 06:11:48,563 - finnhub_fetcher - INFO - Successfully parsed 242 articles for AAPL
+2026-04-16 06:11:48,996 - finnhub_fetcher - INFO - Found 246 articles for symbol: MSFT
+2026-04-16 06:11:48,996 - finnhub_fetcher - INFO - Successfully parsed 246 articles for MSFT
+2026-04-16 06:11:49,355 - finnhub_fetcher - INFO - Found 248 articles for symbol: SPY
+2026-04-16 06:11:49,355 - finnhub_fetcher - INFO - Successfully parsed 248 articles for SPY
+2026-04-16 06:11:49,745 - finnhub_fetcher - INFO - Found 171 articles for symbol: DIA
+2026-04-16 06:11:49,745 - finnhub_fetcher - INFO - Successfully parsed 171 articles for DIA
+2026-04-16 06:11:50,152 - finnhub_fetcher - INFO - Found 248 articles for symbol: QQQ
+2026-04-16 06:11:50,154 - finnhub_fetcher - INFO - Successfully parsed 248 articles for QQQ
+2026-04-16 06:11:50,614 - finnhub_fetcher - INFO - Found 218 articles for symbol: IWM
+2026-04-16 06:11:50,616 - finnhub_fetcher - INFO - Successfully parsed 218 articles for IWM
+2026-04-16 06:11:51,011 - finnhub_fetcher - INFO - Found 237 articles for symbol: AAPL
+2026-04-16 06:11:51,015 - finnhub_fetcher - INFO - Successfully parsed 237 articles for AAPL
+2026-04-16 06:11:51,463 - finnhub_fetcher - INFO - Found 244 articles for symbol: MSFT
+2026-04-16 06:11:51,463 - finnhub_fetcher - INFO - Successfully parsed 244 articles for MSFT
+2026-04-16 06:11:51,849 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:11:51,853 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:11:52,263 - finnhub_fetcher - INFO - Found 149 articles for symbol: DIA
+2026-04-16 06:11:52,263 - finnhub_fetcher - INFO - Successfully parsed 149 articles for DIA
+2026-04-16 06:11:52,641 - finnhub_fetcher - INFO - Found 241 articles for symbol: QQQ
+2026-04-16 06:11:52,644 - finnhub_fetcher - INFO - Successfully parsed 241 articles for QQQ
+2026-04-16 06:11:53,005 - finnhub_fetcher - INFO - Found 196 articles for symbol: IWM
+2026-04-16 06:11:53,005 - finnhub_fetcher - INFO - Successfully parsed 196 articles for IWM
+2026-04-16 06:11:53,490 - finnhub_fetcher - INFO - Found 237 articles for symbol: AAPL
+2026-04-16 06:11:53,491 - finnhub_fetcher - INFO - Successfully parsed 237 articles for AAPL
+2026-04-16 06:11:53,894 - finnhub_fetcher - INFO - Found 241 articles for symbol: MSFT
+2026-04-16 06:11:53,899 - finnhub_fetcher - INFO - Successfully parsed 241 articles for MSFT
+2026-04-16 06:11:54,300 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:11:54,302 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:11:54,813 - finnhub_fetcher - INFO - Found 173 articles for symbol: DIA
+2026-04-16 06:11:54,829 - finnhub_fetcher - INFO - Successfully parsed 173 articles for DIA
+2026-04-16 06:11:55,301 - finnhub_fetcher - INFO - Found 250 articles for symbol: QQQ
+2026-04-16 06:11:55,301 - finnhub_fetcher - INFO - Successfully parsed 250 articles for QQQ
+2026-04-16 06:11:55,947 - finnhub_fetcher - INFO - Found 194 articles for symbol: IWM
+2026-04-16 06:11:55,953 - finnhub_fetcher - INFO - Successfully parsed 194 articles for IWM
+2026-04-16 06:11:56,419 - finnhub_fetcher - INFO - Found 240 articles for symbol: AAPL
+2026-04-16 06:11:56,423 - finnhub_fetcher - INFO - Successfully parsed 240 articles for AAPL
+2026-04-16 06:11:57,259 - finnhub_fetcher - INFO - Found 244 articles for symbol: MSFT
+2026-04-16 06:11:57,261 - finnhub_fetcher - INFO - Successfully parsed 244 articles for MSFT
+2026-04-16 06:11:57,655 - finnhub_fetcher - INFO - Found 249 articles for symbol: SPY
+2026-04-16 06:11:57,655 - finnhub_fetcher - INFO - Successfully parsed 249 articles for SPY
+2026-04-16 06:11:58,190 - finnhub_fetcher - INFO - Found 136 articles for symbol: DIA
+2026-04-16 06:11:58,195 - finnhub_fetcher - INFO - Successfully parsed 136 articles for DIA
+2026-04-16 06:11:58,714 - finnhub_fetcher - INFO - Found 214 articles for symbol: QQQ
+2026-04-16 06:11:58,716 - finnhub_fetcher - INFO - Successfully parsed 214 articles for QQQ
+2026-04-16 06:11:59,138 - finnhub_fetcher - INFO - Found 162 articles for symbol: IWM
+2026-04-16 06:11:59,143 - finnhub_fetcher - INFO - Successfully parsed 162 articles for IWM
+2026-04-16 06:11:59,945 - finnhub_fetcher - INFO - Found 229 articles for symbol: AAPL
+2026-04-16 06:11:59,950 - finnhub_fetcher - INFO - Successfully parsed 229 articles for AAPL
+2026-04-16 06:12:00,387 - finnhub_fetcher - INFO - Found 235 articles for symbol: MSFT
+2026-04-16 06:12:00,393 - finnhub_fetcher - INFO - Successfully parsed 235 articles for MSFT
+2026-04-16 06:12:00,958 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:12:00,964 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:12:01,466 - finnhub_fetcher - INFO - Found 149 articles for symbol: DIA
+2026-04-16 06:12:01,466 - finnhub_fetcher - INFO - Successfully parsed 149 articles for DIA
+2026-04-16 06:12:01,847 - finnhub_fetcher - INFO - Found 250 articles for symbol: QQQ
+2026-04-16 06:12:01,850 - finnhub_fetcher - INFO - Successfully parsed 250 articles for QQQ
+2026-04-16 06:12:02,402 - finnhub_fetcher - INFO - Found 190 articles for symbol: IWM
+2026-04-16 06:12:02,405 - finnhub_fetcher - INFO - Successfully parsed 190 articles for IWM
+2026-04-16 06:12:02,928 - finnhub_fetcher - INFO - Found 248 articles for symbol: AAPL
+2026-04-16 06:12:02,933 - finnhub_fetcher - INFO - Successfully parsed 248 articles for AAPL
+2026-04-16 06:12:03,523 - finnhub_fetcher - INFO - Found 250 articles for symbol: MSFT
+2026-04-16 06:12:03,531 - finnhub_fetcher - INFO - Successfully parsed 250 articles for MSFT
+2026-04-16 06:12:04,127 - finnhub_fetcher - INFO - Found 66 articles for symbol: SPY
+2026-04-16 06:12:04,133 - finnhub_fetcher - INFO - Successfully parsed 66 articles for SPY
+2026-04-16 06:12:04,522 - finnhub_fetcher - INFO - Found 14 articles for symbol: DIA
+2026-04-16 06:12:04,522 - finnhub_fetcher - INFO - Successfully parsed 14 articles for DIA
+2026-04-16 06:12:05,062 - finnhub_fetcher - INFO - Found 29 articles for symbol: QQQ
+2026-04-16 06:12:05,062 - finnhub_fetcher - INFO - Successfully parsed 29 articles for QQQ
+2026-04-16 06:12:05,564 - finnhub_fetcher - INFO - Found 19 articles for symbol: IWM
+2026-04-16 06:12:05,564 - finnhub_fetcher - INFO - Successfully parsed 19 articles for IWM
+2026-04-16 06:12:05,966 - finnhub_fetcher - INFO - Found 59 articles for symbol: AAPL
+2026-04-16 06:12:05,966 - finnhub_fetcher - INFO - Successfully parsed 59 articles for AAPL
+2026-04-16 06:12:06,376 - finnhub_fetcher - INFO - Found 99 articles for symbol: MSFT
+2026-04-16 06:12:06,378 - finnhub_fetcher - INFO - Successfully parsed 99 articles for MSFT
+2026-04-16 06:16:41,964 - finnhub_fetcher - INFO - Found 100 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:16:41,971 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:16:41,983 - finnhub_fetcher - INFO - Cached 92 articles for query: inflation OR CPI OR consumer price
+2026-04-16 06:16:43,841 - finnhub_fetcher - INFO - Found 100 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:16:43,843 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:16:43,849 - finnhub_fetcher - INFO - Cached 92 articles for query: fed OR federal reserve OR interest rate OR FOMC
+2026-04-16 06:16:44,177 - finnhub_fetcher - INFO - Found 100 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:16:44,180 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:16:44,187 - finnhub_fetcher - INFO - Cached 92 articles for query: economic OR economy OR recession OR GDP
+2026-04-16 06:16:44,537 - finnhub_fetcher - INFO - Found 100 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:16:44,540 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:16:44,545 - finnhub_fetcher - INFO - Cached 92 articles for query: unemployment OR jobs OR employment
+2026-04-16 06:16:44,873 - finnhub_fetcher - INFO - Found 100 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:16:44,876 - finnhub_fetcher - INFO - Successfully parsed 92 articles
+2026-04-16 06:16:44,883 - finnhub_fetcher - INFO - Cached 92 articles for query: trade OR tariff OR export OR commerce
+2026-04-16 06:16:44,887 - finnhub_fetcher - INFO - Retrieved 92 unique articles across all categories
+2026-04-16 06:16:45,330 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:16:45,334 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:16:45,724 - finnhub_fetcher - INFO - Found 130 articles for symbol: DIA
+2026-04-16 06:16:45,724 - finnhub_fetcher - INFO - Successfully parsed 130 articles for DIA
+2026-04-16 06:16:46,126 - finnhub_fetcher - INFO - Found 208 articles for symbol: QQQ
+2026-04-16 06:16:46,130 - finnhub_fetcher - INFO - Successfully parsed 208 articles for QQQ
+2026-04-16 06:16:46,750 - finnhub_fetcher - INFO - Found 179 articles for symbol: IWM
+2026-04-16 06:16:46,757 - finnhub_fetcher - INFO - Successfully parsed 179 articles for IWM
+2026-04-16 06:16:47,263 - finnhub_fetcher - INFO - Found 242 articles for symbol: AAPL
+2026-04-16 06:16:47,268 - finnhub_fetcher - INFO - Successfully parsed 242 articles for AAPL
+2026-04-16 06:16:47,714 - finnhub_fetcher - INFO - Found 246 articles for symbol: MSFT
+2026-04-16 06:16:47,714 - finnhub_fetcher - INFO - Successfully parsed 246 articles for MSFT
+2026-04-16 06:16:48,215 - finnhub_fetcher - INFO - Found 248 articles for symbol: SPY
+2026-04-16 06:16:48,220 - finnhub_fetcher - INFO - Successfully parsed 248 articles for SPY
+2026-04-16 06:16:48,702 - finnhub_fetcher - INFO - Found 171 articles for symbol: DIA
+2026-04-16 06:16:48,718 - finnhub_fetcher - INFO - Successfully parsed 171 articles for DIA
+2026-04-16 06:16:49,450 - finnhub_fetcher - INFO - Found 248 articles for symbol: QQQ
+2026-04-16 06:16:49,455 - finnhub_fetcher - INFO - Successfully parsed 248 articles for QQQ
+2026-04-16 06:16:50,033 - finnhub_fetcher - INFO - Found 218 articles for symbol: IWM
+2026-04-16 06:16:50,038 - finnhub_fetcher - INFO - Successfully parsed 218 articles for IWM
+2026-04-16 06:16:50,857 - finnhub_fetcher - INFO - Found 237 articles for symbol: AAPL
+2026-04-16 06:16:50,860 - finnhub_fetcher - INFO - Successfully parsed 237 articles for AAPL
+2026-04-16 06:16:51,733 - finnhub_fetcher - INFO - Found 244 articles for symbol: MSFT
+2026-04-16 06:16:51,740 - finnhub_fetcher - INFO - Successfully parsed 244 articles for MSFT
+2026-04-16 06:16:52,375 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:16:52,379 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:16:53,218 - finnhub_fetcher - INFO - Found 149 articles for symbol: DIA
+2026-04-16 06:16:53,220 - finnhub_fetcher - INFO - Successfully parsed 149 articles for DIA
+2026-04-16 06:16:53,882 - finnhub_fetcher - INFO - Found 241 articles for symbol: QQQ
+2026-04-16 06:16:53,886 - finnhub_fetcher - INFO - Successfully parsed 241 articles for QQQ
+2026-04-16 06:16:54,560 - finnhub_fetcher - INFO - Found 196 articles for symbol: IWM
+2026-04-16 06:16:54,565 - finnhub_fetcher - INFO - Successfully parsed 196 articles for IWM
+2026-04-16 06:16:55,320 - finnhub_fetcher - INFO - Found 237 articles for symbol: AAPL
+2026-04-16 06:16:55,325 - finnhub_fetcher - INFO - Successfully parsed 237 articles for AAPL
+2026-04-16 06:16:56,154 - finnhub_fetcher - INFO - Found 241 articles for symbol: MSFT
+2026-04-16 06:16:56,174 - finnhub_fetcher - INFO - Successfully parsed 241 articles for MSFT
+2026-04-16 06:16:57,138 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:16:57,143 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:16:58,128 - finnhub_fetcher - INFO - Found 173 articles for symbol: DIA
+2026-04-16 06:16:58,132 - finnhub_fetcher - INFO - Successfully parsed 173 articles for DIA
+2026-04-16 06:16:59,502 - finnhub_fetcher - INFO - Found 250 articles for symbol: QQQ
+2026-04-16 06:16:59,507 - finnhub_fetcher - INFO - Successfully parsed 250 articles for QQQ
+2026-04-16 06:17:00,030 - finnhub_fetcher - INFO - Found 194 articles for symbol: IWM
+2026-04-16 06:17:00,035 - finnhub_fetcher - INFO - Successfully parsed 194 articles for IWM
+2026-04-16 06:17:00,789 - finnhub_fetcher - INFO - Found 240 articles for symbol: AAPL
+2026-04-16 06:17:00,794 - finnhub_fetcher - INFO - Successfully parsed 240 articles for AAPL
+2026-04-16 06:17:01,415 - finnhub_fetcher - INFO - Found 244 articles for symbol: MSFT
+2026-04-16 06:17:01,425 - finnhub_fetcher - INFO - Successfully parsed 244 articles for MSFT
+2026-04-16 06:17:02,055 - finnhub_fetcher - INFO - Found 249 articles for symbol: SPY
+2026-04-16 06:17:02,060 - finnhub_fetcher - INFO - Successfully parsed 249 articles for SPY
+2026-04-16 06:17:02,662 - finnhub_fetcher - INFO - Found 136 articles for symbol: DIA
+2026-04-16 06:17:02,666 - finnhub_fetcher - INFO - Successfully parsed 136 articles for DIA
+2026-04-16 06:17:03,158 - finnhub_fetcher - INFO - Found 214 articles for symbol: QQQ
+2026-04-16 06:17:03,162 - finnhub_fetcher - INFO - Successfully parsed 214 articles for QQQ
+2026-04-16 06:17:03,734 - finnhub_fetcher - INFO - Found 162 articles for symbol: IWM
+2026-04-16 06:17:03,739 - finnhub_fetcher - INFO - Successfully parsed 162 articles for IWM
+2026-04-16 06:17:04,158 - finnhub_fetcher - INFO - Found 229 articles for symbol: AAPL
+2026-04-16 06:17:04,163 - finnhub_fetcher - INFO - Successfully parsed 229 articles for AAPL
+2026-04-16 06:17:04,601 - finnhub_fetcher - INFO - Found 235 articles for symbol: MSFT
+2026-04-16 06:17:04,607 - finnhub_fetcher - INFO - Successfully parsed 235 articles for MSFT
+2026-04-16 06:17:05,068 - finnhub_fetcher - INFO - Found 250 articles for symbol: SPY
+2026-04-16 06:17:05,074 - finnhub_fetcher - INFO - Successfully parsed 250 articles for SPY
+2026-04-16 06:17:05,528 - finnhub_fetcher - INFO - Found 149 articles for symbol: DIA
+2026-04-16 06:17:05,536 - finnhub_fetcher - INFO - Successfully parsed 149 articles for DIA
+2026-04-16 06:17:05,949 - finnhub_fetcher - INFO - Found 250 articles for symbol: QQQ
+2026-04-16 06:17:05,956 - finnhub_fetcher - INFO - Successfully parsed 250 articles for QQQ
+2026-04-16 06:17:06,378 - finnhub_fetcher - INFO - Found 190 articles for symbol: IWM
+2026-04-16 06:17:06,382 - finnhub_fetcher - INFO - Successfully parsed 190 articles for IWM
+2026-04-16 06:17:06,843 - finnhub_fetcher - INFO - Found 248 articles for symbol: AAPL
+2026-04-16 06:17:06,849 - finnhub_fetcher - INFO - Successfully parsed 248 articles for AAPL
+2026-04-16 06:17:07,378 - finnhub_fetcher - INFO - Found 250 articles for symbol: MSFT
+2026-04-16 06:17:07,385 - finnhub_fetcher - INFO - Successfully parsed 250 articles for MSFT
+2026-04-16 06:17:07,794 - finnhub_fetcher - INFO - Found 66 articles for symbol: SPY
+2026-04-16 06:17:07,798 - finnhub_fetcher - INFO - Successfully parsed 66 articles for SPY
+2026-04-16 06:17:08,131 - finnhub_fetcher - INFO - Found 14 articles for symbol: DIA
+2026-04-16 06:17:08,136 - finnhub_fetcher - INFO - Successfully parsed 14 articles for DIA
+2026-04-16 06:17:08,478 - finnhub_fetcher - INFO - Found 29 articles for symbol: QQQ
+2026-04-16 06:17:08,482 - finnhub_fetcher - INFO - Successfully parsed 29 articles for QQQ
+2026-04-16 06:17:08,954 - finnhub_fetcher - INFO - Found 19 articles for symbol: IWM
+2026-04-16 06:17:08,958 - finnhub_fetcher - INFO - Successfully parsed 19 articles for IWM
+2026-04-16 06:17:09,350 - finnhub_fetcher - INFO - Found 59 articles for symbol: AAPL
+2026-04-16 06:17:09,359 - finnhub_fetcher - INFO - Successfully parsed 59 articles for AAPL
+2026-04-16 06:17:09,741 - finnhub_fetcher - INFO - Found 99 articles for symbol: MSFT
+2026-04-16 06:17:09,750 - finnhub_fetcher - INFO - Successfully parsed 99 articles for MSFT
+2026-04-16 09:15:18,301 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:15:18,306 - finnhub_fetcher - INFO - Successfully parsed 97 articles
+2026-04-16 09:15:18,306 - finnhub_fetcher - INFO - Cached 97 articles for query: election
+2026-04-16 09:15:18,684 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:15:18,688 - finnhub_fetcher - INFO - Successfully parsed 97 articles
+2026-04-16 09:15:18,691 - finnhub_fetcher - INFO - Cached 97 articles for query: trump
+2026-04-16 09:15:19,055 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:15:19,055 - finnhub_fetcher - INFO - Successfully parsed 97 articles
+2026-04-16 09:15:19,064 - finnhub_fetcher - INFO - Cached 97 articles for query: biden
+2026-04-16 09:15:19,402 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:15:19,402 - finnhub_fetcher - INFO - Successfully parsed 97 articles
+2026-04-16 09:15:19,412 - finnhub_fetcher - INFO - Cached 97 articles for query: congress
+2026-04-16 09:15:19,770 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:15:19,770 - finnhub_fetcher - INFO - Successfully parsed 97 articles
+2026-04-16 09:15:19,777 - finnhub_fetcher - INFO - Cached 97 articles for query: policy
+2026-04-16 09:15:20,168 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:15:20,173 - finnhub_fetcher - INFO - Successfully parsed 97 articles
+2026-04-16 09:15:20,173 - finnhub_fetcher - INFO - Cached 97 articles for query: geopolitical
+2026-04-16 09:15:20,183 - finnhub_fetcher - INFO - Retrieved 97 unique articles across all political categories
+2026-04-16 09:18:19,033 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:18:19,369 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:18:19,707 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:18:20,031 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:18:20,361 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:18:20,805 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:18:21,123 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:18:21,482 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:18:21,804 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:18:22,142 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:18:22,470 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:18:22,802 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:18:23,121 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:18:23,457 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:18:23,788 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:18:24,169 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:18:24,502 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:18:24,849 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:18:25,187 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:18:25,520 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:18:25,870 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:18:26,203 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:18:26,539 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:18:26,872 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:18:27,194 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:18:27,696 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:18:28,048 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:18:28,391 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:18:28,708 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:18:29,025 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:18:29,367 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:18:29,372 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:18:29,719 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:18:29,719 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:18:30,052 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:18:30,052 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:18:30,381 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:18:30,381 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:18:30,719 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:18:30,719 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:18:31,065 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:18:31,066 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:18:31,425 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:18:31,431 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:18:31,775 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:18:31,775 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:18:32,102 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:18:32,103 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:18:32,439 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:18:32,439 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:18:32,787 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:18:32,787 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:18:33,139 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:18:33,139 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:20:56,416 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:20:56,824 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:20:57,157 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:20:57,529 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:20:57,941 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:20:58,288 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:20:58,711 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:20:59,062 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:20:59,474 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:20:59,892 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:21:00,231 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:21:00,550 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:21:00,910 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:21:01,250 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:21:01,600 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:21:01,924 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:21:02,316 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:21:02,659 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:21:03,066 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:21:03,413 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:21:03,767 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:21:04,116 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:21:04,442 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:21:04,779 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:21:05,130 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:21:05,443 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:21:05,787 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:21:06,163 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:21:06,537 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:21:06,883 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:21:07,244 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:21:07,247 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:21:07,584 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:21:07,587 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:21:07,897 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:21:07,902 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:21:08,292 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:21:08,292 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:21:08,652 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:21:08,652 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:21:08,995 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:21:09,000 - finnhub_fetcher - INFO - Successfully parsed 39 articles
+2026-04-16 09:21:09,406 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:21:09,410 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:21:09,751 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:21:09,754 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:21:10,088 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:21:10,091 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:21:10,439 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:21:10,441 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:21:10,811 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:21:10,817 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:21:11,247 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:21:11,251 - finnhub_fetcher - INFO - Successfully parsed 58 articles
+2026-04-16 09:24:10,659 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:24:10,977 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:24:11,310 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:24:11,683 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:24:12,012 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:24:12,344 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:24:12,691 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:24:13,024 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:24:13,414 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:24:13,754 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:24:14,120 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:24:14,499 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:24:14,862 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:24:15,266 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:24:15,646 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:24:15,986 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:24:16,399 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:24:16,732 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:24:17,070 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:24:17,429 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:24:18,213 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:24:18,547 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:24:19,024 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:24:19,358 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:24:19,806 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:24:20,124 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:24:20,453 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:24:20,795 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:24:21,206 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:24:21,524 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:24:21,952 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:24:21,958 - finnhub_fetcher - INFO - Successfully parsed 40 articles
+2026-04-16 09:24:22,292 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:24:22,299 - finnhub_fetcher - INFO - Successfully parsed 40 articles
+2026-04-16 09:24:22,647 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:24:22,647 - finnhub_fetcher - INFO - Successfully parsed 40 articles
+2026-04-16 09:24:23,003 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:24:23,005 - finnhub_fetcher - INFO - Successfully parsed 40 articles
+2026-04-16 09:24:23,340 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:24:23,340 - finnhub_fetcher - INFO - Successfully parsed 40 articles
+2026-04-16 09:24:23,682 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:24:23,687 - finnhub_fetcher - INFO - Successfully parsed 40 articles
+2026-04-16 09:24:24,043 - finnhub_fetcher - INFO - Found 100 articles for query: election
+2026-04-16 09:24:24,046 - finnhub_fetcher - INFO - Successfully parsed 57 articles
+2026-04-16 09:24:24,713 - finnhub_fetcher - INFO - Found 100 articles for query: trump
+2026-04-16 09:24:24,713 - finnhub_fetcher - INFO - Successfully parsed 57 articles
+2026-04-16 09:24:25,157 - finnhub_fetcher - INFO - Found 100 articles for query: biden
+2026-04-16 09:24:25,157 - finnhub_fetcher - INFO - Successfully parsed 57 articles
+2026-04-16 09:24:25,539 - finnhub_fetcher - INFO - Found 100 articles for query: congress
+2026-04-16 09:24:25,539 - finnhub_fetcher - INFO - Successfully parsed 57 articles
+2026-04-16 09:24:25,885 - finnhub_fetcher - INFO - Found 100 articles for query: policy
+2026-04-16 09:24:25,885 - finnhub_fetcher - INFO - Successfully parsed 57 articles
+2026-04-16 09:24:26,236 - finnhub_fetcher - INFO - Found 100 articles for query: geopolitical
+2026-04-16 09:24:26,239 - finnhub_fetcher - INFO - Successfully parsed 57 articles

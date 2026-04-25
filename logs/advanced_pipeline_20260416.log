@@ -1,0 +1,787 @@
+2026-04-16 05:19:35,513 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=False, Mock=True)
+2026-04-16 05:19:35,513 - advanced_pipeline - INFO - Starting advanced analysis pipeline (7 days)
+2026-04-16 05:19:35,513 - advanced_pipeline - INFO - Configuration: RealData=False, RealNews=True, RealMarket=True
+2026-04-16 05:19:35,513 - advanced_pipeline - INFO - Generated 70 mock news headlines
+2026-04-16 05:19:35,537 - advanced_pipeline - ERROR - Pipeline failed: 'title'
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 197, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7668, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7676, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'title'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 530, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 273, in run_full_analysis
+    news_sentiment = self.sentiment_analyzer.compute_weighted_sentiment(news_df)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\advanced_sentiment.py", line 259, in compute_weighted_sentiment
+    df["keyword_weight"] = df["title"].apply(self.compute_keyword_weight)
+                           ~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: 'title'
+2026-04-16 05:20:21,344 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=False, Mock=True)
+2026-04-16 05:20:21,344 - advanced_pipeline - INFO - Starting advanced analysis pipeline (7 days)
+2026-04-16 05:20:21,344 - advanced_pipeline - INFO - Configuration: RealData=False, RealNews=True, RealMarket=True
+2026-04-16 05:20:21,346 - advanced_pipeline - INFO - Generated 70 mock news headlines
+2026-04-16 05:20:21,377 - advanced_pipeline - INFO - Generated 168 price points
+2026-04-16 05:20:21,385 - advanced_pipeline - ERROR - Pipeline failed: "Label(s) ['ask_price', 'bid_price'] do not exist"
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 532, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 297, in run_full_analysis
+    aligned_df = self.alignment_pipeline.align_sentiment_with_market(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 369, in align_sentiment_with_market
+    result = DataAligner.create_aligned_dataset(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 295, in create_aligned_dataset
+    aligned = DataAligner.merge_sentiment_and_market(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 211, in merge_sentiment_and_market
+    market_resampled = DataAligner.resample_market_data_to_frequency(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 88, in resample_market_data_to_frequency
+    resampled = df_indexed.resample(frequency).agg({
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\resample.py", line 444, in aggregate
+    result = ResamplerWindowApply(self, func, args=args, kwargs=kwargs).agg()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\apply.py", line 294, in agg
+    return self.agg_dict_like()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\apply.py", line 511, in agg_dict_like
+    return self.agg_or_apply_dict_like(op_name="agg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\apply.py", line 1677, in agg_or_apply_dict_like
+    result_index, result_data = self.compute_dict_like(
+                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\apply.py", line 550, in compute_dict_like
+    func = self.normalize_dictlike_arg(op_name, selected_obj, func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\apply.py", line 762, in normalize_dictlike_arg
+    raise KeyError(f"Label(s) {list(cols)} do not exist")
+KeyError: "Label(s) ['ask_price', 'bid_price'] do not exist"
+2026-04-16 05:21:02,321 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=False, Mock=True)
+2026-04-16 05:21:02,321 - advanced_pipeline - INFO - Starting advanced analysis pipeline (7 days)
+2026-04-16 05:21:02,324 - advanced_pipeline - INFO - Configuration: RealData=False, RealNews=True, RealMarket=True
+2026-04-16 05:21:02,328 - advanced_pipeline - INFO - Generated 70 mock news headlines
+2026-04-16 05:21:02,377 - advanced_pipeline - INFO - Generated 168 price points
+2026-04-16 05:21:02,399 - advanced_pipeline - ERROR - Pipeline failed: "['weighted_sentiment'] not in index"
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 532, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 297, in run_full_analysis
+    aligned_df = self.alignment_pipeline.align_sentiment_with_market(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 390, in align_sentiment_with_market
+    result = DataAligner.create_aligned_dataset(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 316, in create_aligned_dataset
+    aligned = DataAligner.merge_sentiment_and_market(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 241, in merge_sentiment_and_market
+    aligned = DataAligner.align_time_series(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 170, in align_time_series
+    sent[["timestamp", sentiment_col]],
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4384, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 6302, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 6355, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['weighted_sentiment'] not in index"
+2026-04-16 05:22:14,754 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=False, Mock=True)
+2026-04-16 05:22:14,754 - advanced_pipeline - INFO - Starting advanced analysis pipeline (7 days)
+2026-04-16 05:22:14,754 - advanced_pipeline - INFO - Configuration: RealData=False, RealNews=True, RealMarket=True
+2026-04-16 05:22:14,754 - advanced_pipeline - INFO - Generated 70 mock news headlines
+2026-04-16 05:22:14,809 - advanced_pipeline - INFO - Generated 168 price points
+2026-04-16 05:22:14,847 - advanced_pipeline - ERROR - Pipeline failed: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 532, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 297, in run_full_analysis
+    aligned_df = self.alignment_pipeline.align_sentiment_with_market(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 413, in align_sentiment_with_market
+    result = DataAligner.create_aligned_dataset(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 368, in create_aligned_dataset
+    logger.info(f"Correlation between sentiment and price: {correlation:.3f}")
+                                                           ^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+2026-04-16 05:22:38,104 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=False, Mock=True)
+2026-04-16 05:22:38,104 - advanced_pipeline - INFO - Starting advanced analysis pipeline (7 days)
+2026-04-16 05:22:38,104 - advanced_pipeline - INFO - Configuration: RealData=False, RealNews=True, RealMarket=True
+2026-04-16 05:22:38,118 - advanced_pipeline - INFO - Generated 70 mock news headlines
+2026-04-16 05:22:38,171 - advanced_pipeline - INFO - Generated 168 price points
+2026-04-16 05:22:38,215 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:22:38,716 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 05:22:44,902 - advanced_pipeline - WARNING - Error generating summaries: Unknown format code 'f' for object of type 'str'
+2026-04-16 05:22:44,924 - advanced_pipeline - ERROR - Pipeline failed: Unknown format code 'f' for object of type 'str'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 613, in main
+    print(f"  Correlation at Lag: {lag_results.get('correlation_at_lag', 'N/A'):.4f}")
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Unknown format code 'f' for object of type 'str'
+2026-04-16 05:24:51,237 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=False, Mock=True)
+2026-04-16 05:24:51,237 - advanced_pipeline - INFO - Starting advanced analysis pipeline (7 days)
+2026-04-16 05:24:51,240 - advanced_pipeline - INFO - Configuration: RealData=False, RealNews=True, RealMarket=True
+2026-04-16 05:24:51,245 - advanced_pipeline - INFO - Generated 70 mock news headlines
+2026-04-16 05:24:51,286 - advanced_pipeline - INFO - Generated 168 price points
+2026-04-16 05:24:51,327 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:24:51,594 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 05:24:55,851 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 05:28:42,219 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:28:42,219 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-16 05:28:42,219 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:28:42,219 - advanced_pipeline - INFO - Attempting to fetch real news data
+2026-04-16 05:29:34,679 - advanced_pipeline - INFO - Saved raw news data to data\news_raw.csv
+2026-04-16 05:29:34,679 - advanced_pipeline - INFO - Fetched 199 real news articles
+2026-04-16 05:29:34,735 - advanced_pipeline - INFO - Attempting to fetch real market data
+2026-04-16 05:30:30,324 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 05:30:30,324 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 05:30:30,366 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:30:30,650 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 05:30:34,709 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 05:33:23,125 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:33:23,125 - advanced_pipeline - INFO - Starting advanced analysis pipeline (360 days)
+2026-04-16 05:33:23,125 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:33:23,125 - advanced_pipeline - INFO - Attempting to fetch real news data
+2026-04-16 05:34:59,982 - advanced_pipeline - INFO - Saved raw news data to data\news_raw.csv
+2026-04-16 05:34:59,986 - advanced_pipeline - INFO - Fetched 202 real news articles
+2026-04-16 05:35:00,070 - advanced_pipeline - INFO - Attempting to fetch real market data
+2026-04-16 05:35:05,400 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 05:35:05,400 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 05:35:05,445 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:35:05,756 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 05:35:09,690 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 05:40:12,061 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:40:12,061 - advanced_pipeline - INFO - Starting advanced analysis pipeline (360 days)
+2026-04-16 05:40:12,061 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:40:12,069 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 05:40:14,899 - advanced_pipeline - INFO - Attempting to fetch from NewsAPI
+2026-04-16 05:41:13,849 - advanced_pipeline - INFO - Fetched 257 articles from NewsAPI
+2026-04-16 05:41:13,884 - advanced_pipeline - INFO - Saved raw news data to data\news_raw.csv
+2026-04-16 05:41:13,977 - advanced_pipeline - INFO - Attempting to fetch real market data
+2026-04-16 05:41:19,173 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 05:41:19,176 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 05:41:19,221 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:41:19,436 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 05:41:23,848 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 05:42:43,727 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:42:43,727 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 05:42:43,731 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:42:43,735 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 05:42:46,853 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 05:42:46,856 - advanced_pipeline - ERROR - Pipeline failed: 'publishedAt'
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 197, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7668, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7676, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'publishedAt'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 616, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 343, in run_full_analysis
+    news_df = self._fetch_real_news(n_days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 125, in _fetch_real_news
+    real_news_df["timestamp"] = pd.to_datetime(real_news_df["publishedAt"], errors="coerce")
+                                               ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: 'publishedAt'
+2026-04-16 05:43:12,895 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:43:12,895 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 05:43:12,895 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:43:12,904 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 05:43:16,456 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 05:43:16,473 - advanced_pipeline - INFO - Filling 28 days of historical data with synthetic news
+2026-04-16 05:43:16,473 - advanced_pipeline - ERROR - Pipeline failed: can't compare datetime.datetime to datetime.date
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 623, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 350, in run_full_analysis
+    news_df = self._fetch_real_news(n_days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 140, in _fetch_real_news
+    synthetic_df = self._generate_synthetic_news_for_period(start_date, earliest_real_date)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 193, in _generate_synthetic_news_for_period
+    while current < end_date:
+          ^^^^^^^^^^^^^^^^^^
+TypeError: can't compare datetime.datetime to datetime.date
+2026-04-16 05:43:47,523 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:43:47,523 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 05:43:47,523 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:43:47,526 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 05:43:50,310 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 05:43:50,310 - advanced_pipeline - INFO - Filling 28 days of historical data with synthetic news
+2026-04-16 05:43:50,317 - advanced_pipeline - INFO - Generated 86 synthetic historical articles
+2026-04-16 05:43:50,337 - advanced_pipeline - INFO - Saved 186 articles to data\news_raw.csv
+2026-04-16 05:43:50,337 - advanced_pipeline - INFO - Total news: 186 articles (real + synthetic)
+2026-04-16 05:43:50,405 - advanced_pipeline - INFO - Attempting to fetch real market data
+2026-04-16 05:43:55,588 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 05:43:55,593 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 05:43:55,622 - advanced_pipeline - ERROR - Pipeline failed: You are trying to merge on datetime64[us] and datetime64[us, UTC] columns for key 'timestamp'. If you wish to proceed you should use pd.concat
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 629, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 394, in run_full_analysis
+    aligned_df = self.alignment_pipeline.align_sentiment_with_market(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 423, in align_sentiment_with_market
+    result = DataAligner.create_aligned_dataset(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 339, in create_aligned_dataset
+    aligned = DataAligner.merge_sentiment_and_market(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 264, in merge_sentiment_and_market
+    aligned = DataAligner.align_time_series(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\data_alignment.py", line 176, in align_time_series
+    merged = pd.merge(
+             ^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 385, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 1031, in __init__
+    self._maybe_coerce_merge_keys()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 1849, in _maybe_coerce_merge_keys
+    raise ValueError(msg)
+ValueError: You are trying to merge on datetime64[us] and datetime64[us, UTC] columns for key 'timestamp'. If you wish to proceed you should use pd.concat
+2026-04-16 05:44:40,376 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:44:40,379 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 05:44:40,379 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:44:40,381 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 05:44:42,934 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 05:44:42,939 - advanced_pipeline - INFO - Filling 28 days of historical data with synthetic news
+2026-04-16 05:44:42,942 - advanced_pipeline - INFO - Generated 102 synthetic historical articles
+2026-04-16 05:44:42,962 - advanced_pipeline - INFO - Saved 202 articles to data\news_raw.csv
+2026-04-16 05:44:42,962 - advanced_pipeline - INFO - Total news: 202 articles (real + synthetic)
+2026-04-16 05:44:43,053 - advanced_pipeline - INFO - Attempting to fetch real market data
+2026-04-16 05:44:48,241 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 05:44:48,246 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 05:44:48,286 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:44:48,570 - advanced_pipeline - ERROR - Pipeline failed: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 629, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 439, in run_full_analysis
+    events_results = detect_events(
+                     ^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 245, in detect_events
+    events_with_response = detector.compute_event_market_response(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 173, in compute_event_market_response
+    df = pd.merge_asof(
+         ^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 917, in merge_asof
+    op = _AsOfMerge(
+         ^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2353, in __init__
+    _OrderedMerge.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2265, in __init__
+    _MergeOperation.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 1026, in __init__
+    self._maybe_require_matching_dtypes(self.left_join_keys, self.right_join_keys)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2478, in _maybe_require_matching_dtypes
+    _check_dtype_match(lk, rk, i)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2474, in _check_dtype_match
+    raise MergeError(msg)
+pandas.errors.MergeError: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+2026-04-16 05:52:15,141 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:52:15,141 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-16 05:52:15,141 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:52:15,147 - advanced_pipeline - INFO - Attempting to load from local DJIA dataset
+2026-04-16 05:52:15,382 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 05:52:21,017 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 05:52:21,030 - advanced_pipeline - INFO - Saved 100 articles to data\news_raw.csv
+2026-04-16 05:52:21,030 - advanced_pipeline - INFO - Total news: 100 articles (real + synthetic)
+2026-04-16 05:52:21,074 - advanced_pipeline - INFO - Attempting to load market data from local DJIA dataset
+2026-04-16 05:52:21,199 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 05:52:26,351 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 05:52:26,357 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 05:52:26,392 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:52:26,577 - advanced_pipeline - ERROR - Pipeline failed: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 689, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 499, in run_full_analysis
+    events_results = detect_events(
+                     ^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 245, in detect_events
+    events_with_response = detector.compute_event_market_response(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 173, in compute_event_market_response
+    df = pd.merge_asof(
+         ^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 917, in merge_asof
+    op = _AsOfMerge(
+         ^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2353, in __init__
+    _OrderedMerge.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2265, in __init__
+    _MergeOperation.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 1026, in __init__
+    self._maybe_require_matching_dtypes(self.left_join_keys, self.right_join_keys)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2478, in _maybe_require_matching_dtypes
+    _check_dtype_match(lk, rk, i)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2474, in _check_dtype_match
+    raise MergeError(msg)
+pandas.errors.MergeError: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+2026-04-16 05:55:24,301 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:55:24,301 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 05:55:24,305 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:55:24,306 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 05:55:27,175 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 05:55:27,177 - advanced_pipeline - INFO - Saved 100 articles to data\news_raw.csv
+2026-04-16 05:55:27,183 - advanced_pipeline - INFO - Total news: 100 articles (real + synthetic)
+2026-04-16 05:55:27,242 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 05:55:32,415 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 05:55:32,415 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 05:55:32,449 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:55:32,629 - advanced_pipeline - ERROR - Pipeline failed: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 685, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 495, in run_full_analysis
+    events_results = detect_events(
+                     ^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 245, in detect_events
+    events_with_response = detector.compute_event_market_response(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 173, in compute_event_market_response
+    df = pd.merge_asof(
+         ^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 917, in merge_asof
+    op = _AsOfMerge(
+         ^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2353, in __init__
+    _OrderedMerge.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2265, in __init__
+    _MergeOperation.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 1026, in __init__
+    self._maybe_require_matching_dtypes(self.left_join_keys, self.right_join_keys)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2478, in _maybe_require_matching_dtypes
+    _check_dtype_match(lk, rk, i)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2474, in _check_dtype_match
+    raise MergeError(msg)
+pandas.errors.MergeError: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+2026-04-16 05:55:57,764 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:55:57,764 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 05:55:57,777 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:55:57,786 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 05:56:00,243 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 05:56:00,258 - advanced_pipeline - INFO - Saved 100 articles to data\news_raw.csv
+2026-04-16 05:56:00,258 - advanced_pipeline - INFO - Total news: 100 articles (real + synthetic)
+2026-04-16 05:56:00,312 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 05:56:05,485 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 05:56:05,485 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 05:56:05,519 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:56:05,689 - advanced_pipeline - ERROR - Pipeline failed: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 685, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 495, in run_full_analysis
+    events_results = detect_events(
+                     ^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 245, in detect_events
+    events_with_response = detector.compute_event_market_response(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 173, in compute_event_market_response
+    df = pd.merge_asof(
+         ^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 917, in merge_asof
+    op = _AsOfMerge(
+         ^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2353, in __init__
+    _OrderedMerge.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2265, in __init__
+    _MergeOperation.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 1026, in __init__
+    self._maybe_require_matching_dtypes(self.left_join_keys, self.right_join_keys)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2478, in _maybe_require_matching_dtypes
+    _check_dtype_match(lk, rk, i)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2474, in _check_dtype_match
+    raise MergeError(msg)
+pandas.errors.MergeError: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+2026-04-16 05:57:00,227 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:57:00,235 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 05:57:00,235 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:57:00,237 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 05:57:02,870 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 05:57:02,881 - advanced_pipeline - INFO - Saved 100 articles to data\news_raw.csv
+2026-04-16 05:57:02,884 - advanced_pipeline - INFO - Total news: 100 articles (real + synthetic)
+2026-04-16 05:57:02,933 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 05:57:08,142 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 05:57:08,142 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 05:57:08,177 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:57:08,337 - advanced_pipeline - ERROR - Pipeline failed: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 685, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 495, in run_full_analysis
+    events_results = detect_events(
+                     ^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 245, in detect_events
+    events_with_response = detector.compute_event_market_response(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 173, in compute_event_market_response
+    df = pd.merge_asof(
+         ^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 917, in merge_asof
+    op = _AsOfMerge(
+         ^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2353, in __init__
+    _OrderedMerge.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2265, in __init__
+    _MergeOperation.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 1026, in __init__
+    self._maybe_require_matching_dtypes(self.left_join_keys, self.right_join_keys)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2478, in _maybe_require_matching_dtypes
+    _check_dtype_match(lk, rk, i)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2474, in _check_dtype_match
+    raise MergeError(msg)
+pandas.errors.MergeError: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+2026-04-16 05:57:37,528 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 05:57:37,538 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 05:57:37,538 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 05:57:37,538 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 05:57:40,241 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 05:57:40,255 - advanced_pipeline - INFO - Saved 100 articles to data\news_raw.csv
+2026-04-16 05:57:40,258 - advanced_pipeline - INFO - Total news: 100 articles (real + synthetic)
+2026-04-16 05:57:40,324 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 05:57:45,542 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 05:57:45,542 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 05:57:45,582 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 05:57:45,759 - advanced_pipeline - ERROR - Pipeline failed: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 685, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 495, in run_full_analysis
+    events_results = detect_events(
+                     ^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 245, in detect_events
+    events_with_response = detector.compute_event_market_response(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 173, in compute_event_market_response
+    df = pd.merge_asof(
+         ^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 917, in merge_asof
+    op = _AsOfMerge(
+         ^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2353, in __init__
+    _OrderedMerge.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2265, in __init__
+    _MergeOperation.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 1026, in __init__
+    self._maybe_require_matching_dtypes(self.left_join_keys, self.right_join_keys)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2478, in _maybe_require_matching_dtypes
+    _check_dtype_match(lk, rk, i)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2474, in _check_dtype_match
+    raise MergeError(msg)
+pandas.errors.MergeError: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+2026-04-16 06:00:27,138 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 06:00:27,140 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 06:00:27,140 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 06:00:27,145 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 06:00:29,818 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 06:00:29,826 - advanced_pipeline - INFO - Saved 100 articles to data\news_raw.csv
+2026-04-16 06:00:29,826 - advanced_pipeline - INFO - Total news: 100 articles (real + synthetic)
+2026-04-16 06:00:29,881 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 06:00:35,074 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 06:00:35,074 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 06:00:35,117 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 06:00:35,311 - advanced_pipeline - ERROR - Pipeline failed: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 686, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 495, in run_full_analysis
+    events_results = detect_events(
+                     ^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 245, in detect_events
+    events_with_response = detector.compute_event_market_response(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 173, in compute_event_market_response
+    df = pd.merge_asof(
+         ^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 917, in merge_asof
+    op = _AsOfMerge(
+         ^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2353, in __init__
+    _OrderedMerge.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2265, in __init__
+    _MergeOperation.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 1026, in __init__
+    self._maybe_require_matching_dtypes(self.left_join_keys, self.right_join_keys)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2478, in _maybe_require_matching_dtypes
+    _check_dtype_match(lk, rk, i)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2474, in _check_dtype_match
+    raise MergeError(msg)
+pandas.errors.MergeError: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+2026-04-16 06:01:04,691 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 06:01:04,691 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 06:01:04,691 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 06:01:04,697 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 06:01:07,686 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 06:01:07,701 - advanced_pipeline - INFO - Saved 100 articles to data\news_raw.csv
+2026-04-16 06:01:07,703 - advanced_pipeline - INFO - Total news: 100 articles (real + synthetic)
+2026-04-16 06:01:07,766 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 06:01:12,958 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 06:01:12,958 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 06:01:12,993 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 06:01:13,167 - advanced_pipeline - ERROR - Pipeline failed: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 686, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 495, in run_full_analysis
+    events_results = detect_events(
+                     ^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 247, in detect_events
+    events_with_response = detector.compute_event_market_response(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\src\event_detection.py", line 175, in compute_event_market_response
+    df = pd.merge_asof(
+         ^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 917, in merge_asof
+    op = _AsOfMerge(
+         ^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2353, in __init__
+    _OrderedMerge.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2265, in __init__
+    _MergeOperation.__init__(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 1026, in __init__
+    self._maybe_require_matching_dtypes(self.left_join_keys, self.right_join_keys)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2478, in _maybe_require_matching_dtypes
+    _check_dtype_match(lk, rk, i)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 2474, in _check_dtype_match
+    raise MergeError(msg)
+pandas.errors.MergeError: incompatible merge keys [0] dtype('<M8[us]') and datetime64[us, UTC], must be the same type
+2026-04-16 06:01:55,958 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 06:01:55,966 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 06:01:55,966 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 06:01:55,970 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 06:01:58,738 - advanced_pipeline - INFO - Fetched 100 articles from Finnhub
+2026-04-16 06:01:58,754 - advanced_pipeline - INFO - Saved 100 articles to data\news_raw.csv
+2026-04-16 06:01:58,756 - advanced_pipeline - INFO - Total news: 100 articles (real + synthetic)
+2026-04-16 06:01:58,820 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 06:02:04,011 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 06:02:04,011 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 06:02:04,045 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 06:02:04,249 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 06:02:08,408 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 06:05:30,719 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 06:05:30,725 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 06:05:30,725 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 06:05:30,727 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 06:05:34,207 - advanced_pipeline - INFO - Fetched 92 macro articles from Finnhub
+2026-04-16 06:05:41,064 - advanced_pipeline - INFO - Fetched 92 Finnhub articles across 1 days (requested: 30 days)
+2026-04-16 06:05:41,085 - advanced_pipeline - INFO - Saved 92 articles to data\news_raw.csv
+2026-04-16 06:05:41,086 - advanced_pipeline - INFO - Total news: 92 articles (real + synthetic)
+2026-04-16 06:05:41,134 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 06:05:46,321 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 06:05:46,327 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 06:05:46,364 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 06:05:46,565 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 06:05:50,628 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 06:06:16,895 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 06:06:16,897 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 06:06:16,898 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 06:06:16,901 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 06:06:19,470 - advanced_pipeline - INFO - Fetched 92 macro articles from Finnhub
+2026-04-16 06:06:30,510 - advanced_pipeline - INFO - Fetched 2544 Finnhub articles across 29 days (requested: 30 days)
+2026-04-16 06:06:30,540 - advanced_pipeline - INFO - Saved 2544 articles to data\news_raw.csv
+2026-04-16 06:06:30,540 - advanced_pipeline - INFO - Total news: 2544 articles (real + synthetic)
+2026-04-16 06:06:31,205 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 06:06:36,389 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 06:06:36,389 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 06:06:36,433 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 06:06:36,776 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 06:06:41,806 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 06:07:54,593 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 06:07:54,596 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 06:07:54,596 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 06:07:54,599 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 06:07:58,890 - advanced_pipeline - INFO - Fetched 92 macro articles from Finnhub
+2026-04-16 06:08:12,836 - advanced_pipeline - INFO - Fetched 2582 Finnhub articles across 30 days (requested: 30 days)
+2026-04-16 06:08:12,862 - advanced_pipeline - INFO - Saved 2582 articles to data\news_raw.csv
+2026-04-16 06:08:12,864 - advanced_pipeline - INFO - Total news: 2582 articles (real + synthetic)
+2026-04-16 06:08:13,551 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 06:08:18,761 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 06:08:18,761 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 06:08:18,809 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 06:08:19,187 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 06:08:24,381 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 06:09:13,298 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 06:09:13,298 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-16 06:09:13,298 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 06:09:13,302 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 06:09:16,315 - advanced_pipeline - INFO - Fetched 92 macro articles from Finnhub
+2026-04-16 06:09:42,556 - advanced_pipeline - INFO - Fetched 5026 Finnhub articles across 60 days (requested: 60 days)
+2026-04-16 06:09:42,605 - advanced_pipeline - INFO - Saved 5026 articles to data\news_raw.csv
+2026-04-16 06:09:42,605 - advanced_pipeline - INFO - Total news: 5026 articles (real + synthetic)
+2026-04-16 06:09:43,957 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 06:09:49,153 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 06:09:49,153 - advanced_pipeline - INFO - Fetched 3600 real market data points
+2026-04-16 06:09:49,195 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 06:09:49,551 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 06:09:53,642 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 06:11:43,599 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 06:11:43,606 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-16 06:11:43,606 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 06:11:43,606 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 06:11:46,554 - advanced_pipeline - INFO - Fetched 92 macro articles from Finnhub
+2026-04-16 06:12:06,422 - advanced_pipeline - INFO - Fetched 5026 Finnhub articles across 60 days (requested: 60 days)
+2026-04-16 06:12:06,465 - advanced_pipeline - INFO - Saved 5026 articles to data\news_raw.csv
+2026-04-16 06:12:06,465 - advanced_pipeline - INFO - Total news: 5026 articles (real + synthetic)
+2026-04-16 06:12:07,812 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 06:15:44,655 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 06:15:44,656 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-16 06:15:44,656 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 06:15:44,662 - advanced_pipeline - INFO - Attempting to fetch from NewsAPI
+2026-04-16 06:15:56,151 - advanced_pipeline - INFO - Fetched 257 articles from NewsAPI
+2026-04-16 06:15:56,219 - advanced_pipeline - INFO - Saved 257 articles to data\news_raw.csv
+2026-04-16 06:15:56,227 - advanced_pipeline - INFO - Total news: 257 articles (real + synthetic)
+2026-04-16 06:15:56,504 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 06:16:02,243 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 06:16:02,245 - advanced_pipeline - INFO - Fetched 7320 real market data points
+2026-04-16 06:16:02,286 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 06:16:02,502 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 06:16:07,871 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 06:16:40,781 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 06:16:40,783 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-16 06:16:40,783 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 06:16:40,783 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API
+2026-04-16 06:16:44,887 - advanced_pipeline - INFO - Fetched 92 macro articles from Finnhub
+2026-04-16 06:17:09,845 - advanced_pipeline - INFO - Fetched 5026 Finnhub articles across 60 days (requested: 60 days)
+2026-04-16 06:17:09,990 - advanced_pipeline - INFO - Saved 5026 articles to data\news_raw.csv
+2026-04-16 06:17:09,993 - advanced_pipeline - INFO - Total news: 5026 articles (real + synthetic)
+2026-04-16 06:17:14,853 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 06:17:20,496 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 06:17:20,498 - advanced_pipeline - INFO - Fetched 7320 real market data points
+2026-04-16 06:17:20,583 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 06:17:21,627 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 06:17:34,636 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 09:15:17,078 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 09:15:17,079 - advanced_pipeline - INFO - Starting advanced analysis pipeline (30 days)
+2026-04-16 09:15:17,079 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 09:15:17,079 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API for political news
+2026-04-16 09:15:20,186 - advanced_pipeline - INFO - Fetched 97 political articles from Finnhub
+2026-04-16 09:15:20,193 - advanced_pipeline - INFO - Fetched 97 Finnhub political articles across 1 days (requested: 30 days)
+2026-04-16 09:15:20,205 - advanced_pipeline - INFO - Saved 97 articles to data\news_raw.csv
+2026-04-16 09:15:20,208 - advanced_pipeline - INFO - Total news: 97 articles (real + synthetic)
+2026-04-16 09:15:20,276 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 09:15:33,096 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 09:15:33,097 - advanced_pipeline - INFO - Fetched 8928 real market data points
+2026-04-16 09:15:33,133 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 09:15:33,374 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 09:15:38,254 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 09:18:17,900 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 09:18:17,903 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-16 09:18:17,905 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 09:18:17,905 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API for political news (windowed)
+2026-04-16 09:18:29,372 - advanced_pipeline - INFO - Fetched 39 articles for 'election' in window 2026-04-05-2026-04-15
+2026-04-16 09:18:29,719 - advanced_pipeline - INFO - Fetched 39 articles for 'trump' in window 2026-04-05-2026-04-15
+2026-04-16 09:18:30,052 - advanced_pipeline - INFO - Fetched 39 articles for 'biden' in window 2026-04-05-2026-04-15
+2026-04-16 09:18:30,381 - advanced_pipeline - INFO - Fetched 39 articles for 'congress' in window 2026-04-05-2026-04-15
+2026-04-16 09:18:30,719 - advanced_pipeline - INFO - Fetched 39 articles for 'policy' in window 2026-04-05-2026-04-15
+2026-04-16 09:18:31,066 - advanced_pipeline - INFO - Fetched 39 articles for 'geopolitical' in window 2026-04-05-2026-04-15
+2026-04-16 09:18:31,431 - advanced_pipeline - INFO - Fetched 58 articles for 'election' in window 2026-04-15-2026-04-16
+2026-04-16 09:18:31,778 - advanced_pipeline - INFO - Fetched 58 articles for 'trump' in window 2026-04-15-2026-04-16
+2026-04-16 09:18:32,103 - advanced_pipeline - INFO - Fetched 58 articles for 'biden' in window 2026-04-15-2026-04-16
+2026-04-16 09:18:32,444 - advanced_pipeline - INFO - Fetched 58 articles for 'congress' in window 2026-04-15-2026-04-16
+2026-04-16 09:18:32,787 - advanced_pipeline - INFO - Fetched 58 articles for 'policy' in window 2026-04-15-2026-04-16
+2026-04-16 09:18:33,139 - advanced_pipeline - INFO - Fetched 58 articles for 'geopolitical' in window 2026-04-15-2026-04-16
+2026-04-16 09:18:33,153 - advanced_pipeline - INFO - Fetched 97 Finnhub political articles across 1 days (requested: 60 days)
+2026-04-16 09:18:33,168 - advanced_pipeline - INFO - Saved 97 articles to data\news_raw.csv
+2026-04-16 09:18:33,168 - advanced_pipeline - INFO - Total news: 97 articles (real + synthetic)
+2026-04-16 09:18:33,224 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 09:18:46,424 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 09:18:46,424 - advanced_pipeline - INFO - Fetched 17568 real market data points
+2026-04-16 09:18:46,478 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 09:18:46,698 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 09:18:51,338 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 09:19:36,974 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 09:19:36,974 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-16 09:19:36,974 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 09:19:36,974 - advanced_pipeline - ERROR - Pipeline failed: name 'NEWSAPI_KEY' is not defined
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 786, in main
+    results = pipeline.run_full_analysis(n_days=args.days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 507, in run_full_analysis
+    news_df = self._fetch_real_news(n_days)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\SEM 6\MLF\pro\sentiment_market_analyzer\advanced_pipeline.py", line 132, in _fetch_real_news
+    if NEWSAPI_KEY and NEWSAPI_KEY != "YOUR_NEWSAPI_KEY_HERE":
+       ^^^^^^^^^^^
+NameError: name 'NEWSAPI_KEY' is not defined
+2026-04-16 09:20:00,247 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 09:20:00,247 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-16 09:20:00,250 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 09:20:00,251 - advanced_pipeline - INFO - Attempting to fetch political news from NewsAPI (primary source)
+2026-04-16 09:20:55,298 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API for political news (windowed)
+2026-04-16 09:21:11,260 - advanced_pipeline - INFO - Fetched 97 Finnhub political articles across 1 days (requested: 60 days)
+2026-04-16 09:21:11,269 - advanced_pipeline - INFO - Saved 97 articles to data\news_raw.csv
+2026-04-16 09:21:11,269 - advanced_pipeline - INFO - Total news: 97 articles (real + synthetic)
+2026-04-16 09:21:11,316 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 09:21:24,257 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 09:21:24,257 - advanced_pipeline - INFO - Fetched 17568 real market data points
+2026-04-16 09:21:24,309 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 09:21:24,510 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 09:21:28,438 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']
+2026-04-16 09:23:14,542 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, RealData=True, Mock=False)
+2026-04-16 09:23:14,543 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-16 09:23:14,543 - advanced_pipeline - INFO - Configuration: RealData=True, RealNews=True, RealMarket=True
+2026-04-16 09:23:14,543 - advanced_pipeline - INFO - Attempting to fetch political news from NewsAPI (primary source)
+2026-04-16 09:24:09,732 - advanced_pipeline - INFO - Attempting to fetch from Finnhub API for political news (windowed)
+2026-04-16 09:24:26,252 - advanced_pipeline - INFO - Fetched 97 Finnhub political articles across 1 days (requested: 60 days)
+2026-04-16 09:24:26,253 - advanced_pipeline - INFO - Augmenting sparse news (97 articles) with synthetic political news
+2026-04-16 09:24:26,255 - advanced_pipeline - INFO - Generated 177 synthetic political headlines across 61 days
+2026-04-16 09:24:26,261 - advanced_pipeline - INFO - Augmented to 147 total articles for analysis
+2026-04-16 09:24:26,319 - advanced_pipeline - INFO - Attempting to fetch real market data from Kalshi
+2026-04-16 09:24:38,853 - advanced_pipeline - INFO - Saved raw market data to data\market_prices.csv
+2026-04-16 09:24:38,858 - advanced_pipeline - INFO - Fetched 17568 real market data points
+2026-04-16 09:24:38,907 - advanced_pipeline - INFO - Saved aligned data to data\aligned_sentiment_market.csv
+2026-04-16 09:24:39,276 - advanced_pipeline - WARNING - Insufficient data for model training
+2026-04-16 09:24:43,798 - advanced_pipeline - INFO - Generated summary reports: ['json', 'text']

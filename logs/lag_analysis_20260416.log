@@ -1,0 +1,120 @@
+2026-04-16 05:22:38,256 - lag_analysis - INFO - Computed 11 lag correlations
+2026-04-16 05:22:38,256 - lag_analysis - INFO - Optimal lag: -5 hours (Sentiment leads price by 5 hours)
+2026-04-16 05:22:38,353 - lag_analysis - INFO - Bootstrap CI: [-0.3364, 0.9128] (mean=0.3580)
+2026-04-16 05:22:38,541 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is 1
+2026-04-16 05:22:38,541 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 05:24:51,362 - lag_analysis - INFO - Computed 11 lag correlations
+2026-04-16 05:24:51,364 - lag_analysis - INFO - Optimal lag: -5 hours (Sentiment leads price by 5 hours)
+2026-04-16 05:24:51,452 - lag_analysis - INFO - Bootstrap CI: [-0.3364, 0.9128] (mean=0.3580)
+2026-04-16 05:24:51,501 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is 1
+2026-04-16 05:24:51,501 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 05:30:30,404 - lag_analysis - INFO - Computed 11 lag correlations
+2026-04-16 05:30:30,404 - lag_analysis - INFO - Optimal lag: -5 hours (Sentiment leads price by 5 hours)
+2026-04-16 05:30:30,498 - lag_analysis - INFO - Bootstrap CI: [-0.9281, 0.9935] (mean=0.1582)
+2026-04-16 05:30:30,566 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is 1
+2026-04-16 05:30:30,566 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 05:35:05,484 - lag_analysis - INFO - Computed 11 lag correlations
+2026-04-16 05:35:05,484 - lag_analysis - INFO - Optimal lag: -5 hours (Sentiment leads price by 5 hours)
+2026-04-16 05:35:05,657 - lag_analysis - INFO - Bootstrap CI: [-0.8962, 0.9212] (mean=0.0909)
+2026-04-16 05:35:05,701 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is 1
+2026-04-16 05:35:05,701 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 05:41:19,250 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 05:41:19,250 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 05:41:19,327 - lag_analysis - INFO - Bootstrap CI: [1.0000, 1.0000] (mean=1.0000)
+2026-04-16 05:41:19,387 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 05:41:19,387 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 05:44:48,335 - lag_analysis - INFO - Computed 49 lag correlations
+2026-04-16 05:44:48,335 - lag_analysis - INFO - Optimal lag: 23 hours (Price leads sentiment by 23 hours)
+2026-04-16 05:44:48,464 - lag_analysis - INFO - Bootstrap CI: [-0.5414, 0.1895] (mean=-0.2038)
+2026-04-16 05:44:48,537 - lag_analysis - INFO - Granger causality: No Granger causality detected (p=0.2458)
+2026-04-16 05:44:48,537 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 05:52:26,414 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 05:52:26,414 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 05:52:26,489 - lag_analysis - INFO - Bootstrap CI: [-1.0000, -1.0000] (mean=-1.0000)
+2026-04-16 05:52:26,544 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 05:52:26,544 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 05:55:32,478 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 05:55:32,478 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 05:55:32,549 - lag_analysis - INFO - Bootstrap CI: [-1.0000, -1.0000] (mean=-1.0000)
+2026-04-16 05:55:32,601 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 05:55:32,601 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 05:56:05,548 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 05:56:05,548 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 05:56:05,611 - lag_analysis - INFO - Bootstrap CI: [-1.0000, -1.0000] (mean=-1.0000)
+2026-04-16 05:56:05,664 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 05:56:05,666 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 05:57:08,200 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 05:57:08,204 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 05:57:08,274 - lag_analysis - INFO - Bootstrap CI: [-1.0000, -1.0000] (mean=-1.0000)
+2026-04-16 05:57:08,316 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 05:57:08,316 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 05:57:45,610 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 05:57:45,611 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 05:57:45,681 - lag_analysis - INFO - Bootstrap CI: [-1.0000, -1.0000] (mean=-1.0000)
+2026-04-16 05:57:45,733 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 05:57:45,733 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 06:00:35,145 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 06:00:35,151 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 06:00:35,227 - lag_analysis - INFO - Bootstrap CI: [-1.0000, -1.0000] (mean=-1.0000)
+2026-04-16 06:00:35,283 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 06:00:35,284 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 06:01:13,021 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 06:01:13,025 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 06:01:13,093 - lag_analysis - INFO - Bootstrap CI: [-1.0000, -1.0000] (mean=-1.0000)
+2026-04-16 06:01:13,141 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 06:01:13,143 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 06:02:04,074 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 06:02:04,074 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 06:02:04,149 - lag_analysis - INFO - Bootstrap CI: [-1.0000, -1.0000] (mean=-1.0000)
+2026-04-16 06:02:04,197 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 06:02:04,197 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 06:05:46,394 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 06:05:46,394 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 06:05:46,470 - lag_analysis - INFO - Bootstrap CI: [-1.0000, -1.0000] (mean=-1.0000)
+2026-04-16 06:05:46,523 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 06:05:46,523 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 06:06:36,489 - lag_analysis - INFO - Computed 43 lag correlations
+2026-04-16 06:06:36,492 - lag_analysis - INFO - Optimal lag: -21 hours (Sentiment leads price by 21 hours)
+2026-04-16 06:06:36,602 - lag_analysis - INFO - Bootstrap CI: [-0.1208, 0.6154] (mean=0.2565)
+2026-04-16 06:06:36,666 - lag_analysis - INFO - Granger causality: Sentiment Granger-causes price at lag 2 (p=0.0105)
+2026-04-16 06:06:36,666 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 06:08:18,860 - lag_analysis - INFO - Computed 43 lag correlations
+2026-04-16 06:08:18,860 - lag_analysis - INFO - Optimal lag: -21 hours (Sentiment leads price by 21 hours)
+2026-04-16 06:08:18,962 - lag_analysis - INFO - Bootstrap CI: [-0.4230, 0.4173] (mean=-0.0096)
+2026-04-16 06:08:19,018 - lag_analysis - INFO - Granger causality: Sentiment Granger-causes price at lag 1 (p=0.0065)
+2026-04-16 06:08:19,019 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 06:09:49,229 - lag_analysis - INFO - Computed 23 lag correlations
+2026-04-16 06:09:49,229 - lag_analysis - INFO - Optimal lag: -11 hours (Sentiment leads price by 11 hours)
+2026-04-16 06:09:49,334 - lag_analysis - INFO - Bootstrap CI: [-0.6435, 0.7177] (mean=0.1804)
+2026-04-16 06:09:49,390 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is 3
+2026-04-16 06:09:49,392 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 06:16:02,319 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 06:16:02,320 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 06:16:02,393 - lag_analysis - INFO - Bootstrap CI: [1.0000, 1.0000] (mean=1.0000)
+2026-04-16 06:16:02,450 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 06:16:02,450 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 06:17:20,695 - lag_analysis - INFO - Computed 49 lag correlations
+2026-04-16 06:17:20,697 - lag_analysis - INFO - Optimal lag: 9 hours (Price leads sentiment by 9 hours)
+2026-04-16 06:17:20,958 - lag_analysis - INFO - Bootstrap CI: [-0.3815, 0.1276] (mean=-0.1350)
+2026-04-16 06:17:21,080 - lag_analysis - INFO - Granger causality: No Granger causality detected (p=0.1991)
+2026-04-16 06:17:21,082 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 09:15:33,172 - lag_analysis - INFO - Computed 3 lag correlations
+2026-04-16 09:15:33,173 - lag_analysis - INFO - Optimal lag: -1 hours (Sentiment leads price by 1 hours)
+2026-04-16 09:15:33,263 - lag_analysis - INFO - Bootstrap CI: [-1.0000, 1.0000] (mean=-0.3258)
+2026-04-16 09:15:33,319 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 09:15:33,319 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 09:18:46,500 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 09:18:46,507 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 09:18:46,583 - lag_analysis - INFO - Bootstrap CI: [1.0000, 1.0000] (mean=1.0000)
+2026-04-16 09:18:46,632 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 09:18:46,632 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 09:21:24,339 - lag_analysis - INFO - Computed 1 lag correlations
+2026-04-16 09:21:24,342 - lag_analysis - INFO - Optimal lag: 0 hours (Contemporaneous correlation)
+2026-04-16 09:21:24,406 - lag_analysis - INFO - Bootstrap CI: [1.0000, 1.0000] (mean=1.0000)
+2026-04-16 09:21:24,444 - lag_analysis - WARNING - Granger causality test failed: Insufficient observations. Maximum allowable lag is -1
+2026-04-16 09:21:24,444 - lag_analysis - INFO - Comprehensive lag analysis complete
+2026-04-16 09:24:38,964 - lag_analysis - INFO - Computed 45 lag correlations
+2026-04-16 09:24:38,964 - lag_analysis - INFO - Optimal lag: 22 hours (Price leads sentiment by 22 hours)
+2026-04-16 09:24:39,096 - lag_analysis - INFO - Bootstrap CI: [-0.7081, -0.2939] (mean=-0.5224)
+2026-04-16 09:24:39,156 - lag_analysis - INFO - Granger causality: No Granger causality detected (p=0.1122)
+2026-04-16 09:24:39,156 - lag_analysis - INFO - Comprehensive lag analysis complete

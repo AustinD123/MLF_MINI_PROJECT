@@ -1,0 +1,4 @@
+2026-04-15 22:00:59,958 - event_detection - INFO - Detected 7 volume spikes (>1.5x)
+2026-04-15 22:00:59,985 - event_detection - INFO - Combined detections: 9 total events
+2026-04-15 22:01:00,361 - event_detection - INFO - Computed market responses for 60 events
+2026-04-15 22:01:00,369 - event_detection - INFO - Event detection complete: 9 events detected

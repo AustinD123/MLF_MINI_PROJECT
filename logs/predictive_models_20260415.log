@@ -1,0 +1,5 @@
+2026-04-15 22:01:00,396 - predictive_models - INFO - Prepared data: 27 train, 7 test, 15 features
+2026-04-15 22:01:00,444 - predictive_models - INFO - Linear Regression trained: R²=0.9827
+2026-04-15 22:01:02,219 - predictive_models - INFO - Random Forest trained: R²=0.9578
+2026-04-15 22:01:02,295 - predictive_models - INFO - Evaluation complete: 2 models evaluated
+2026-04-15 22:01:02,298 - predictive_models - INFO - Model training and evaluation complete

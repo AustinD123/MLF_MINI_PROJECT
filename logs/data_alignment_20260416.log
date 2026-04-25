@@ -1,0 +1,324 @@
+2026-04-16 05:19:35,513 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:20:21,341 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:20:21,380 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 05:20:21,381 - data_alignment - INFO - Input: 11 sentiment records, 168 market records
+2026-04-16 05:20:21,381 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:20:21,381 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 05:20:21,381 - data_alignment - WARNING - No sentiment column found, using defaults
+2026-04-16 05:21:02,316 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:21:02,379 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 05:21:02,380 - data_alignment - INFO - Input: 11 sentiment records, 168 market records
+2026-04-16 05:21:02,380 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:21:02,380 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 05:21:02,383 - data_alignment - WARNING - No sentiment column found, using defaults
+2026-04-16 05:21:02,396 - data_alignment - INFO - Resampled market data to 1d: 7 candles
+2026-04-16 05:22:14,751 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:22:14,810 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 05:22:14,810 - data_alignment - INFO - Input: 11 sentiment records, 168 market records
+2026-04-16 05:22:14,810 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:22:14,810 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 05:22:14,810 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:22:14,816 - data_alignment - INFO - Resampled sentiment to 1d: 11 periods
+2026-04-16 05:22:14,822 - data_alignment - INFO - Resampled market data to 1d: 7 candles
+2026-04-16 05:22:14,839 - data_alignment - INFO - Aligned datasets: 7 common timestamps
+2026-04-16 05:22:14,839 - data_alignment - INFO - Merge complete: 7 records
+2026-04-16 05:22:38,104 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:22:38,171 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 05:22:38,171 - data_alignment - INFO - Input: 11 sentiment records, 168 market records
+2026-04-16 05:22:38,174 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:22:38,174 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 05:22:38,174 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:22:38,185 - data_alignment - INFO - Resampled sentiment to 1d: 11 periods
+2026-04-16 05:22:38,197 - data_alignment - INFO - Resampled market data to 1d: 7 candles
+2026-04-16 05:22:38,201 - data_alignment - INFO - Aligned datasets: 7 common timestamps
+2026-04-16 05:22:38,201 - data_alignment - INFO - Merge complete: 7 records
+2026-04-16 05:22:38,205 - data_alignment - INFO - Correlation between sentiment and price: 0.328
+2026-04-16 05:22:38,205 - data_alignment - INFO - Output: 7 aligned records
+2026-04-16 05:24:51,227 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:24:51,286 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 05:24:51,286 - data_alignment - INFO - Input: 11 sentiment records, 168 market records
+2026-04-16 05:24:51,286 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:24:51,286 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 05:24:51,286 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:24:51,297 - data_alignment - INFO - Resampled sentiment to 1d: 11 periods
+2026-04-16 05:24:51,310 - data_alignment - INFO - Resampled market data to 1d: 7 candles
+2026-04-16 05:24:51,314 - data_alignment - INFO - Aligned datasets: 7 common timestamps
+2026-04-16 05:24:51,314 - data_alignment - INFO - Merge complete: 7 records
+2026-04-16 05:24:51,320 - data_alignment - INFO - Correlation between sentiment and price: 0.328
+2026-04-16 05:24:51,323 - data_alignment - INFO - Output: 7 aligned records
+2026-04-16 05:28:42,219 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:30:30,327 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 05:30:30,327 - data_alignment - INFO - Input: 7 sentiment records, 3600 market records
+2026-04-16 05:30:30,327 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:30:30,327 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 05:30:30,327 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:30:30,334 - data_alignment - INFO - Resampled sentiment to 1d: 7 periods
+2026-04-16 05:30:30,348 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 05:30:30,358 - data_alignment - INFO - Aligned datasets: 7 common timestamps
+2026-04-16 05:30:30,358 - data_alignment - INFO - Merge complete: 7 records
+2026-04-16 05:30:30,358 - data_alignment - INFO - Correlation between sentiment and price: 0.188
+2026-04-16 05:30:30,358 - data_alignment - INFO - Output: 7 aligned records
+2026-04-16 05:33:23,122 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:35:05,400 - data_alignment - INFO - Starting alignment pipeline (frequency=1h)
+2026-04-16 05:35:05,400 - data_alignment - INFO - Input: 8 sentiment records, 3600 market records
+2026-04-16 05:35:05,403 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:35:05,403 - data_alignment - INFO - Starting sentiment-market merge with frequency=1h
+2026-04-16 05:35:05,403 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:35:05,411 - data_alignment - INFO - Resampled sentiment to 1h: 8 periods
+2026-04-16 05:35:05,421 - data_alignment - INFO - Resampled market data to 1h: 721 candles
+2026-04-16 05:35:05,434 - data_alignment - INFO - Aligned datasets: 7 common timestamps
+2026-04-16 05:35:05,434 - data_alignment - INFO - Merge complete: 7 records
+2026-04-16 05:35:05,437 - data_alignment - INFO - Correlation between sentiment and price: 0.072
+2026-04-16 05:35:05,441 - data_alignment - INFO - Output: 7 aligned records
+2026-04-16 05:40:12,061 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:41:19,177 - data_alignment - INFO - Starting alignment pipeline (frequency=1h)
+2026-04-16 05:41:19,177 - data_alignment - INFO - Input: 2 sentiment records, 3600 market records
+2026-04-16 05:41:19,177 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:41:19,177 - data_alignment - INFO - Starting sentiment-market merge with frequency=1h
+2026-04-16 05:41:19,177 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:41:19,188 - data_alignment - INFO - Resampled sentiment to 1h: 2 periods
+2026-04-16 05:41:19,201 - data_alignment - INFO - Resampled market data to 1h: 721 candles
+2026-04-16 05:41:19,208 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 05:41:19,208 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 05:41:19,215 - data_alignment - INFO - Correlation between sentiment and price: 1.000
+2026-04-16 05:41:19,215 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 05:42:43,727 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:43:12,895 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:43:47,519 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:43:55,594 - data_alignment - INFO - Starting alignment pipeline (frequency=1h)
+2026-04-16 05:43:55,594 - data_alignment - INFO - Input: 31 sentiment records, 3600 market records
+2026-04-16 05:43:55,594 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:43:55,597 - data_alignment - INFO - Starting sentiment-market merge with frequency=1h
+2026-04-16 05:43:55,597 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:43:55,602 - data_alignment - INFO - Resampled sentiment to 1h: 31 periods
+2026-04-16 05:43:55,616 - data_alignment - INFO - Resampled market data to 1h: 721 candles
+2026-04-16 05:44:40,369 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:44:48,247 - data_alignment - INFO - Starting alignment pipeline (frequency=1h)
+2026-04-16 05:44:48,248 - data_alignment - INFO - Input: 31 sentiment records, 3600 market records
+2026-04-16 05:44:48,248 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:44:48,248 - data_alignment - INFO - Starting sentiment-market merge with frequency=1h
+2026-04-16 05:44:48,248 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:44:48,255 - data_alignment - INFO - Resampled sentiment to 1h: 31 periods
+2026-04-16 05:44:48,262 - data_alignment - INFO - Resampled market data to 1h: 721 candles
+2026-04-16 05:44:48,276 - data_alignment - INFO - Aligned datasets: 30 common timestamps
+2026-04-16 05:44:48,278 - data_alignment - INFO - Merge complete: 30 records
+2026-04-16 05:44:48,278 - data_alignment - INFO - Correlation between sentiment and price: -0.222
+2026-04-16 05:44:48,278 - data_alignment - INFO - Output: 30 aligned records
+2026-04-16 05:52:15,141 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:52:26,357 - data_alignment - INFO - Starting alignment pipeline (frequency=1h)
+2026-04-16 05:52:26,359 - data_alignment - INFO - Input: 3 sentiment records, 3600 market records
+2026-04-16 05:52:26,359 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:52:26,359 - data_alignment - INFO - Starting sentiment-market merge with frequency=1h
+2026-04-16 05:52:26,359 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:52:26,364 - data_alignment - INFO - Resampled sentiment to 1h: 3 periods
+2026-04-16 05:52:26,375 - data_alignment - INFO - Resampled market data to 1h: 721 candles
+2026-04-16 05:52:26,385 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 05:52:26,385 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 05:52:26,389 - data_alignment - INFO - Correlation between sentiment and price: -1.000
+2026-04-16 05:52:26,389 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 05:55:24,301 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:55:32,416 - data_alignment - INFO - Starting alignment pipeline (frequency=1h)
+2026-04-16 05:55:32,416 - data_alignment - INFO - Input: 3 sentiment records, 3600 market records
+2026-04-16 05:55:32,416 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:55:32,416 - data_alignment - INFO - Starting sentiment-market merge with frequency=1h
+2026-04-16 05:55:32,416 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:55:32,424 - data_alignment - INFO - Resampled sentiment to 1h: 3 periods
+2026-04-16 05:55:32,436 - data_alignment - INFO - Resampled market data to 1h: 721 candles
+2026-04-16 05:55:32,442 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 05:55:32,442 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 05:55:32,442 - data_alignment - INFO - Correlation between sentiment and price: -1.000
+2026-04-16 05:55:32,442 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 05:55:57,764 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:56:05,485 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 05:56:05,492 - data_alignment - INFO - Input: 3 sentiment records, 3600 market records
+2026-04-16 05:56:05,492 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:56:05,492 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 05:56:05,494 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:56:05,499 - data_alignment - INFO - Resampled sentiment to 1d: 3 periods
+2026-04-16 05:56:05,509 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 05:56:05,514 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 05:56:05,514 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 05:56:05,514 - data_alignment - INFO - Correlation between sentiment and price: -1.000
+2026-04-16 05:56:05,519 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 05:57:00,227 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:57:08,142 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 05:57:08,142 - data_alignment - INFO - Input: 3 sentiment records, 3600 market records
+2026-04-16 05:57:08,142 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:57:08,142 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 05:57:08,142 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:57:08,150 - data_alignment - INFO - Resampled sentiment to 1d: 3 periods
+2026-04-16 05:57:08,163 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 05:57:08,167 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 05:57:08,167 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 05:57:08,170 - data_alignment - INFO - Correlation between sentiment and price: -1.000
+2026-04-16 05:57:08,170 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 05:57:37,528 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 05:57:45,542 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 05:57:45,542 - data_alignment - INFO - Input: 3 sentiment records, 3600 market records
+2026-04-16 05:57:45,542 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 05:57:45,542 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 05:57:45,542 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 05:57:45,551 - data_alignment - INFO - Resampled sentiment to 1d: 3 periods
+2026-04-16 05:57:45,562 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 05:57:45,570 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 05:57:45,570 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 05:57:45,576 - data_alignment - INFO - Correlation between sentiment and price: -1.000
+2026-04-16 05:57:45,579 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 06:00:27,135 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 06:00:35,074 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 06:00:35,074 - data_alignment - INFO - Input: 3 sentiment records, 3600 market records
+2026-04-16 06:00:35,074 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 06:00:35,081 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 06:00:35,081 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 06:00:35,089 - data_alignment - INFO - Resampled sentiment to 1d: 3 periods
+2026-04-16 06:00:35,102 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 06:00:35,109 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 06:00:35,109 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 06:00:35,109 - data_alignment - INFO - Correlation between sentiment and price: -1.000
+2026-04-16 06:00:35,116 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 06:01:04,680 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 06:01:12,965 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 06:01:12,967 - data_alignment - INFO - Input: 3 sentiment records, 3600 market records
+2026-04-16 06:01:12,967 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 06:01:12,967 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 06:01:12,967 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 06:01:12,972 - data_alignment - INFO - Resampled sentiment to 1d: 3 periods
+2026-04-16 06:01:12,984 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 06:01:12,986 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 06:01:12,986 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 06:01:12,993 - data_alignment - INFO - Correlation between sentiment and price: -1.000
+2026-04-16 06:01:12,993 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 06:01:55,958 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 06:02:04,011 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 06:02:04,011 - data_alignment - INFO - Input: 3 sentiment records, 3600 market records
+2026-04-16 06:02:04,011 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 06:02:04,011 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 06:02:04,017 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 06:02:04,019 - data_alignment - INFO - Resampled sentiment to 1d: 3 periods
+2026-04-16 06:02:04,034 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 06:02:04,037 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 06:02:04,037 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 06:02:04,043 - data_alignment - INFO - Correlation between sentiment and price: -1.000
+2026-04-16 06:02:04,045 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 06:05:30,719 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 06:05:46,329 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 06:05:46,330 - data_alignment - INFO - Input: 3 sentiment records, 3600 market records
+2026-04-16 06:05:46,330 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 06:05:46,330 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 06:05:46,330 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 06:05:46,336 - data_alignment - INFO - Resampled sentiment to 1d: 3 periods
+2026-04-16 06:05:46,352 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 06:05:46,356 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 06:05:46,356 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 06:05:46,361 - data_alignment - INFO - Correlation between sentiment and price: -1.000
+2026-04-16 06:05:46,361 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 06:06:16,890 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 06:06:36,392 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 06:06:36,392 - data_alignment - INFO - Input: 31 sentiment records, 3600 market records
+2026-04-16 06:06:36,392 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 06:06:36,395 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 06:06:36,395 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 06:06:36,402 - data_alignment - INFO - Resampled sentiment to 1d: 24 periods
+2026-04-16 06:06:36,415 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 06:06:36,421 - data_alignment - INFO - Aligned datasets: 23 common timestamps
+2026-04-16 06:06:36,423 - data_alignment - INFO - Merge complete: 23 records
+2026-04-16 06:06:36,423 - data_alignment - INFO - Correlation between sentiment and price: 0.266
+2026-04-16 06:06:36,431 - data_alignment - INFO - Output: 23 aligned records
+2026-04-16 06:07:54,593 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 06:08:18,765 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 06:08:18,768 - data_alignment - INFO - Input: 32 sentiment records, 3600 market records
+2026-04-16 06:08:18,768 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 06:08:18,768 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 06:08:18,768 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 06:08:18,775 - data_alignment - INFO - Resampled sentiment to 1d: 24 periods
+2026-04-16 06:08:18,791 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 06:08:18,799 - data_alignment - INFO - Aligned datasets: 23 common timestamps
+2026-04-16 06:08:18,799 - data_alignment - INFO - Merge complete: 23 records
+2026-04-16 06:08:18,802 - data_alignment - INFO - Correlation between sentiment and price: -0.010
+2026-04-16 06:08:18,802 - data_alignment - INFO - Output: 23 aligned records
+2026-04-16 06:09:13,298 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 06:09:49,153 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 06:09:49,153 - data_alignment - INFO - Input: 62 sentiment records, 3600 market records
+2026-04-16 06:09:49,159 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 06:09:49,160 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 06:09:49,160 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 06:09:49,166 - data_alignment - INFO - Resampled sentiment to 1d: 44 periods
+2026-04-16 06:09:49,176 - data_alignment - INFO - Resampled market data to 1d: 31 candles
+2026-04-16 06:09:49,185 - data_alignment - INFO - Aligned datasets: 13 common timestamps
+2026-04-16 06:09:49,185 - data_alignment - INFO - Merge complete: 13 records
+2026-04-16 06:09:49,188 - data_alignment - INFO - Correlation between sentiment and price: 0.232
+2026-04-16 06:09:49,188 - data_alignment - INFO - Output: 13 aligned records
+2026-04-16 06:11:43,599 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 06:15:44,644 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 06:16:02,246 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 06:16:02,246 - data_alignment - INFO - Input: 2 sentiment records, 7320 market records
+2026-04-16 06:16:02,248 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 06:16:02,249 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 06:16:02,250 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 06:16:02,256 - data_alignment - INFO - Resampled sentiment to 1d: 2 periods
+2026-04-16 06:16:02,271 - data_alignment - INFO - Resampled market data to 1d: 61 candles
+2026-04-16 06:16:02,271 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 06:16:02,278 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 06:16:02,280 - data_alignment - INFO - Correlation between sentiment and price: 1.000
+2026-04-16 06:16:02,280 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 06:16:40,777 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 06:17:20,500 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 06:17:20,501 - data_alignment - INFO - Input: 62 sentiment records, 7320 market records
+2026-04-16 06:17:20,502 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 06:17:20,503 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 06:17:20,505 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 06:17:20,519 - data_alignment - INFO - Resampled sentiment to 1d: 44 periods
+2026-04-16 06:17:20,552 - data_alignment - INFO - Resampled market data to 1d: 61 candles
+2026-04-16 06:17:20,565 - data_alignment - INFO - Aligned datasets: 43 common timestamps
+2026-04-16 06:17:20,566 - data_alignment - INFO - Merge complete: 43 records
+2026-04-16 06:17:20,573 - data_alignment - INFO - Correlation between sentiment and price: -0.129
+2026-04-16 06:17:20,576 - data_alignment - INFO - Output: 43 aligned records
+2026-04-16 09:15:17,076 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 09:15:33,098 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 09:15:33,098 - data_alignment - INFO - Input: 3 sentiment records, 8928 market records
+2026-04-16 09:15:33,100 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 09:15:33,100 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 09:15:33,100 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 09:15:33,103 - data_alignment - INFO - Resampled sentiment to 1d: 3 periods
+2026-04-16 09:15:33,117 - data_alignment - INFO - Resampled market data to 1d: 32 candles
+2026-04-16 09:15:33,126 - data_alignment - INFO - Aligned datasets: 3 common timestamps
+2026-04-16 09:15:33,126 - data_alignment - INFO - Merge complete: 3 records
+2026-04-16 09:15:33,131 - data_alignment - INFO - Correlation between sentiment and price: -0.379
+2026-04-16 09:15:33,133 - data_alignment - INFO - Output: 3 aligned records
+2026-04-16 09:18:17,900 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 09:18:46,434 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 09:18:46,434 - data_alignment - INFO - Input: 3 sentiment records, 17568 market records
+2026-04-16 09:18:46,434 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 09:18:46,434 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 09:18:46,434 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 09:18:46,438 - data_alignment - INFO - Resampled sentiment to 1d: 2 periods
+2026-04-16 09:18:46,459 - data_alignment - INFO - Resampled market data to 1d: 62 candles
+2026-04-16 09:18:46,467 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 09:18:46,469 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 09:18:46,473 - data_alignment - INFO - Correlation between sentiment and price: 1.000
+2026-04-16 09:18:46,473 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 09:19:36,974 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 09:20:00,245 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 09:21:24,263 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 09:21:24,265 - data_alignment - INFO - Input: 3 sentiment records, 17568 market records
+2026-04-16 09:21:24,265 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 09:21:24,267 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 09:21:24,269 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 09:21:24,274 - data_alignment - INFO - Resampled sentiment to 1d: 2 periods
+2026-04-16 09:21:24,291 - data_alignment - INFO - Resampled market data to 1d: 62 candles
+2026-04-16 09:21:24,299 - data_alignment - INFO - Aligned datasets: 2 common timestamps
+2026-04-16 09:21:24,302 - data_alignment - INFO - Merge complete: 2 records
+2026-04-16 09:21:24,302 - data_alignment - INFO - Correlation between sentiment and price: 1.000
+2026-04-16 09:21:24,307 - data_alignment - INFO - Output: 2 aligned records
+2026-04-16 09:23:14,537 - data_alignment - INFO - DataAlignmentPipeline initialized
+2026-04-16 09:24:38,859 - data_alignment - INFO - Starting alignment pipeline (frequency=1d)
+2026-04-16 09:24:38,859 - data_alignment - INFO - Input: 24 sentiment records, 17568 market records
+2026-04-16 09:24:38,859 - data_alignment - INFO - Creating aligned dataset...
+2026-04-16 09:24:38,859 - data_alignment - INFO - Starting sentiment-market merge with frequency=1d
+2026-04-16 09:24:38,859 - data_alignment - INFO - Using sentiment column: mean_sentiment, market column: mid_price
+2026-04-16 09:24:38,868 - data_alignment - INFO - Resampled sentiment to 1d: 24 periods
+2026-04-16 09:24:38,890 - data_alignment - INFO - Resampled market data to 1d: 62 candles
+2026-04-16 09:24:38,897 - data_alignment - INFO - Aligned datasets: 24 common timestamps
+2026-04-16 09:24:38,899 - data_alignment - INFO - Merge complete: 24 records
+2026-04-16 09:24:38,902 - data_alignment - INFO - Correlation between sentiment and price: -0.529
+2026-04-16 09:24:38,902 - data_alignment - INFO - Output: 24 aligned records

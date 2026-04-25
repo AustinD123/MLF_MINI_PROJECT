@@ -1,0 +1,15 @@
+2026-04-15 21:59:15,473 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, Mock=True)
+2026-04-15 21:59:15,473 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-15 21:59:15,485 - advanced_pipeline - INFO - Generated 70 mock news headlines
+2026-04-15 21:59:15,551 - advanced_pipeline - INFO - Generated 1440 price points
+2026-04-15 21:59:15,569 - advanced_pipeline - ERROR - Pipeline failed: Cannot convert non-finite values (NA or inf) to integer.Replace or remove non-finite values or cast to an integer typethat supports these values (e.g. 'Int64')
+2026-04-15 22:00:33,003 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, Mock=True)
+2026-04-15 22:00:33,003 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-15 22:00:33,005 - advanced_pipeline - INFO - Generated 70 mock news headlines
+2026-04-15 22:00:33,052 - advanced_pipeline - INFO - Generated 1440 price points
+2026-04-15 22:00:33,077 - advanced_pipeline - ERROR - Pipeline failed: `x` and `y` must have length at least 2.
+2026-04-15 22:00:59,089 - advanced_pipeline - INFO - Advanced pipeline initialized (FinBERT=False, Mock=True)
+2026-04-15 22:00:59,090 - advanced_pipeline - INFO - Starting advanced analysis pipeline (60 days)
+2026-04-15 22:00:59,095 - advanced_pipeline - INFO - Generated 70 mock news headlines
+2026-04-15 22:00:59,205 - advanced_pipeline - INFO - Generated 1440 price points
+2026-04-15 22:01:10,134 - advanced_pipeline - WARNING - Visualization error: x and y must be the same size

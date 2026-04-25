@@ -1,0 +1,14 @@
+2026-04-15 21:37:56,260 - time_series - INFO - Aligned 1 data points
+2026-04-15 21:37:56,262 - time_series - WARNING - Not enough data for 14-day rolling window
+2026-04-15 21:39:22,897 - time_series - INFO - Aligned 15 data points
+2026-04-15 21:39:22,915 - time_series - INFO - Computed rolling correlation with 0 windows
+2026-04-15 21:39:22,922 - time_series - INFO - Maximum correlation: 0.962 at lag -12 hours
+2026-04-15 21:40:59,305 - time_series - INFO - Aligned 15 data points
+2026-04-15 21:40:59,310 - time_series - INFO - Computed rolling correlation with 0 windows
+2026-04-15 21:40:59,319 - time_series - INFO - Maximum correlation: 0.962 at lag -12 hours
+2026-04-15 21:47:48,121 - time_series - INFO - Aligned 60 data points
+2026-04-15 21:47:48,126 - time_series - INFO - Computed rolling correlation with 0 windows
+2026-04-15 21:47:48,137 - time_series - INFO - Maximum correlation: -0.836 at lag -54 hours
+2026-04-15 21:59:15,556 - time_series - INFO - Aligned 60 data points
+2026-04-15 22:00:33,057 - time_series - INFO - Aligned 60 data points
+2026-04-15 22:00:59,214 - time_series - INFO - Aligned 60 data points

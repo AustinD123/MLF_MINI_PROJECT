@@ -1,0 +1,8 @@
+2026-04-16 05:52:15,300 - dataset_loader - INFO - Available date range: 2008-08-08 to 2016-07-01
+2026-04-16 05:52:15,377 - dataset_loader - INFO - Loaded 1989 rows from dataset\Combined_News_DJIA.csv
+2026-04-16 05:52:15,382 - dataset_loader - INFO - Filtered to 0 rows in date range
+2026-04-16 05:52:15,382 - dataset_loader - INFO - Extracted 0 individual news headlines
+2026-04-16 05:52:21,182 - dataset_loader - INFO - Available date range: 2008-08-08 to 2016-07-01
+2026-04-16 05:52:21,190 - dataset_loader - INFO - Loaded 1989 rows from dataset\upload_DJIA_table.csv
+2026-04-16 05:52:21,196 - dataset_loader - INFO - Filtered to 0 rows in date range
+2026-04-16 05:52:21,199 - dataset_loader - INFO - Price range: nan to nan

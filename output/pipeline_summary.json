@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-04-16T03:54:43.773668",
+  "configuration": {
+    "USE_REAL_NEWS": true,
+    "USE_REAL_MARKET_DATA": true,
+    "USE_CACHE": true,
+    "FALLBACK_TO_MOCK_DATA": false,
+    "FALLBACK_TO_GDELT": false,
+    "FALLBACK_TO_SYNTHETIC": true
+  },
+  "data_statistics": {
+    "news": {
+      "total_articles": 147,
+      "unique_sources": 6,
+      "date_range": {
+        "start": "2026-02-14 13:53:14.543792",
+        "end": "2026-04-16 03:36:24"
+      },
+      "articles_per_day": 2.45
+    },
+    "market": {
+      "total_data_points": 17568,
+      "unique_tickers": 12,
+      "date_range": {
+        "start": "2026-02-14 03:48:33.224404+00:00",
+        "end": "2026-04-16 02:48:44.984898+00:00"
+      },
+      "price": {
+        "mean": 0.502069572502456,
+        "median": 0.5023149236068813,
+        "std": 0.00860141143586052,
+        "min": 0.4753102792802433,
+        "max": 0.5245438961021313
+      }
+    },
+    "aligned": {
+      "total_records": 24,
+      "date_range": {
+        "start": "2026-02-14 00:00:00",
+        "end": "2026-04-16 00:00:00"
+      },
+      "sentiment": {
+        "mean": -0.06810586772829941,
+        "median": 0.0,
+        "std": 0.15204784423529638,
+        "min": -0.4183243196550244,
+        "max": 0.1656344561993059
+      }
+    },
+    "data_quality": {
+      "news_missing_values": 50,
+      "market_missing_values": 0,
+      "aligned_missing_values": 2
+    }
+  },
+  "correlation_metrics": {
+    "pearson_correlation": -0.5292849950393512,
+    "spearman_correlation": -0.5359065698566091,
+    "kendall_correlation": -0.3730019232961255
+  },
+  "lag_analysis": {
+    "optimal_lag_hours": {
+      "optimal_lag": 22,
+      "optimal_lag_hours": 22,
+      "correlation_at_lag": -1.0,
+      "pvalue_at_lag": 1.0,
+      "significant": false,
+      "interpretation": "Price leads sentiment by 22 hours"
+    },
+    "correlation_at_lag": null,
+    "p_value": null,
+    "significant": null
+  },
+  "event_detection": {
+    "total_events": 10,
+    "event_types": {
+      "volume_spike": 7,
+      "sentiment_spike": 2,
+      "sentiment_volume_spike": 1
+    }
+  }
+}

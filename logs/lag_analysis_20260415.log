@@ -1,0 +1,5 @@
+2026-04-15 22:00:59,309 - lag_analysis - INFO - Computed 49 lag correlations
+2026-04-15 22:00:59,310 - lag_analysis - INFO - Optimal lag: 9 hours (Price leads sentiment by 9 hours)
+2026-04-15 22:00:59,658 - lag_analysis - INFO - Bootstrap CI: [-0.1548, 0.3731] (mean=0.1278)
+2026-04-15 22:00:59,849 - lag_analysis - INFO - Granger causality: No Granger causality detected (p=0.1109)
+2026-04-15 22:00:59,851 - lag_analysis - INFO - Comprehensive lag analysis complete

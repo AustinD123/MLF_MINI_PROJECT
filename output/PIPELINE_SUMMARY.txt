@@ -1,0 +1,90 @@
+================================================================================
+SENTIMENT-MARKET ANALYZER: PIPELINE EXECUTION SUMMARY
+================================================================================
+
+EXECUTION DETAILS
+--------------------------------------------------------------------------------
+Timestamp: 2026-04-16T03:54:43.791327
+Use Real News: True
+Use Real Market Data: True
+Use Cache: True
+Fallback to Mock: False
+
+DATA COLLECTION SUMMARY
+--------------------------------------------------------------------------------
+News Articles Collected: 147
+Market Data Points: 17568
+Aligned Records: 24
+
+News Time Range:
+  Start: 2026-02-14 13:53:14.543792
+  End: 2026-04-16 03:36:24
+  Days Covered: 60
+
+Market Data Time Range:
+  Start: 2026-02-14 03:48:33.224404+00:00
+  End: 2026-04-16 02:48:44.984898+00:00
+  Days Covered: 60
+
+News Sources:
+  Reuters: 83
+  CNBC: 21
+  Bloomberg: 13
+  AP News: 10
+  BBC: 10
+  CNN: 10
+
+
+SENTIMENT ANALYSIS
+--------------------------------------------------------------------------------
+Sentiment Statistics:
+  Mean: -0.0681
+  Median: 0.0000
+  Std Dev: 0.1520
+  Min: -0.4183
+  Max: 0.1656
+
+
+MARKET ANALYSIS
+--------------------------------------------------------------------------------
+Price Statistics:
+  Mean: 0.5101
+  Median: 0.5115
+  Std Dev: 0.0080
+  Min: 0.4960
+  Max: 0.5242
+
+
+CORRELATION ANALYSIS
+--------------------------------------------------------------------------------
+pearson_correlation: -0.5293
+spearman_correlation: -0.5359
+kendall_correlation: -0.3730
+
+
+LAG ANALYSIS
+--------------------------------------------------------------------------------
+Optimal Lag: 22
+Correlation at Lag: N/A
+P-value: N/A
+Significant: N/A
+
+
+EVENT DETECTION
+--------------------------------------------------------------------------------
+Total Events Detected: 10
+Event Types:
+  volume_spike: 7
+  sentiment_spike: 2
+  sentiment_volume_spike: 1
+
+
+DATA QUALITY
+--------------------------------------------------------------------------------
+Missing Values in News: 50
+Missing Values in Market Data: 0
+Missing Values in Aligned Data: 2
+
+================================================================================
+End of Report
+================================================================================

@@ -1,0 +1,28 @@
+2026-04-15 21:34:37,493 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:35:41,502 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:35:41,532 - sentiment_analyzer - INFO - Analyzing sentiment for 10 articles
+2026-04-15 21:35:58,688 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:35:58,702 - sentiment_analyzer - INFO - Analyzing sentiment for 10 articles
+2026-04-15 21:36:26,172 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:36:26,184 - sentiment_analyzer - INFO - Analyzing sentiment for 10 articles
+2026-04-15 21:37:36,062 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:37:36,072 - sentiment_analyzer - INFO - Analyzing sentiment for 10 articles
+2026-04-15 21:37:36,096 - sentiment_analyzer - INFO - Aggregated sentiment into 1 time windows
+2026-04-15 21:39:02,692 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:39:02,703 - sentiment_analyzer - INFO - Analyzing sentiment for 15 articles
+2026-04-15 21:39:02,725 - sentiment_analyzer - INFO - Aggregated sentiment into 15 time windows
+2026-04-15 21:40:39,107 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:40:39,112 - sentiment_analyzer - INFO - Analyzing sentiment for 15 articles
+2026-04-15 21:40:39,129 - sentiment_analyzer - INFO - Aggregated sentiment into 15 time windows
+2026-04-15 21:44:14,386 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:44:14,393 - sentiment_analyzer - INFO - Analyzing sentiment for 90 articles
+2026-04-15 21:44:14,475 - sentiment_analyzer - INFO - Aggregated sentiment into 60 time windows
+2026-04-15 21:46:39,292 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:46:39,301 - sentiment_analyzer - INFO - Analyzing sentiment for 90 articles
+2026-04-15 21:46:39,376 - sentiment_analyzer - INFO - Aggregated sentiment into 60 time windows
+2026-04-15 21:47:07,108 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:47:07,121 - sentiment_analyzer - INFO - Analyzing sentiment for 90 articles
+2026-04-15 21:47:07,174 - sentiment_analyzer - INFO - Aggregated sentiment into 60 time windows
+2026-04-15 21:47:48,024 - sentiment_analyzer - INFO - VADER sentiment analyzer initialized
+2026-04-15 21:47:48,047 - sentiment_analyzer - INFO - Analyzing sentiment for 90 articles
+2026-04-15 21:47:48,101 - sentiment_analyzer - INFO - Aggregated sentiment into 60 time windows

@@ -1,0 +1,90 @@
+2026-04-16 05:22:38,642 - event_detection - INFO - Detected 2 volume spikes (>1.5x)
+2026-04-16 05:22:38,660 - event_detection - INFO - Combined detections: 3 total events
+2026-04-16 05:22:38,701 - event_detection - INFO - Computed market responses for 11 events
+2026-04-16 05:22:38,716 - event_detection - INFO - Event detection complete: 3 events detected
+2026-04-16 05:24:51,518 - event_detection - INFO - Detected 2 volume spikes (>1.5x)
+2026-04-16 05:24:51,529 - event_detection - INFO - Combined detections: 3 total events
+2026-04-16 05:24:51,584 - event_detection - INFO - Computed market responses for 11 events
+2026-04-16 05:24:51,588 - event_detection - INFO - Event detection complete: 3 events detected
+2026-04-16 05:30:30,587 - event_detection - INFO - Detected 1 volume spikes (>1.5x)
+2026-04-16 05:30:30,606 - event_detection - INFO - Combined detections: 1 total events
+2026-04-16 05:30:30,640 - event_detection - INFO - Computed market responses for 7 events
+2026-04-16 05:30:30,640 - event_detection - INFO - Event detection complete: 1 events detected
+2026-04-16 05:35:05,712 - event_detection - INFO - Detected 2 volume spikes (>1.5x)
+2026-04-16 05:35:05,719 - event_detection - INFO - Combined detections: 2 total events
+2026-04-16 05:35:05,750 - event_detection - INFO - Computed market responses for 8 events
+2026-04-16 05:35:05,756 - event_detection - INFO - Event detection complete: 2 events detected
+2026-04-16 05:41:19,403 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 05:41:19,412 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 05:41:19,432 - event_detection - INFO - Computed market responses for 2 events
+2026-04-16 05:41:19,436 - event_detection - INFO - Event detection complete: 0 events detected
+2026-04-16 05:44:48,547 - event_detection - INFO - Detected 2 volume spikes (>1.5x)
+2026-04-16 05:44:48,564 - event_detection - INFO - Combined detections: 4 total events
+2026-04-16 05:52:26,560 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 05:52:26,564 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 05:55:32,609 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 05:55:32,617 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 05:56:05,676 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 05:56:05,681 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 05:57:08,329 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 05:57:08,336 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 05:57:45,743 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 05:57:45,751 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 06:00:35,298 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 06:00:35,303 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 06:01:13,155 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 06:01:13,163 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 06:02:04,217 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 06:02:04,225 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 06:02:04,245 - event_detection - INFO - Computed market responses for 3 events
+2026-04-16 06:02:04,247 - event_detection - INFO - Event detection complete: 0 events detected
+2026-04-16 06:05:46,532 - event_detection - INFO - Detected 0 sentiment spikes (>2.0 sigma)
+2026-04-16 06:05:46,532 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 06:05:46,538 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 06:05:46,558 - event_detection - INFO - Computed market responses for 3 events
+2026-04-16 06:05:46,558 - event_detection - INFO - Event detection complete: 0 events detected
+2026-04-16 06:06:36,675 - event_detection - INFO - Detected 3 sentiment spikes (>2.0 sigma)
+2026-04-16 06:06:36,680 - event_detection - INFO - Detected 8 volume spikes (>1.5x)
+2026-04-16 06:06:36,687 - event_detection - INFO - Combined detections: 11 total events
+2026-04-16 06:06:36,776 - event_detection - INFO - Computed market responses for 31 events
+2026-04-16 06:06:36,776 - event_detection - INFO - Event detection complete: 11 events detected
+2026-04-16 06:08:19,025 - event_detection - INFO - Detected 1 sentiment spikes (>2.0 sigma)
+2026-04-16 06:08:19,025 - event_detection - INFO - Detected 8 volume spikes (>1.5x)
+2026-04-16 06:08:19,041 - event_detection - INFO - Combined detections: 9 total events
+2026-04-16 06:08:19,187 - event_detection - INFO - Computed market responses for 32 events
+2026-04-16 06:08:19,187 - event_detection - INFO - Event detection complete: 9 events detected
+2026-04-16 06:09:49,400 - event_detection - INFO - Detected 0 sentiment spikes (>2.0 sigma)
+2026-04-16 06:09:49,403 - event_detection - INFO - Detected 15 volume spikes (>1.5x)
+2026-04-16 06:09:49,410 - event_detection - INFO - Combined detections: 15 total events
+2026-04-16 06:09:49,542 - event_detection - INFO - Computed market responses for 62 events
+2026-04-16 06:09:49,542 - event_detection - INFO - Event detection complete: 15 events detected
+2026-04-16 06:16:02,466 - event_detection - INFO - Detected 0 sentiment spikes (>2.0 sigma)
+2026-04-16 06:16:02,469 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 06:16:02,476 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 06:16:02,496 - event_detection - INFO - Computed market responses for 2 events
+2026-04-16 06:16:02,496 - event_detection - INFO - Event detection complete: 0 events detected
+2026-04-16 06:17:21,107 - event_detection - INFO - Detected 0 sentiment spikes (>2.0 sigma)
+2026-04-16 06:17:21,119 - event_detection - INFO - Detected 15 volume spikes (>1.5x)
+2026-04-16 06:17:21,140 - event_detection - INFO - Combined detections: 15 total events
+2026-04-16 06:17:21,617 - event_detection - INFO - Computed market responses for 62 events
+2026-04-16 06:17:21,622 - event_detection - INFO - Event detection complete: 15 events detected
+2026-04-16 09:15:33,334 - event_detection - INFO - Detected 0 sentiment spikes (>2.0 sigma)
+2026-04-16 09:15:33,340 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 09:15:33,346 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 09:15:33,369 - event_detection - INFO - Computed market responses for 3 events
+2026-04-16 09:15:33,369 - event_detection - INFO - Event detection complete: 0 events detected
+2026-04-16 09:18:46,653 - event_detection - INFO - Detected 0 sentiment spikes (>2.0 sigma)
+2026-04-16 09:18:46,654 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 09:18:46,666 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 09:18:46,693 - event_detection - INFO - Computed market responses for 3 events
+2026-04-16 09:18:46,694 - event_detection - INFO - Event detection complete: 0 events detected
+2026-04-16 09:21:24,468 - event_detection - INFO - Detected 0 sentiment spikes (>2.0 sigma)
+2026-04-16 09:21:24,470 - event_detection - INFO - Detected 0 volume spikes (>1.5x)
+2026-04-16 09:21:24,477 - event_detection - INFO - Combined detections: 0 total events
+2026-04-16 09:21:24,503 - event_detection - INFO - Computed market responses for 3 events
+2026-04-16 09:21:24,503 - event_detection - INFO - Event detection complete: 0 events detected
+2026-04-16 09:24:39,166 - event_detection - INFO - Detected 3 sentiment spikes (>2.0 sigma)
+2026-04-16 09:24:39,166 - event_detection - INFO - Detected 8 volume spikes (>1.5x)
+2026-04-16 09:24:39,185 - event_detection - INFO - Combined detections: 10 total events
+2026-04-16 09:24:39,265 - event_detection - INFO - Computed market responses for 24 events
+2026-04-16 09:24:39,265 - event_detection - INFO - Event detection complete: 10 events detected

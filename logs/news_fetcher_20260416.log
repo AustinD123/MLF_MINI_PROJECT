@@ -1,0 +1,277 @@
+2026-04-16 05:19:35,513 - news_fetcher - WARNING - NewsAPI key not configured. Set NEWSAPI_KEY environment variable
+2026-04-16 05:19:35,513 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:20:21,338 - news_fetcher - WARNING - NewsAPI key not configured. Set NEWSAPI_KEY environment variable
+2026-04-16 05:20:21,338 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:21:02,309 - news_fetcher - WARNING - NewsAPI key not configured. Set NEWSAPI_KEY environment variable
+2026-04-16 05:21:02,316 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:22:14,747 - news_fetcher - WARNING - NewsAPI key not configured. Set NEWSAPI_KEY environment variable
+2026-04-16 05:22:14,747 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:22:38,104 - news_fetcher - WARNING - NewsAPI key not configured. Set NEWSAPI_KEY environment variable
+2026-04-16 05:22:38,104 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:24:51,227 - news_fetcher - WARNING - NewsAPI key not configured. Set NEWSAPI_KEY environment variable
+2026-04-16 05:24:51,227 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:28:42,217 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:28:42,219 - news_fetcher - INFO - Fetching news: query='inflation OR CPI OR consumer price OR price index', from=2026-04-08T23:58:42.219910
+2026-04-16 05:28:44,773 - news_fetcher - INFO - Found 1666 articles for query: inflation OR CPI OR consumer price OR price index
+2026-04-16 05:28:44,809 - news_fetcher - WARNING - NewsAPI failed: 'NoneType' object has no attribute 'strip'
+2026-04-16 05:28:44,809 - news_fetcher - INFO - Falling back to GDELT API
+2026-04-16 05:28:44,809 - news_fetcher - INFO - Fetching GDELT news: query='inflation OR CPI OR consumer price OR price index'
+2026-04-16 05:28:46,405 - news_fetcher - WARNING - GDELT request failed (attempt 1/3): Expecting value: line 1 column 1 (char 0)
+2026-04-16 05:28:51,408 - news_fetcher - INFO - Fetching GDELT news: query='inflation OR CPI OR consumer price OR price index'
+2026-04-16 05:28:52,787 - news_fetcher - WARNING - GDELT request failed (attempt 2/3): Expecting value: line 1 column 1 (char 0)
+2026-04-16 05:28:57,791 - news_fetcher - INFO - Fetching GDELT news: query='inflation OR CPI OR consumer price OR price index'
+2026-04-16 05:28:59,073 - news_fetcher - WARNING - GDELT request failed (attempt 3/3): Expecting value: line 1 column 1 (char 0)
+2026-04-16 05:28:59,073 - news_fetcher - WARNING - No articles retrieved from GDELT
+2026-04-16 05:28:59,088 - news_fetcher - WARNING - All APIs failed, using mock data
+2026-04-16 05:28:59,092 - news_fetcher - INFO - Generated 20 mock news articles
+2026-04-16 05:29:00,095 - news_fetcher - INFO - Fetching news: query='fed OR federal reserve OR interest rate OR rate decision OR FOMC', from=2026-04-08T23:59:00.095791
+2026-04-16 05:29:00,726 - news_fetcher - INFO - Found 19495 articles for query: fed OR federal reserve OR interest rate OR rate decision OR FOMC
+2026-04-16 05:29:00,751 - news_fetcher - WARNING - NewsAPI failed: 'NoneType' object has no attribute 'strip'
+2026-04-16 05:29:00,751 - news_fetcher - INFO - Falling back to GDELT API
+2026-04-16 05:29:00,753 - news_fetcher - INFO - Fetching GDELT news: query='fed OR federal reserve OR interest rate OR rate decision OR FOMC'
+2026-04-16 05:29:02,233 - news_fetcher - WARNING - GDELT request failed (attempt 1/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=fed+OR+federal+reserve+OR+interest+rate+OR+rate+decision+OR+FOMC&mode=artlist&maxrecords=250&sort=date&startdatetime=20260408235900&enddatetime=20260415235900&format=json
+2026-04-16 05:29:07,236 - news_fetcher - INFO - Fetching GDELT news: query='fed OR federal reserve OR interest rate OR rate decision OR FOMC'
+2026-04-16 05:29:08,507 - news_fetcher - WARNING - GDELT request failed (attempt 2/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=fed+OR+federal+reserve+OR+interest+rate+OR+rate+decision+OR+FOMC&mode=artlist&maxrecords=250&sort=date&startdatetime=20260408235900&enddatetime=20260415235900&format=json
+2026-04-16 05:29:13,510 - news_fetcher - INFO - Fetching GDELT news: query='fed OR federal reserve OR interest rate OR rate decision OR FOMC'
+2026-04-16 05:29:14,803 - news_fetcher - WARNING - GDELT request failed (attempt 3/3): Expecting value: line 1 column 1 (char 0)
+2026-04-16 05:29:14,805 - news_fetcher - WARNING - No articles retrieved from GDELT
+2026-04-16 05:29:14,808 - news_fetcher - WARNING - All APIs failed, using mock data
+2026-04-16 05:29:14,808 - news_fetcher - INFO - Generated 20 mock news articles
+2026-04-16 05:29:15,813 - news_fetcher - INFO - Fetching news: query='recession OR economic downturn OR contraction OR GDP', from=2026-04-08T23:59:15.813635
+2026-04-16 05:29:16,237 - news_fetcher - INFO - Found 5288 articles for query: recession OR economic downturn OR contraction OR GDP
+2026-04-16 05:29:16,314 - news_fetcher - INFO - Successfully parsed 94 articles
+2026-04-16 05:29:16,317 - news_fetcher - INFO - Returning 90 unique articles
+2026-04-16 05:29:16,317 - news_fetcher - INFO - Cached 90 articles
+2026-04-16 05:29:17,330 - news_fetcher - INFO - Fetching news: query='unemployment OR jobless OR job loss OR employment report', from=2026-04-08T23:59:17.329338
+2026-04-16 05:29:17,728 - news_fetcher - INFO - Found 10726 articles for query: unemployment OR jobless OR job loss OR employment report
+2026-04-16 05:29:17,809 - news_fetcher - INFO - Successfully parsed 96 articles
+2026-04-16 05:29:17,813 - news_fetcher - INFO - Returning 96 unique articles
+2026-04-16 05:29:17,815 - news_fetcher - INFO - Cached 96 articles
+2026-04-16 05:29:18,826 - news_fetcher - INFO - Fetching news: query='economic OR economy OR fiscal OR monetary policy', from=2026-04-08T23:59:18.826066
+2026-04-16 05:29:19,231 - news_fetcher - INFO - Found 13691 articles for query: economic OR economy OR fiscal OR monetary policy
+2026-04-16 05:29:19,245 - news_fetcher - WARNING - NewsAPI failed: 'NoneType' object has no attribute 'strip'
+2026-04-16 05:29:19,245 - news_fetcher - INFO - Falling back to GDELT API
+2026-04-16 05:29:19,245 - news_fetcher - INFO - Fetching GDELT news: query='economic OR economy OR fiscal OR monetary policy'
+2026-04-16 05:29:20,583 - news_fetcher - WARNING - GDELT request failed (attempt 1/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=economic+OR+economy+OR+fiscal+OR+monetary+policy&mode=artlist&maxrecords=250&sort=date&startdatetime=20260408235919&enddatetime=20260415235919&format=json
+2026-04-16 05:29:25,585 - news_fetcher - INFO - Fetching GDELT news: query='economic OR economy OR fiscal OR monetary policy'
+2026-04-16 05:29:27,366 - news_fetcher - WARNING - GDELT request failed (attempt 2/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=economic+OR+economy+OR+fiscal+OR+monetary+policy&mode=artlist&maxrecords=250&sort=date&startdatetime=20260408235919&enddatetime=20260415235919&format=json
+2026-04-16 05:29:32,368 - news_fetcher - INFO - Fetching GDELT news: query='economic OR economy OR fiscal OR monetary policy'
+2026-04-16 05:29:33,648 - news_fetcher - WARNING - GDELT request failed (attempt 3/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=economic+OR+economy+OR+fiscal+OR+monetary+policy&mode=artlist&maxrecords=250&sort=date&startdatetime=20260408235919&enddatetime=20260415235919&format=json
+2026-04-16 05:29:33,650 - news_fetcher - WARNING - No articles retrieved from GDELT
+2026-04-16 05:29:33,653 - news_fetcher - WARNING - All APIs failed, using mock data
+2026-04-16 05:29:33,653 - news_fetcher - INFO - Generated 20 mock news articles
+2026-04-16 05:29:34,659 - news_fetcher - INFO - Retrieved 199 unique articles across all categories
+2026-04-16 05:29:34,659 - news_fetcher - INFO - Removed 0 duplicate headlines
+2026-04-16 05:29:34,665 - news_fetcher - INFO - Cleaned data: 199 articles remaining
+2026-04-16 05:33:23,119 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:33:23,130 - news_fetcher - INFO - Fetching news: query='inflation OR CPI OR consumer price OR price index', from=2026-04-09T00:03:23.130911
+2026-04-16 05:33:25,644 - news_fetcher - INFO - Found 1685 articles for query: inflation OR CPI OR consumer price OR price index
+2026-04-16 05:33:25,702 - news_fetcher - WARNING - NewsAPI failed: 'NoneType' object has no attribute 'strip'
+2026-04-16 05:33:25,702 - news_fetcher - INFO - Falling back to GDELT API
+2026-04-16 05:33:25,702 - news_fetcher - INFO - Fetching GDELT news: query='inflation OR CPI OR consumer price OR price index'
+2026-04-16 05:33:30,666 - news_fetcher - WARNING - GDELT request failed (attempt 1/3): Expecting value: line 1 column 1 (char 0)
+2026-04-16 05:33:35,668 - news_fetcher - INFO - Fetching GDELT news: query='inflation OR CPI OR consumer price OR price index'
+2026-04-16 05:33:39,521 - news_fetcher - WARNING - GDELT request failed (attempt 2/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=inflation+OR+CPI+OR+consumer+price+OR+price+index&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409000325&enddatetime=20260416000325&format=json
+2026-04-16 05:33:44,523 - news_fetcher - INFO - Fetching GDELT news: query='inflation OR CPI OR consumer price OR price index'
+2026-04-16 05:33:48,214 - news_fetcher - WARNING - GDELT request failed (attempt 3/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=inflation+OR+CPI+OR+consumer+price+OR+price+index&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409000325&enddatetime=20260416000325&format=json
+2026-04-16 05:33:48,214 - news_fetcher - WARNING - No articles retrieved from GDELT
+2026-04-16 05:33:48,217 - news_fetcher - WARNING - All APIs failed, using mock data
+2026-04-16 05:33:48,221 - news_fetcher - INFO - Generated 20 mock news articles
+2026-04-16 05:33:49,224 - news_fetcher - INFO - Fetching news: query='fed OR federal reserve OR interest rate OR rate decision OR FOMC', from=2026-04-09T00:03:49.224898
+2026-04-16 05:33:50,283 - news_fetcher - INFO - Found 19534 articles for query: fed OR federal reserve OR interest rate OR rate decision OR FOMC
+2026-04-16 05:33:50,362 - news_fetcher - WARNING - NewsAPI failed: 'NoneType' object has no attribute 'strip'
+2026-04-16 05:33:50,362 - news_fetcher - INFO - Falling back to GDELT API
+2026-04-16 05:33:50,362 - news_fetcher - INFO - Fetching GDELT news: query='fed OR federal reserve OR interest rate OR rate decision OR FOMC'
+2026-04-16 05:33:54,183 - news_fetcher - WARNING - GDELT request failed (attempt 1/3): Expecting value: line 1 column 1 (char 0)
+2026-04-16 05:33:59,185 - news_fetcher - INFO - Fetching GDELT news: query='fed OR federal reserve OR interest rate OR rate decision OR FOMC'
+2026-04-16 05:34:06,191 - news_fetcher - WARNING - GDELT request failed (attempt 2/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=fed+OR+federal+reserve+OR+interest+rate+OR+rate+decision+OR+FOMC&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409000350&enddatetime=20260416000350&format=json
+2026-04-16 05:34:11,196 - news_fetcher - INFO - Fetching GDELT news: query='fed OR federal reserve OR interest rate OR rate decision OR FOMC'
+2026-04-16 05:34:21,869 - news_fetcher - WARNING - GDELT request failed (attempt 3/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=fed+OR+federal+reserve+OR+interest+rate+OR+rate+decision+OR+FOMC&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409000350&enddatetime=20260416000350&format=json
+2026-04-16 05:34:21,869 - news_fetcher - WARNING - No articles retrieved from GDELT
+2026-04-16 05:34:21,869 - news_fetcher - WARNING - All APIs failed, using mock data
+2026-04-16 05:34:21,875 - news_fetcher - INFO - Generated 20 mock news articles
+2026-04-16 05:34:22,878 - news_fetcher - INFO - Fetching news: query='recession OR economic downturn OR contraction OR GDP', from=2026-04-09T00:04:22.878181
+2026-04-16 05:34:23,450 - news_fetcher - INFO - Found 5296 articles for query: recession OR economic downturn OR contraction OR GDP
+2026-04-16 05:34:23,519 - news_fetcher - INFO - Successfully parsed 96 articles
+2026-04-16 05:34:23,519 - news_fetcher - INFO - Returning 93 unique articles
+2026-04-16 05:34:23,546 - news_fetcher - INFO - Cached 93 articles
+2026-04-16 05:34:24,551 - news_fetcher - INFO - Fetching news: query='unemployment OR jobless OR job loss OR employment report', from=2026-04-09T00:04:24.551455
+2026-04-16 05:34:25,081 - news_fetcher - INFO - Found 10728 articles for query: unemployment OR jobless OR job loss OR employment report
+2026-04-16 05:34:25,164 - news_fetcher - INFO - Successfully parsed 99 articles
+2026-04-16 05:34:25,164 - news_fetcher - INFO - Returning 99 unique articles
+2026-04-16 05:34:25,171 - news_fetcher - INFO - Cached 99 articles
+2026-04-16 05:34:26,177 - news_fetcher - INFO - Fetching news: query='economic OR economy OR fiscal OR monetary policy', from=2026-04-09T00:04:26.176892
+2026-04-16 05:34:26,718 - news_fetcher - INFO - Found 13701 articles for query: economic OR economy OR fiscal OR monetary policy
+2026-04-16 05:34:26,726 - news_fetcher - WARNING - NewsAPI failed: 'NoneType' object has no attribute 'strip'
+2026-04-16 05:34:26,726 - news_fetcher - INFO - Falling back to GDELT API
+2026-04-16 05:34:26,726 - news_fetcher - INFO - Fetching GDELT news: query='economic OR economy OR fiscal OR monetary policy'
+2026-04-16 05:34:35,250 - news_fetcher - WARNING - GDELT request failed (attempt 1/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=economic+OR+economy+OR+fiscal+OR+monetary+policy&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409000426&enddatetime=20260416000426&format=json
+2026-04-16 05:34:40,253 - news_fetcher - INFO - Fetching GDELT news: query='economic OR economy OR fiscal OR monetary policy'
+2026-04-16 05:34:48,251 - news_fetcher - WARNING - GDELT request failed (attempt 2/3): Expecting value: line 1 column 1 (char 0)
+2026-04-16 05:34:53,253 - news_fetcher - INFO - Fetching GDELT news: query='economic OR economy OR fiscal OR monetary policy'
+2026-04-16 05:34:58,941 - news_fetcher - WARNING - GDELT request failed (attempt 3/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=economic+OR+economy+OR+fiscal+OR+monetary+policy&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409000426&enddatetime=20260416000426&format=json
+2026-04-16 05:34:58,941 - news_fetcher - WARNING - No articles retrieved from GDELT
+2026-04-16 05:34:58,944 - news_fetcher - WARNING - All APIs failed, using mock data
+2026-04-16 05:34:58,944 - news_fetcher - INFO - Generated 20 mock news articles
+2026-04-16 05:34:59,954 - news_fetcher - INFO - Retrieved 202 unique articles across all categories
+2026-04-16 05:34:59,954 - news_fetcher - INFO - Removed 0 duplicate headlines
+2026-04-16 05:34:59,965 - news_fetcher - INFO - Cleaned data: 202 articles remaining
+2026-04-16 05:40:12,057 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:40:14,901 - news_fetcher - INFO - Fetching news: query='inflation OR CPI OR consumer price OR price index', from=2026-04-09T00:10:14.901977
+2026-04-16 05:40:16,148 - news_fetcher - INFO - Found 1687 articles for query: inflation OR CPI OR consumer price OR price index
+2026-04-16 05:40:16,194 - news_fetcher - WARNING - NewsAPI failed: 'NoneType' object has no attribute 'strip'
+2026-04-16 05:40:16,194 - news_fetcher - INFO - Falling back to GDELT API
+2026-04-16 05:40:16,194 - news_fetcher - INFO - Fetching GDELT news: query='inflation OR CPI OR consumer price OR price index'
+2026-04-16 05:40:25,281 - news_fetcher - WARNING - GDELT request failed (attempt 1/3): Expecting value: line 1 column 1 (char 0)
+2026-04-16 05:40:30,287 - news_fetcher - INFO - Fetching GDELT news: query='inflation OR CPI OR consumer price OR price index'
+2026-04-16 05:40:37,608 - news_fetcher - WARNING - GDELT request failed (attempt 2/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=inflation+OR+CPI+OR+consumer+price+OR+price+index&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409001016&enddatetime=20260416001016&format=json
+2026-04-16 05:40:42,611 - news_fetcher - INFO - Fetching GDELT news: query='inflation OR CPI OR consumer price OR price index'
+2026-04-16 05:40:47,339 - news_fetcher - WARNING - GDELT request failed (attempt 3/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=inflation+OR+CPI+OR+consumer+price+OR+price+index&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409001016&enddatetime=20260416001016&format=json
+2026-04-16 05:40:47,339 - news_fetcher - WARNING - No articles retrieved from GDELT
+2026-04-16 05:40:48,344 - news_fetcher - INFO - Fetching news: query='fed OR federal reserve OR interest rate OR rate decision OR FOMC', from=2026-04-09T00:10:48.344744
+2026-04-16 05:40:48,872 - news_fetcher - INFO - Found 19544 articles for query: fed OR federal reserve OR interest rate OR rate decision OR FOMC
+2026-04-16 05:40:48,947 - news_fetcher - INFO - Successfully parsed 100 articles
+2026-04-16 05:40:48,951 - news_fetcher - INFO - Returning 99 unique articles
+2026-04-16 05:40:48,961 - news_fetcher - INFO - Cached 99 articles
+2026-04-16 05:40:49,965 - news_fetcher - INFO - Fetching news: query='recession OR economic downturn OR contraction OR GDP', from=2026-04-09T00:10:49.965102
+2026-04-16 05:40:50,427 - news_fetcher - INFO - Found 5298 articles for query: recession OR economic downturn OR contraction OR GDP
+2026-04-16 05:40:50,494 - news_fetcher - INFO - Successfully parsed 96 articles
+2026-04-16 05:40:50,502 - news_fetcher - INFO - Returning 94 unique articles
+2026-04-16 05:40:50,508 - news_fetcher - INFO - Cached 94 articles
+2026-04-16 05:40:51,511 - news_fetcher - INFO - Fetching news: query='unemployment OR jobless OR job loss OR employment report', from=2026-04-09T00:10:51.511697
+2026-04-16 05:40:52,154 - news_fetcher - INFO - Found 10732 articles for query: unemployment OR jobless OR job loss OR employment report
+2026-04-16 05:40:52,216 - news_fetcher - INFO - Successfully parsed 99 articles
+2026-04-16 05:40:52,224 - news_fetcher - INFO - Returning 99 unique articles
+2026-04-16 05:40:52,229 - news_fetcher - INFO - Cached 99 articles
+2026-04-16 05:40:53,231 - news_fetcher - INFO - Fetching news: query='economic OR economy OR fiscal OR monetary policy', from=2026-04-09T00:10:53.231727
+2026-04-16 05:40:53,646 - news_fetcher - INFO - Found 13700 articles for query: economic OR economy OR fiscal OR monetary policy
+2026-04-16 05:40:53,661 - news_fetcher - WARNING - NewsAPI failed: 'NoneType' object has no attribute 'strip'
+2026-04-16 05:40:53,661 - news_fetcher - INFO - Falling back to GDELT API
+2026-04-16 05:40:53,661 - news_fetcher - INFO - Fetching GDELT news: query='economic OR economy OR fiscal OR monetary policy'
+2026-04-16 05:40:57,037 - news_fetcher - WARNING - GDELT request failed (attempt 1/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=economic+OR+economy+OR+fiscal+OR+monetary+policy&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409001053&enddatetime=20260416001053&format=json
+2026-04-16 05:41:02,039 - news_fetcher - INFO - Fetching GDELT news: query='economic OR economy OR fiscal OR monetary policy'
+2026-04-16 05:41:04,947 - news_fetcher - WARNING - GDELT request failed (attempt 2/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=economic+OR+economy+OR+fiscal+OR+monetary+policy&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409001053&enddatetime=20260416001053&format=json
+2026-04-16 05:41:09,950 - news_fetcher - INFO - Fetching GDELT news: query='economic OR economy OR fiscal OR monetary policy'
+2026-04-16 05:41:12,839 - news_fetcher - WARNING - GDELT request failed (attempt 3/3): 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=economic+OR+economy+OR+fiscal+OR+monetary+policy&mode=artlist&maxrecords=250&sort=date&startdatetime=20260409001053&enddatetime=20260416001053&format=json
+2026-04-16 05:41:12,841 - news_fetcher - WARNING - No articles retrieved from GDELT
+2026-04-16 05:41:13,847 - news_fetcher - INFO - Retrieved 257 unique articles across all categories
+2026-04-16 05:41:13,851 - news_fetcher - INFO - Removed 0 duplicate headlines
+2026-04-16 05:41:13,861 - news_fetcher - INFO - Cleaned data: 257 articles remaining
+2026-04-16 05:42:43,725 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:43:12,889 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:43:47,517 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:44:40,369 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:52:15,133 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:55:24,299 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:55:57,764 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:57:00,227 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 05:57:37,528 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 06:00:27,127 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 06:01:04,680 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 06:01:55,958 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 06:05:30,716 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 06:06:16,888 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 06:07:54,588 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 06:09:13,295 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 06:11:43,599 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 06:15:44,641 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 06:15:44,662 - news_fetcher - INFO - Fetching news: query='inflation OR CPI OR consumer price OR price index', from=2026-04-09T00:45:44.662369
+2026-04-16 06:15:47,993 - news_fetcher - INFO - Found 1688 articles for query: inflation OR CPI OR consumer price OR price index
+2026-04-16 06:15:48,139 - news_fetcher - WARNING - NewsAPI failed: 'NoneType' object has no attribute 'strip'
+2026-04-16 06:15:49,146 - news_fetcher - INFO - Fetching news: query='fed OR federal reserve OR interest rate OR rate decision OR FOMC', from=2026-04-09T00:45:49.146150
+2026-04-16 06:15:49,927 - news_fetcher - INFO - Found 19556 articles for query: fed OR federal reserve OR interest rate OR rate decision OR FOMC
+2026-04-16 06:15:50,167 - news_fetcher - INFO - Successfully parsed 99 articles
+2026-04-16 06:15:50,184 - news_fetcher - INFO - Returning 93 unique articles
+2026-04-16 06:15:50,218 - news_fetcher - INFO - Cached 93 articles
+2026-04-16 06:15:51,224 - news_fetcher - INFO - Fetching news: query='recession OR economic downturn OR contraction OR GDP', from=2026-04-09T00:45:51.224914
+2026-04-16 06:15:51,677 - news_fetcher - INFO - Found 5303 articles for query: recession OR economic downturn OR contraction OR GDP
+2026-04-16 06:15:51,883 - news_fetcher - INFO - Successfully parsed 97 articles
+2026-04-16 06:15:51,895 - news_fetcher - INFO - Returning 95 unique articles
+2026-04-16 06:15:51,927 - news_fetcher - INFO - Cached 95 articles
+2026-04-16 06:15:52,938 - news_fetcher - INFO - Fetching news: query='unemployment OR jobless OR job loss OR employment report', from=2026-04-09T00:45:52.938635
+2026-04-16 06:15:53,432 - news_fetcher - INFO - Found 10735 articles for query: unemployment OR jobless OR job loss OR employment report
+2026-04-16 06:15:53,617 - news_fetcher - INFO - Successfully parsed 97 articles
+2026-04-16 06:15:53,626 - news_fetcher - INFO - Returning 97 unique articles
+2026-04-16 06:15:53,652 - news_fetcher - INFO - Cached 97 articles
+2026-04-16 06:15:54,658 - news_fetcher - INFO - Fetching news: query='economic OR economy OR fiscal OR monetary policy', from=2026-04-09T00:45:54.657536
+2026-04-16 06:15:55,038 - news_fetcher - INFO - Found 13693 articles for query: economic OR economy OR fiscal OR monetary policy
+2026-04-16 06:15:55,143 - news_fetcher - WARNING - NewsAPI failed: 'NoneType' object has no attribute 'strip'
+2026-04-16 06:15:56,146 - news_fetcher - INFO - Retrieved 257 unique articles across all categories
+2026-04-16 06:15:56,151 - news_fetcher - INFO - Removed 0 duplicate headlines
+2026-04-16 06:15:56,167 - news_fetcher - INFO - Cleaned data: 257 articles remaining
+2026-04-16 06:16:40,773 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 09:15:17,074 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 09:18:17,891 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 09:19:36,974 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 09:20:00,238 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 09:20:00,251 - news_fetcher - INFO - Fetching news: query='election 2024 OR 2028', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:01,188 - news_fetcher - WARNING - Request failed (attempt 1/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=election+2024+OR+2028&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:06,200 - news_fetcher - INFO - Fetching news: query='election 2024 OR 2028', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:06,535 - news_fetcher - WARNING - Request failed (attempt 2/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=election+2024+OR+2028&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:11,540 - news_fetcher - INFO - Fetching news: query='election 2024 OR 2028', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:11,845 - news_fetcher - WARNING - Request failed (attempt 3/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=election+2024+OR+2028&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:11,845 - news_fetcher - WARNING - No articles retrieved for query: election 2024 OR 2028
+2026-04-16 09:20:11,845 - news_fetcher - INFO - Fetching news: query='Trump OR Biden', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:12,114 - news_fetcher - WARNING - Request failed (attempt 1/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Trump+OR+Biden&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:17,118 - news_fetcher - INFO - Fetching news: query='Trump OR Biden', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:17,385 - news_fetcher - WARNING - Request failed (attempt 2/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Trump+OR+Biden&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:22,387 - news_fetcher - INFO - Fetching news: query='Trump OR Biden', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:22,666 - news_fetcher - WARNING - Request failed (attempt 3/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Trump+OR+Biden&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:22,666 - news_fetcher - WARNING - No articles retrieved for query: Trump OR Biden
+2026-04-16 09:20:22,666 - news_fetcher - INFO - Fetching news: query='Congress OR Senate OR House', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:22,963 - news_fetcher - WARNING - Request failed (attempt 1/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Congress+OR+Senate+OR+House&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:27,967 - news_fetcher - INFO - Fetching news: query='Congress OR Senate OR House', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:28,229 - news_fetcher - WARNING - Request failed (attempt 2/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Congress+OR+Senate+OR+House&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:33,236 - news_fetcher - INFO - Fetching news: query='Congress OR Senate OR House', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:33,615 - news_fetcher - WARNING - Request failed (attempt 3/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Congress+OR+Senate+OR+House&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:33,615 - news_fetcher - WARNING - No articles retrieved for query: Congress OR Senate OR House
+2026-04-16 09:20:33,620 - news_fetcher - INFO - Fetching news: query='political policy OR tariff OR immigration', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:33,897 - news_fetcher - WARNING - Request failed (attempt 1/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=political+policy+OR+tariff+OR+immigration&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:38,900 - news_fetcher - INFO - Fetching news: query='political policy OR tariff OR immigration', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:39,162 - news_fetcher - WARNING - Request failed (attempt 2/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=political+policy+OR+tariff+OR+immigration&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:44,163 - news_fetcher - INFO - Fetching news: query='political policy OR tariff OR immigration', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:44,441 - news_fetcher - WARNING - Request failed (attempt 3/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=political+policy+OR+tariff+OR+immigration&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:44,441 - news_fetcher - WARNING - No articles retrieved for query: political policy OR tariff OR immigration
+2026-04-16 09:20:44,446 - news_fetcher - INFO - Fetching news: query='geopolitical Ukraine OR China OR Russia', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:44,705 - news_fetcher - WARNING - Request failed (attempt 1/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=geopolitical+Ukraine+OR+China+OR+Russia&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:49,712 - news_fetcher - INFO - Fetching news: query='geopolitical Ukraine OR China OR Russia', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:49,977 - news_fetcher - WARNING - Request failed (attempt 2/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=geopolitical+Ukraine+OR+China+OR+Russia&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:54,982 - news_fetcher - INFO - Fetching news: query='geopolitical Ukraine OR China OR Russia', from=2026-02-14T03:50:00.251092
+2026-04-16 09:20:55,298 - news_fetcher - WARNING - Request failed (attempt 3/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=geopolitical+Ukraine+OR+China+OR+Russia&from=2026-02-14T03%3A50%3A00.251092&to=2026-04-16T03%3A50%3A00.251092&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:20:55,298 - news_fetcher - WARNING - No articles retrieved for query: geopolitical Ukraine OR China OR Russia
+2026-04-16 09:23:14,537 - news_fetcher - INFO - NewsDataManager initialized
+2026-04-16 09:23:14,544 - news_fetcher - INFO - Fetching news: query='election 2024 OR 2028', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:15,439 - news_fetcher - WARNING - Request failed (attempt 1/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=election+2024+OR+2028&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:20,439 - news_fetcher - INFO - Fetching news: query='election 2024 OR 2028', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:20,741 - news_fetcher - WARNING - Request failed (attempt 2/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=election+2024+OR+2028&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:25,743 - news_fetcher - INFO - Fetching news: query='election 2024 OR 2028', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:26,035 - news_fetcher - WARNING - Request failed (attempt 3/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=election+2024+OR+2028&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:26,035 - news_fetcher - WARNING - No articles retrieved for query: election 2024 OR 2028
+2026-04-16 09:23:26,035 - news_fetcher - INFO - Fetching news: query='Trump OR Biden', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:26,345 - news_fetcher - WARNING - Request failed (attempt 1/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Trump+OR+Biden&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:31,345 - news_fetcher - INFO - Fetching news: query='Trump OR Biden', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:31,636 - news_fetcher - WARNING - Request failed (attempt 2/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Trump+OR+Biden&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:36,638 - news_fetcher - INFO - Fetching news: query='Trump OR Biden', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:36,941 - news_fetcher - WARNING - Request failed (attempt 3/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Trump+OR+Biden&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:36,941 - news_fetcher - WARNING - No articles retrieved for query: Trump OR Biden
+2026-04-16 09:23:36,941 - news_fetcher - INFO - Fetching news: query='Congress OR Senate OR House', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:37,284 - news_fetcher - WARNING - Request failed (attempt 1/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Congress+OR+Senate+OR+House&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:42,285 - news_fetcher - INFO - Fetching news: query='Congress OR Senate OR House', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:42,598 - news_fetcher - WARNING - Request failed (attempt 2/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Congress+OR+Senate+OR+House&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:47,602 - news_fetcher - INFO - Fetching news: query='Congress OR Senate OR House', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:47,876 - news_fetcher - WARNING - Request failed (attempt 3/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=Congress+OR+Senate+OR+House&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:47,876 - news_fetcher - WARNING - No articles retrieved for query: Congress OR Senate OR House
+2026-04-16 09:23:47,887 - news_fetcher - INFO - Fetching news: query='political policy OR tariff OR immigration', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:48,197 - news_fetcher - WARNING - Request failed (attempt 1/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=political+policy+OR+tariff+OR+immigration&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:53,201 - news_fetcher - INFO - Fetching news: query='political policy OR tariff OR immigration', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:53,483 - news_fetcher - WARNING - Request failed (attempt 2/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=political+policy+OR+tariff+OR+immigration&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:58,484 - news_fetcher - INFO - Fetching news: query='political policy OR tariff OR immigration', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:58,774 - news_fetcher - WARNING - Request failed (attempt 3/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=political+policy+OR+tariff+OR+immigration&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:23:58,774 - news_fetcher - WARNING - No articles retrieved for query: political policy OR tariff OR immigration
+2026-04-16 09:23:58,783 - news_fetcher - INFO - Fetching news: query='geopolitical Ukraine OR China OR Russia', from=2026-02-14T03:53:14.543792
+2026-04-16 09:23:59,073 - news_fetcher - WARNING - Request failed (attempt 1/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=geopolitical+Ukraine+OR+China+OR+Russia&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:24:04,078 - news_fetcher - INFO - Fetching news: query='geopolitical Ukraine OR China OR Russia', from=2026-02-14T03:53:14.543792
+2026-04-16 09:24:04,385 - news_fetcher - WARNING - Request failed (attempt 2/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=geopolitical+Ukraine+OR+China+OR+Russia&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:24:09,386 - news_fetcher - INFO - Fetching news: query='geopolitical Ukraine OR China OR Russia', from=2026-02-14T03:53:14.543792
+2026-04-16 09:24:09,732 - news_fetcher - WARNING - Request failed (attempt 3/3): 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=geopolitical+Ukraine+OR+China+OR+Russia&from=2026-02-14T03%3A53%3A14.543792&to=2026-04-16T03%3A53%3A14.543792&sortBy=publishedAt&language=en&apiKey=ea0538fdac06462989615a53dc897a32&pageSize=100
+2026-04-16 09:24:09,732 - news_fetcher - WARNING - No articles retrieved for query: geopolitical Ukraine OR China OR Russia

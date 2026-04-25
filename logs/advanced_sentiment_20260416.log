@@ -1,0 +1,92 @@
+2026-04-16 05:19:35,501 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:19:35,513 - advanced_sentiment - INFO - Computing weighted sentiment for 70 articles
+2026-04-16 05:20:21,321 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:20:21,346 - advanced_sentiment - INFO - Computing weighted sentiment for 70 articles
+2026-04-16 05:20:21,364 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.101
+2026-04-16 05:21:02,308 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:21:02,328 - advanced_sentiment - INFO - Computing weighted sentiment for 70 articles
+2026-04-16 05:21:02,357 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.101
+2026-04-16 05:22:14,746 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:22:14,760 - advanced_sentiment - INFO - Computing weighted sentiment for 70 articles
+2026-04-16 05:22:14,791 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.101
+2026-04-16 05:22:38,104 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:22:38,120 - advanced_sentiment - INFO - Computing weighted sentiment for 70 articles
+2026-04-16 05:22:38,152 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.101
+2026-04-16 05:24:51,227 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:24:51,245 - advanced_sentiment - INFO - Computing weighted sentiment for 70 articles
+2026-04-16 05:24:51,265 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.101
+2026-04-16 05:28:42,212 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:29:34,681 - advanced_sentiment - INFO - Computing weighted sentiment for 199 articles
+2026-04-16 05:29:34,728 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.020
+2026-04-16 05:33:23,116 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:34:59,992 - advanced_sentiment - INFO - Computing weighted sentiment for 202 articles
+2026-04-16 05:35:00,059 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.016
+2026-04-16 05:40:12,057 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:41:13,892 - advanced_sentiment - INFO - Computing weighted sentiment for 257 articles
+2026-04-16 05:41:13,969 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.021
+2026-04-16 05:42:43,719 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:43:12,889 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:43:47,513 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:43:50,343 - advanced_sentiment - INFO - Computing weighted sentiment for 186 articles
+2026-04-16 05:43:50,393 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.014
+2026-04-16 05:44:40,368 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:44:42,971 - advanced_sentiment - INFO - Computing weighted sentiment for 202 articles
+2026-04-16 05:44:43,034 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.005
+2026-04-16 05:52:15,133 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:52:21,037 - advanced_sentiment - INFO - Computing weighted sentiment for 100 articles
+2026-04-16 05:52:21,068 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.144
+2026-04-16 05:55:24,293 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:55:27,188 - advanced_sentiment - INFO - Computing weighted sentiment for 100 articles
+2026-04-16 05:55:27,227 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.144
+2026-04-16 05:55:57,764 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:56:00,266 - advanced_sentiment - INFO - Computing weighted sentiment for 100 articles
+2026-04-16 05:56:00,302 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.144
+2026-04-16 05:57:00,221 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:57:02,891 - advanced_sentiment - INFO - Computing weighted sentiment for 100 articles
+2026-04-16 05:57:02,925 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.144
+2026-04-16 05:57:37,528 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 05:57:40,263 - advanced_sentiment - INFO - Computing weighted sentiment for 100 articles
+2026-04-16 05:57:40,312 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.144
+2026-04-16 06:00:27,127 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 06:00:29,834 - advanced_sentiment - INFO - Computing weighted sentiment for 100 articles
+2026-04-16 06:00:29,864 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.144
+2026-04-16 06:01:04,680 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 06:01:07,708 - advanced_sentiment - INFO - Computing weighted sentiment for 100 articles
+2026-04-16 06:01:07,758 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.144
+2026-04-16 06:01:55,956 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 06:01:58,763 - advanced_sentiment - INFO - Computing weighted sentiment for 100 articles
+2026-04-16 06:01:58,807 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.144
+2026-04-16 06:05:30,712 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 06:05:41,093 - advanced_sentiment - INFO - Computing weighted sentiment for 92 articles
+2026-04-16 06:05:41,126 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.117
+2026-04-16 06:06:16,883 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 06:06:30,547 - advanced_sentiment - INFO - Computing weighted sentiment for 2544 articles
+2026-04-16 06:06:31,194 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.011
+2026-04-16 06:07:54,588 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 06:08:12,864 - advanced_sentiment - INFO - Computing weighted sentiment for 2582 articles
+2026-04-16 06:08:13,539 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.010
+2026-04-16 06:09:13,289 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 06:09:42,613 - advanced_sentiment - INFO - Computing weighted sentiment for 5026 articles
+2026-04-16 06:09:43,943 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.020
+2026-04-16 06:11:43,597 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 06:12:06,473 - advanced_sentiment - INFO - Computing weighted sentiment for 5026 articles
+2026-04-16 06:12:07,801 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.020
+2026-04-16 06:15:44,629 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 06:15:56,240 - advanced_sentiment - INFO - Computing weighted sentiment for 257 articles
+2026-04-16 06:15:56,475 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.025
+2026-04-16 06:16:40,765 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 06:17:10,010 - advanced_sentiment - INFO - Computing weighted sentiment for 5026 articles
+2026-04-16 06:17:14,805 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: 0.020
+2026-04-16 09:15:17,071 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 09:15:20,213 - advanced_sentiment - INFO - Computing weighted sentiment for 97 articles
+2026-04-16 09:15:20,268 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.175
+2026-04-16 09:18:17,891 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 09:18:33,176 - advanced_sentiment - INFO - Computing weighted sentiment for 97 articles
+2026-04-16 09:18:33,208 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.146
+2026-04-16 09:19:36,974 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 09:20:00,238 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 09:21:11,279 - advanced_sentiment - INFO - Computing weighted sentiment for 97 articles
+2026-04-16 09:21:11,309 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.146
+2026-04-16 09:23:14,537 - advanced_sentiment - INFO - VADER sentiment analyzer initialized
+2026-04-16 09:24:26,267 - advanced_sentiment - INFO - Computing weighted sentiment for 147 articles
+2026-04-16 09:24:26,312 - advanced_sentiment - INFO - Sentiment computed. Mean weighted sentiment: -0.120

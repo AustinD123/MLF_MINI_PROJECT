@@ -1,0 +1,7 @@
+2026-04-15 21:34:37,576 - news_collector - INFO - Fetching news for query: inflation OR CPI OR consumer price OR price index
+2026-04-15 21:34:38,892 - news_collector - WARNING - Request failed (attempt 1/3): 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=inflation+OR+CPI+OR+consumer+price+OR+price+index&from=2026-04-08T16%3A04%3A37.576818&sortBy=publishedAt&language=en&apiKey=YOUR_NEWSAPI_KEY_HERE&pageSize=100
+2026-04-15 21:34:43,894 - news_collector - INFO - Fetching news for query: inflation OR CPI OR consumer price OR price index
+2026-04-15 21:34:45,063 - news_collector - WARNING - Request failed (attempt 2/3): 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=inflation+OR+CPI+OR+consumer+price+OR+price+index&from=2026-04-08T16%3A04%3A37.576818&sortBy=publishedAt&language=en&apiKey=YOUR_NEWSAPI_KEY_HERE&pageSize=100
+2026-04-15 21:34:50,065 - news_collector - INFO - Fetching news for query: inflation OR CPI OR consumer price OR price index
+2026-04-15 21:34:51,325 - news_collector - WARNING - Request failed (attempt 3/3): 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=inflation+OR+CPI+OR+consumer+price+OR+price+index&from=2026-04-08T16%3A04%3A37.576818&sortBy=publishedAt&language=en&apiKey=YOUR_NEWSAPI_KEY_HERE&pageSize=100
+2026-04-15 21:34:51,326 - news_collector - ERROR - Max retries exceeded

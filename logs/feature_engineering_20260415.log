@@ -1,0 +1,7 @@
+2026-04-15 21:59:15,566 - feature_engineering - INFO - Computed sentiment features for 60 time periods
+2026-04-15 22:00:33,064 - feature_engineering - INFO - Computed sentiment features for 60 time periods
+2026-04-15 22:00:33,075 - feature_engineering - INFO - Computed market features for 60 price points
+2026-04-15 22:00:33,077 - feature_engineering - INFO - Created feature matrix with 60 rows x 39 columns
+2026-04-15 22:00:59,239 - feature_engineering - INFO - Computed sentiment features for 60 time periods
+2026-04-15 22:00:59,260 - feature_engineering - INFO - Computed market features for 60 price points
+2026-04-15 22:00:59,267 - feature_engineering - INFO - Created feature matrix with 60 rows x 39 columns

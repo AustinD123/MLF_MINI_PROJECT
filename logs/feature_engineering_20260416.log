@@ -1,0 +1,72 @@
+2026-04-16 05:22:38,229 - feature_engineering - INFO - Computed sentiment features for 7 time periods
+2026-04-16 05:22:38,244 - feature_engineering - INFO - Computed market features for 7 price points
+2026-04-16 05:22:38,250 - feature_engineering - INFO - Created feature matrix with 7 rows x 39 columns
+2026-04-16 05:24:51,336 - feature_engineering - INFO - Computed sentiment features for 7 time periods
+2026-04-16 05:24:51,347 - feature_engineering - INFO - Computed market features for 7 price points
+2026-04-16 05:24:51,353 - feature_engineering - INFO - Created feature matrix with 7 rows x 39 columns
+2026-04-16 05:30:30,373 - feature_engineering - INFO - Computed sentiment features for 7 time periods
+2026-04-16 05:30:30,387 - feature_engineering - INFO - Computed market features for 7 price points
+2026-04-16 05:30:30,395 - feature_engineering - INFO - Created feature matrix with 7 rows x 39 columns
+2026-04-16 05:35:05,455 - feature_engineering - INFO - Computed sentiment features for 7 time periods
+2026-04-16 05:35:05,463 - feature_engineering - INFO - Computed market features for 7 price points
+2026-04-16 05:35:05,471 - feature_engineering - INFO - Created feature matrix with 7 rows x 39 columns
+2026-04-16 05:41:19,231 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 05:41:19,244 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 05:41:19,244 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 05:44:48,297 - feature_engineering - INFO - Computed sentiment features for 30 time periods
+2026-04-16 05:44:48,303 - feature_engineering - INFO - Computed market features for 30 price points
+2026-04-16 05:44:48,311 - feature_engineering - INFO - Created feature matrix with 30 rows x 39 columns
+2026-04-16 05:52:26,401 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 05:52:26,409 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 05:52:26,414 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 05:55:32,456 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 05:55:32,465 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 05:55:32,473 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 05:56:05,528 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 05:56:05,536 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 05:56:05,545 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 05:57:08,184 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 05:57:08,192 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 05:57:08,200 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 05:57:45,592 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 05:57:45,603 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 05:57:45,603 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 06:00:35,126 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 06:00:35,137 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 06:00:35,145 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 06:01:13,007 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 06:01:13,016 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 06:01:13,021 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 06:02:04,058 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 06:02:04,065 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 06:02:04,074 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 06:05:46,371 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 06:05:46,385 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 06:05:46,391 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 06:06:36,449 - feature_engineering - INFO - Computed sentiment features for 23 time periods
+2026-04-16 06:06:36,464 - feature_engineering - INFO - Computed market features for 23 price points
+2026-04-16 06:06:36,464 - feature_engineering - INFO - Created feature matrix with 23 rows x 39 columns
+2026-04-16 06:08:18,818 - feature_engineering - INFO - Computed sentiment features for 23 time periods
+2026-04-16 06:08:18,831 - feature_engineering - INFO - Computed market features for 23 price points
+2026-04-16 06:08:18,837 - feature_engineering - INFO - Created feature matrix with 23 rows x 39 columns
+2026-04-16 06:09:49,203 - feature_engineering - INFO - Computed sentiment features for 13 time periods
+2026-04-16 06:09:49,216 - feature_engineering - INFO - Computed market features for 13 price points
+2026-04-16 06:09:49,217 - feature_engineering - INFO - Created feature matrix with 13 rows x 39 columns
+2026-04-16 06:16:02,296 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 06:16:02,311 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 06:16:02,316 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 06:17:20,606 - feature_engineering - INFO - Computed sentiment features for 43 time periods
+2026-04-16 06:17:20,638 - feature_engineering - INFO - Computed market features for 43 price points
+2026-04-16 06:17:20,645 - feature_engineering - INFO - Created feature matrix with 43 rows x 39 columns
+2026-04-16 09:15:33,145 - feature_engineering - INFO - Computed sentiment features for 3 time periods
+2026-04-16 09:15:33,151 - feature_engineering - INFO - Computed market features for 3 price points
+2026-04-16 09:15:33,158 - feature_engineering - INFO - Created feature matrix with 3 rows x 39 columns
+2026-04-16 09:18:46,486 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 09:18:46,493 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 09:18:46,500 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 09:21:24,319 - feature_engineering - INFO - Computed sentiment features for 2 time periods
+2026-04-16 09:21:24,330 - feature_engineering - INFO - Computed market features for 2 price points
+2026-04-16 09:21:24,337 - feature_engineering - INFO - Created feature matrix with 2 rows x 39 columns
+2026-04-16 09:24:38,918 - feature_engineering - INFO - Computed sentiment features for 24 time periods
+2026-04-16 09:24:38,929 - feature_engineering - INFO - Computed market features for 24 price points
+2026-04-16 09:24:38,936 - feature_engineering - INFO - Created feature matrix with 24 rows x 39 columns

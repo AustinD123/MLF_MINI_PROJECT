@@ -1,0 +1,682 @@
+2026-04-16 05:19:35,513 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 05:19:35,513 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:20:21,341 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 05:20:21,341 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:21:02,316 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 05:21:02,316 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:22:14,747 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 05:22:14,751 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:22:38,104 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 05:22:38,104 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:24:51,227 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 05:24:51,227 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:28:42,219 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:29:34,735 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 05:29:34,735 - kalshi_api - INFO - Fetching market data: CPI-INFLATION-2024-04
+2026-04-16 05:29:34,763 - kalshi_api - WARNING - Request failed (attempt 1/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/CPI-INFLATION-2024-04?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:29:39,763 - kalshi_api - INFO - Fetching market data: CPI-INFLATION-2024-04
+2026-04-16 05:29:39,765 - kalshi_api - WARNING - Request failed (attempt 2/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/CPI-INFLATION-2024-04?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:29:44,770 - kalshi_api - INFO - Fetching market data: CPI-INFLATION-2024-04
+2026-04-16 05:29:44,770 - kalshi_api - WARNING - Request failed (attempt 3/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/CPI-INFLATION-2024-04?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:29:44,781 - kalshi_api - WARNING - No prices retrieved for CPI-INFLATION-2024-04
+2026-04-16 05:29:44,783 - kalshi_api - WARNING - Using synthetic data for CPI-INFLATION-2024-04
+2026-04-16 05:29:44,798 - kalshi_api - INFO - Generated 720 synthetic price points for CPI-INFLATION-2024-04
+2026-04-16 05:29:44,836 - kalshi_api - INFO - Cached 720 market data points
+2026-04-16 05:29:45,839 - kalshi_api - INFO - Fetching market data: CORE-INFLATION-2024-Q2
+2026-04-16 05:29:45,842 - kalshi_api - WARNING - Request failed (attempt 1/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/CORE-INFLATION-2024-Q2?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:29:50,844 - kalshi_api - INFO - Fetching market data: CORE-INFLATION-2024-Q2
+2026-04-16 05:29:50,851 - kalshi_api - WARNING - Request failed (attempt 2/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/CORE-INFLATION-2024-Q2?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:29:55,853 - kalshi_api - INFO - Fetching market data: CORE-INFLATION-2024-Q2
+2026-04-16 05:29:55,866 - kalshi_api - WARNING - Request failed (attempt 3/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/CORE-INFLATION-2024-Q2?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:29:55,866 - kalshi_api - WARNING - No prices retrieved for CORE-INFLATION-2024-Q2
+2026-04-16 05:29:55,866 - kalshi_api - WARNING - Using synthetic data for CORE-INFLATION-2024-Q2
+2026-04-16 05:29:55,880 - kalshi_api - INFO - Generated 720 synthetic price points for CORE-INFLATION-2024-Q2
+2026-04-16 05:29:55,933 - kalshi_api - INFO - Cached 720 market data points
+2026-04-16 05:29:56,934 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 05:29:56,936 - kalshi_api - INFO - Fetching market data: FOMC-RATE-DEC-2024
+2026-04-16 05:29:56,939 - kalshi_api - WARNING - Request failed (attempt 1/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/FOMC-RATE-DEC-2024?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:30:01,941 - kalshi_api - INFO - Fetching market data: FOMC-RATE-DEC-2024
+2026-04-16 05:30:01,947 - kalshi_api - WARNING - Request failed (attempt 2/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/FOMC-RATE-DEC-2024?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:30:06,950 - kalshi_api - INFO - Fetching market data: FOMC-RATE-DEC-2024
+2026-04-16 05:30:06,955 - kalshi_api - WARNING - Request failed (attempt 3/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/FOMC-RATE-DEC-2024?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:30:06,955 - kalshi_api - WARNING - No prices retrieved for FOMC-RATE-DEC-2024
+2026-04-16 05:30:06,957 - kalshi_api - WARNING - Using synthetic data for FOMC-RATE-DEC-2024
+2026-04-16 05:30:06,969 - kalshi_api - INFO - Generated 720 synthetic price points for FOMC-RATE-DEC-2024
+2026-04-16 05:30:07,005 - kalshi_api - INFO - Cached 720 market data points
+2026-04-16 05:30:08,006 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 05:30:08,006 - kalshi_api - INFO - Fetching market data: US-REC-2024
+2026-04-16 05:30:08,010 - kalshi_api - WARNING - Request failed (attempt 1/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/US-REC-2024?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:30:13,012 - kalshi_api - INFO - Fetching market data: US-REC-2024
+2026-04-16 05:30:13,057 - kalshi_api - WARNING - Request failed (attempt 2/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/US-REC-2024?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:30:18,062 - kalshi_api - INFO - Fetching market data: US-REC-2024
+2026-04-16 05:30:18,066 - kalshi_api - WARNING - Request failed (attempt 3/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/US-REC-2024?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:30:18,073 - kalshi_api - WARNING - No prices retrieved for US-REC-2024
+2026-04-16 05:30:18,073 - kalshi_api - WARNING - Using synthetic data for US-REC-2024
+2026-04-16 05:30:18,101 - kalshi_api - INFO - Generated 720 synthetic price points for US-REC-2024
+2026-04-16 05:30:18,130 - kalshi_api - INFO - Cached 720 market data points
+2026-04-16 05:30:19,133 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 05:30:19,135 - kalshi_api - INFO - Fetching market data: UNEMPLOYMENT-JAN-2024
+2026-04-16 05:30:19,141 - kalshi_api - WARNING - Request failed (attempt 1/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/UNEMPLOYMENT-JAN-2024?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:30:24,143 - kalshi_api - INFO - Fetching market data: UNEMPLOYMENT-JAN-2024
+2026-04-16 05:30:24,165 - kalshi_api - WARNING - Request failed (attempt 2/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/UNEMPLOYMENT-JAN-2024?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:30:29,168 - kalshi_api - INFO - Fetching market data: UNEMPLOYMENT-JAN-2024
+2026-04-16 05:30:29,168 - kalshi_api - WARNING - Request failed (attempt 3/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/UNEMPLOYMENT-JAN-2024?limit=1000 (Caused by NameResolutionError("HTTPSConnection(host='api.kalshi.com', port=443): Failed to resolve 'api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-16 05:30:29,168 - kalshi_api - WARNING - No prices retrieved for UNEMPLOYMENT-JAN-2024
+2026-04-16 05:30:29,168 - kalshi_api - WARNING - Using synthetic data for UNEMPLOYMENT-JAN-2024
+2026-04-16 05:30:29,192 - kalshi_api - INFO - Generated 720 synthetic price points for UNEMPLOYMENT-JAN-2024
+2026-04-16 05:30:29,220 - kalshi_api - INFO - Cached 720 market data points
+2026-04-16 05:30:30,222 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:30:30,233 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:30:30,233 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:30:30,240 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:30:30,248 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:30:30,256 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:30:30,261 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:30:30,269 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:30:30,269 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:30:30,281 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:33:23,119 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:35:00,072 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 05:35:00,108 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:35:01,141 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:35:02,143 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 05:35:02,176 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:35:03,179 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 05:35:03,218 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:35:04,220 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 05:35:04,258 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:35:05,260 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:35:05,276 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:35:05,282 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:35:05,303 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:35:05,311 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:35:05,325 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:35:05,329 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:35:05,340 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:35:05,340 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:35:05,350 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:40:12,061 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:41:13,977 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 05:41:13,984 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:41:14,998 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:41:16,003 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 05:41:16,010 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:41:17,016 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 05:41:17,021 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:41:18,028 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 05:41:18,030 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:41:19,035 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:41:19,058 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:41:19,061 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:41:19,077 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:41:19,083 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:41:19,098 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:41:19,098 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:41:19,111 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:41:19,111 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:41:19,118 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:42:43,727 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:43:12,889 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:43:47,519 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:43:50,405 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 05:43:50,412 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:43:51,429 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:43:52,432 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 05:43:52,439 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:43:53,441 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 05:43:53,453 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:43:54,457 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 05:43:54,463 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:43:55,471 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:43:55,486 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:43:55,490 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:43:55,506 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:43:55,511 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:43:55,518 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:43:55,521 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:43:55,535 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:43:55,535 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:43:55,546 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:44:40,369 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:44:43,053 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 05:44:43,066 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:44:44,073 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:44:45,080 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 05:44:45,092 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:44:46,096 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 05:44:46,102 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:44:47,103 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 05:44:47,114 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:44:48,120 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:44:48,131 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:44:48,137 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:44:48,153 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:44:48,158 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:44:48,170 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:44:48,170 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:44:48,187 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:44:48,191 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:44:48,199 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:52:15,133 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:52:21,199 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 05:52:21,207 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:52:22,213 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:52:23,218 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 05:52:23,222 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:52:24,225 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 05:52:24,234 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:52:25,239 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 05:52:25,254 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:52:26,258 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:52:26,264 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:52:26,264 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:52:26,277 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:52:26,277 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:52:26,287 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:52:26,289 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:52:26,299 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:52:26,302 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:52:26,309 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:55:24,299 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:55:27,242 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 05:55:27,247 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:55:28,261 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:55:29,263 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 05:55:29,272 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:55:30,277 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 05:55:30,288 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:55:31,293 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 05:55:31,303 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:55:32,304 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:55:32,318 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:55:32,320 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:55:32,332 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:55:32,332 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:55:32,345 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:55:32,348 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:55:32,353 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:55:32,360 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:55:32,370 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:55:57,764 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:56:00,312 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 05:56:00,317 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:56:01,331 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:56:02,334 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 05:56:02,345 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:56:03,347 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 05:56:03,355 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:56:04,360 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 05:56:04,361 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:56:05,371 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:56:05,388 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:56:05,388 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:56:05,409 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:56:05,413 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:56:05,423 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:56:05,423 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:56:05,430 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:56:05,438 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:56:05,447 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:57:00,227 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:57:02,933 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 05:57:02,944 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:57:03,952 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:57:04,958 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 05:57:04,969 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:57:05,970 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 05:57:05,981 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:57:06,984 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 05:57:06,991 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:57:07,998 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:57:08,017 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:57:08,019 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:57:08,039 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:57:08,043 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:57:08,060 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:57:08,064 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:57:08,081 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:57:08,084 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:57:08,093 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:57:37,528 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 05:57:40,325 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 05:57:40,331 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:57:41,345 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:57:42,346 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 05:57:42,357 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:57:43,358 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 05:57:43,370 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:57:44,372 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 05:57:44,383 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 05:57:45,384 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:57:45,399 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:57:45,404 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:57:45,435 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:57:45,437 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:57:45,450 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:57:45,453 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:57:45,467 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 05:57:45,470 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 05:57:45,476 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:00:27,132 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 06:00:29,881 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 06:00:29,892 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:00:30,900 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:00:31,906 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 06:00:31,920 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:00:32,922 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 06:00:32,934 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:00:33,936 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 06:00:33,943 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:00:34,949 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:00:34,958 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:00:34,970 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:00:34,986 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:00:34,991 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:00:35,002 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:00:35,004 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:00:35,012 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:00:35,012 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:00:35,025 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:01:04,680 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 06:01:07,770 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 06:01:07,777 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:01:08,779 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:01:09,789 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 06:01:09,799 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:01:10,801 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 06:01:10,815 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:01:11,817 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 06:01:11,825 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:01:12,829 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:01:12,849 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:01:12,852 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:01:12,869 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:01:12,873 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:01:12,883 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:01:12,891 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:01:12,897 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:01:12,905 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:01:12,910 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:01:55,958 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 06:01:58,820 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 06:01:58,827 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:01:59,834 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:02:00,841 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 06:02:00,851 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:02:01,855 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 06:02:01,859 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:02:02,866 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 06:02:02,877 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:02:03,880 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:02:03,894 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:02:03,898 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:02:03,910 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:02:03,914 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:02:03,935 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:02:03,940 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:02:03,951 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:02:03,953 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:02:03,961 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:05:30,716 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 06:05:41,134 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 06:05:41,147 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:05:42,168 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:05:43,170 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 06:05:43,182 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:05:44,184 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 06:05:44,193 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:05:45,196 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 06:05:45,199 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:05:46,203 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:05:46,225 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:05:46,225 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:05:46,246 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:05:46,246 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:05:46,259 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:05:46,259 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:05:46,267 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:05:46,271 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:05:46,280 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:06:16,890 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 06:06:31,205 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 06:06:31,212 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:06:32,225 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:06:33,230 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 06:06:33,239 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:06:34,244 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 06:06:34,251 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:06:35,255 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 06:06:35,262 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:06:36,265 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:06:36,280 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:06:36,285 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:06:36,298 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:06:36,298 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:06:36,313 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:06:36,317 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:06:36,325 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:06:36,329 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:06:36,340 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:07:54,593 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 06:08:13,551 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 06:08:13,562 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:08:14,576 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:08:15,578 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 06:08:15,591 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:08:16,593 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 06:08:16,599 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:08:17,604 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 06:08:17,611 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:08:18,616 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:08:18,632 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:08:18,635 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:08:18,651 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:08:18,651 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:08:18,670 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:08:18,671 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:08:18,685 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:08:18,687 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:08:18,702 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:09:13,297 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 06:09:43,959 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 06:09:43,966 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:09:44,977 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:09:45,980 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 06:09:45,985 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:09:46,991 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 06:09:46,997 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:09:48,002 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 06:09:48,016 - kalshi_api - INFO - Loaded 720 market data points from cache
+2026-04-16 06:09:49,021 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:09:49,030 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:09:49,030 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:09:49,057 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:09:49,060 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:09:49,074 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:09:49,076 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:09:49,084 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:09:49,093 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:09:49,105 - kalshi_api - INFO - Cleaned data: 720 records remaining
+2026-04-16 06:11:43,599 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 06:12:07,828 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 06:12:07,828 - kalshi_api - INFO - Fetching market data: CPI-INFLATION-2024-04
+2026-04-16 06:12:49,937 - kalshi_api - WARNING - Request failed (attempt 1/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/CPI-INFLATION-2024-04?limit=2928 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kalshi.com', port=443) at 0x19dd2047dd0>, 'Connection to api.kalshi.com timed out. (connect timeout=30)'))
+2026-04-16 06:12:54,941 - kalshi_api - INFO - Fetching market data: CPI-INFLATION-2024-04
+2026-04-16 06:13:37,038 - kalshi_api - WARNING - Request failed (attempt 2/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/CPI-INFLATION-2024-04?limit=2928 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kalshi.com', port=443) at 0x19dd2044f80>, 'Connection to api.kalshi.com timed out. (connect timeout=30)'))
+2026-04-16 06:13:42,040 - kalshi_api - INFO - Fetching market data: CPI-INFLATION-2024-04
+2026-04-16 06:14:24,127 - kalshi_api - WARNING - Request failed (attempt 3/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/CPI-INFLATION-2024-04?limit=2928 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kalshi.com', port=443) at 0x19dd2046ae0>, 'Connection to api.kalshi.com timed out. (connect timeout=30)'))
+2026-04-16 06:14:24,127 - kalshi_api - WARNING - No prices retrieved for CPI-INFLATION-2024-04
+2026-04-16 06:14:24,127 - kalshi_api - WARNING - Using synthetic data for CPI-INFLATION-2024-04
+2026-04-16 06:14:24,156 - kalshi_api - INFO - Generated 1464 synthetic price points for CPI-INFLATION-2024-04
+2026-04-16 06:14:24,210 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 06:14:25,213 - kalshi_api - INFO - Fetching market data: CORE-INFLATION-2024-Q2
+2026-04-16 06:15:07,290 - kalshi_api - WARNING - Request failed (attempt 1/3): HTTPSConnectionPool(host='api.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets/CORE-INFLATION-2024-Q2?limit=2928 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kalshi.com', port=443) at 0x19dd1d3e360>, 'Connection to api.kalshi.com timed out. (connect timeout=30)'))
+2026-04-16 06:15:12,292 - kalshi_api - INFO - Fetching market data: CORE-INFLATION-2024-Q2
+2026-04-16 06:15:44,644 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 06:15:44,644 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 06:15:56,504 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 06:15:56,585 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 06:15:57,588 - kalshi_api - INFO - Using synthetic backfill for CORE-INFLATION-2024-Q2 (1464 points requested)
+2026-04-16 06:15:57,623 - kalshi_api - INFO - Generated 1464 synthetic price points for CORE-INFLATION-2024-Q2
+2026-04-16 06:15:57,719 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 06:15:58,722 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 06:15:58,724 - kalshi_api - INFO - Using synthetic backfill for FOMC-RATE-DEC-2024 (1464 points requested)
+2026-04-16 06:15:58,790 - kalshi_api - INFO - Generated 1464 synthetic price points for FOMC-RATE-DEC-2024
+2026-04-16 06:15:58,922 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 06:15:59,927 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 06:15:59,927 - kalshi_api - INFO - Using synthetic backfill for US-REC-2024 (1464 points requested)
+2026-04-16 06:15:59,940 - kalshi_api - INFO - Generated 1464 synthetic price points for US-REC-2024
+2026-04-16 06:15:59,988 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 06:16:00,989 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 06:16:00,990 - kalshi_api - INFO - Using synthetic backfill for UNEMPLOYMENT-JAN-2024 (1464 points requested)
+2026-04-16 06:16:01,011 - kalshi_api - INFO - Generated 1464 synthetic price points for UNEMPLOYMENT-JAN-2024
+2026-04-16 06:16:01,067 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 06:16:02,070 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:16:02,090 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 06:16:02,094 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:16:02,111 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 06:16:02,111 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:16:02,130 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 06:16:02,133 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:16:02,150 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 06:16:02,150 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:16:02,161 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 06:16:40,773 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 06:16:40,777 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 06:17:14,855 - kalshi_api - INFO - Fetching markets in category: inflation
+2026-04-16 06:17:14,891 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 06:17:15,956 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 06:17:16,960 - kalshi_api - INFO - Fetching markets in category: fed_rates
+2026-04-16 06:17:17,025 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 06:17:18,032 - kalshi_api - INFO - Fetching markets in category: recession
+2026-04-16 06:17:18,116 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 06:17:19,121 - kalshi_api - INFO - Fetching markets in category: unemployment
+2026-04-16 06:17:19,185 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 06:17:20,191 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:17:20,220 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 06:17:20,224 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:17:20,252 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 06:17:20,256 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:17:20,279 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 06:17:20,283 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:17:20,304 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 06:17:20,308 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 06:17:20,329 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:15:17,074 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 09:15:17,076 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 09:15:20,276 - kalshi_api - INFO - Fetching markets in category: election
+2026-04-16 09:15:20,276 - kalshi_api - WARNING - Using synthetic data for US-ELECTION-2024-DEM
+2026-04-16 09:15:20,291 - kalshi_api - INFO - Generated 744 synthetic price points for US-ELECTION-2024-DEM
+2026-04-16 09:15:20,327 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:21,332 - kalshi_api - WARNING - Using synthetic data for US-ELECTION-2024-GOP
+2026-04-16 09:15:21,341 - kalshi_api - INFO - Generated 744 synthetic price points for US-ELECTION-2024-GOP
+2026-04-16 09:15:21,374 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:22,380 - kalshi_api - WARNING - Using synthetic data for US-PRESIDENTIAL-2028
+2026-04-16 09:15:22,392 - kalshi_api - INFO - Generated 744 synthetic price points for US-PRESIDENTIAL-2028
+2026-04-16 09:15:22,427 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:23,431 - kalshi_api - INFO - Fetching markets in category: congress
+2026-04-16 09:15:23,433 - kalshi_api - WARNING - Using synthetic data for US-SENATE-CONTROL-2024
+2026-04-16 09:15:23,448 - kalshi_api - INFO - Generated 744 synthetic price points for US-SENATE-CONTROL-2024
+2026-04-16 09:15:23,482 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:24,485 - kalshi_api - WARNING - Using synthetic data for US-HOUSE-CONTROL-2024
+2026-04-16 09:15:24,498 - kalshi_api - INFO - Generated 744 synthetic price points for US-HOUSE-CONTROL-2024
+2026-04-16 09:15:24,527 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:25,530 - kalshi_api - WARNING - Using synthetic data for US-CONGRESS-REPUBLICAN
+2026-04-16 09:15:25,534 - kalshi_api - INFO - Generated 744 synthetic price points for US-CONGRESS-REPUBLICAN
+2026-04-16 09:15:25,567 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:26,569 - kalshi_api - INFO - Fetching markets in category: policy
+2026-04-16 09:15:26,569 - kalshi_api - WARNING - Using synthetic data for TARIFFS-25-PERCENT
+2026-04-16 09:15:26,576 - kalshi_api - INFO - Generated 744 synthetic price points for TARIFFS-25-PERCENT
+2026-04-16 09:15:26,622 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:27,633 - kalshi_api - WARNING - Using synthetic data for IMMIGRATION-POLICY-2024
+2026-04-16 09:15:27,644 - kalshi_api - INFO - Generated 744 synthetic price points for IMMIGRATION-POLICY-2024
+2026-04-16 09:15:27,679 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:28,684 - kalshi_api - WARNING - Using synthetic data for BITCOIN-LEGAL
+2026-04-16 09:15:28,696 - kalshi_api - INFO - Generated 744 synthetic price points for BITCOIN-LEGAL
+2026-04-16 09:15:28,722 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:29,723 - kalshi_api - INFO - Fetching markets in category: geopolitical
+2026-04-16 09:15:29,723 - kalshi_api - WARNING - Using synthetic data for UKRAINE-AID-APPROVED
+2026-04-16 09:15:29,731 - kalshi_api - INFO - Generated 744 synthetic price points for UKRAINE-AID-APPROVED
+2026-04-16 09:15:29,755 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:30,758 - kalshi_api - WARNING - Using synthetic data for CHINA-TAIWAN-ACTION
+2026-04-16 09:15:30,764 - kalshi_api - INFO - Generated 744 synthetic price points for CHINA-TAIWAN-ACTION
+2026-04-16 09:15:30,800 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:31,802 - kalshi_api - WARNING - Using synthetic data for RUSSIA-CYBERATTACK
+2026-04-16 09:15:31,813 - kalshi_api - INFO - Generated 744 synthetic price points for RUSSIA-CYBERATTACK
+2026-04-16 09:15:31,854 - kalshi_api - INFO - Cached 744 market data points
+2026-04-16 09:15:32,859 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,872 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,874 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,888 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,888 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,896 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,896 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,910 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,913 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,925 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,925 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,937 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,939 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,944 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,947 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,951 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,951 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,957 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,957 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,972 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,972 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,974 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:15:32,981 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:15:32,989 - kalshi_api - INFO - Cleaned data: 744 records remaining
+2026-04-16 09:18:17,891 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 09:18:17,899 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 09:18:33,224 - kalshi_api - INFO - Fetching markets in category: election
+2026-04-16 09:18:33,224 - kalshi_api - INFO - Using synthetic backfill for US-ELECTION-2024-DEM (1464 points requested)
+2026-04-16 09:18:33,237 - kalshi_api - INFO - Generated 1464 synthetic price points for US-ELECTION-2024-DEM
+2026-04-16 09:18:33,285 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:34,286 - kalshi_api - INFO - Using synthetic backfill for US-ELECTION-2024-GOP (1464 points requested)
+2026-04-16 09:18:34,308 - kalshi_api - INFO - Generated 1464 synthetic price points for US-ELECTION-2024-GOP
+2026-04-16 09:18:34,370 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:35,372 - kalshi_api - INFO - Using synthetic backfill for US-PRESIDENTIAL-2028 (1464 points requested)
+2026-04-16 09:18:35,395 - kalshi_api - INFO - Generated 1464 synthetic price points for US-PRESIDENTIAL-2028
+2026-04-16 09:18:35,436 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:36,442 - kalshi_api - INFO - Fetching markets in category: congress
+2026-04-16 09:18:36,442 - kalshi_api - INFO - Using synthetic backfill for US-SENATE-CONTROL-2024 (1464 points requested)
+2026-04-16 09:18:36,449 - kalshi_api - INFO - Generated 1464 synthetic price points for US-SENATE-CONTROL-2024
+2026-04-16 09:18:36,498 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:37,502 - kalshi_api - INFO - Using synthetic backfill for US-HOUSE-CONTROL-2024 (1464 points requested)
+2026-04-16 09:18:37,527 - kalshi_api - INFO - Generated 1464 synthetic price points for US-HOUSE-CONTROL-2024
+2026-04-16 09:18:37,579 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:38,585 - kalshi_api - INFO - Using synthetic backfill for US-CONGRESS-REPUBLICAN (1464 points requested)
+2026-04-16 09:18:38,606 - kalshi_api - INFO - Generated 1464 synthetic price points for US-CONGRESS-REPUBLICAN
+2026-04-16 09:18:38,648 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:39,650 - kalshi_api - INFO - Fetching markets in category: policy
+2026-04-16 09:18:39,650 - kalshi_api - INFO - Using synthetic backfill for TARIFFS-25-PERCENT (1464 points requested)
+2026-04-16 09:18:39,669 - kalshi_api - INFO - Generated 1464 synthetic price points for TARIFFS-25-PERCENT
+2026-04-16 09:18:39,710 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:40,715 - kalshi_api - INFO - Using synthetic backfill for IMMIGRATION-POLICY-2024 (1464 points requested)
+2026-04-16 09:18:40,737 - kalshi_api - INFO - Generated 1464 synthetic price points for IMMIGRATION-POLICY-2024
+2026-04-16 09:18:40,791 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:41,793 - kalshi_api - INFO - Using synthetic backfill for BITCOIN-LEGAL (1464 points requested)
+2026-04-16 09:18:41,797 - kalshi_api - INFO - Generated 1464 synthetic price points for BITCOIN-LEGAL
+2026-04-16 09:18:41,831 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:42,833 - kalshi_api - INFO - Fetching markets in category: geopolitical
+2026-04-16 09:18:42,833 - kalshi_api - INFO - Using synthetic backfill for UKRAINE-AID-APPROVED (1464 points requested)
+2026-04-16 09:18:42,853 - kalshi_api - INFO - Generated 1464 synthetic price points for UKRAINE-AID-APPROVED
+2026-04-16 09:18:42,908 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:43,910 - kalshi_api - INFO - Using synthetic backfill for CHINA-TAIWAN-ACTION (1464 points requested)
+2026-04-16 09:18:43,926 - kalshi_api - INFO - Generated 1464 synthetic price points for CHINA-TAIWAN-ACTION
+2026-04-16 09:18:43,982 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:44,984 - kalshi_api - INFO - Using synthetic backfill for RUSSIA-CYBERATTACK (1464 points requested)
+2026-04-16 09:18:45,002 - kalshi_api - INFO - Generated 1464 synthetic price points for RUSSIA-CYBERATTACK
+2026-04-16 09:18:45,075 - kalshi_api - INFO - Cached 1464 market data points
+2026-04-16 09:18:46,081 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,098 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,099 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,115 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,115 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,126 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,133 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,142 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,142 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,153 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,153 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,165 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,166 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,174 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,174 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,181 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,188 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,196 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,196 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,210 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,216 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,223 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:18:46,223 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:18:46,237 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:19:36,974 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 09:19:36,974 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 09:20:00,244 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 09:20:00,245 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 09:21:11,316 - kalshi_api - INFO - Fetching markets in category: election
+2026-04-16 09:21:11,362 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:12,400 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:13,441 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:14,452 - kalshi_api - INFO - Fetching markets in category: congress
+2026-04-16 09:21:14,499 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:15,535 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:16,573 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:17,575 - kalshi_api - INFO - Fetching markets in category: policy
+2026-04-16 09:21:17,621 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:18,656 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:19,715 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:20,718 - kalshi_api - INFO - Fetching markets in category: geopolitical
+2026-04-16 09:21:20,764 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:21,805 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:22,839 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:21:23,841 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,858 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,858 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,883 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,883 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,900 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,900 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,910 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,913 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,922 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,922 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,930 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,935 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,941 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,941 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,953 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,955 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,962 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,962 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,971 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,971 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,984 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:21:23,984 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:21:23,990 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:23:14,537 - kalshi_api - WARNING - Kalshi API key not configured
+2026-04-16 09:23:14,537 - kalshi_api - INFO - KalshiDataManager initialized
+2026-04-16 09:24:26,319 - kalshi_api - INFO - Fetching markets in category: election
+2026-04-16 09:24:26,331 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:27,349 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:28,366 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:29,368 - kalshi_api - INFO - Fetching markets in category: congress
+2026-04-16 09:24:29,374 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:30,395 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:31,411 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:32,414 - kalshi_api - INFO - Fetching markets in category: policy
+2026-04-16 09:24:32,427 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:33,447 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:34,460 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:35,463 - kalshi_api - INFO - Fetching markets in category: geopolitical
+2026-04-16 09:24:35,472 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:36,493 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:37,513 - kalshi_api - INFO - Loaded 1464 market data points from cache
+2026-04-16 09:24:38,514 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,527 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,529 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,540 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,540 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,547 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,551 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,553 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,563 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,571 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,574 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,582 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,582 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,595 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,595 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,605 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,607 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,615 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,615 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,623 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,623 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,635 - kalshi_api - INFO - Cleaned data: 1464 records remaining
+2026-04-16 09:24:38,637 - kalshi_api - INFO - Removed 0 duplicate entries
+2026-04-16 09:24:38,644 - kalshi_api - INFO - Cleaned data: 1464 records remaining
